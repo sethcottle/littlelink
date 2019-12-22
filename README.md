@@ -7,11 +7,11 @@ LittleLink is a lightweight DIY alternative to services like [Linktree](https://
 
 ![Themes](https://cdn.cottle.cloud/littlelink/themes.png)
 
-LittleLink has more than 18 company button styles you can use and we'll br throwing some more in soon. You'll also find a light and dark theme ready to go. Not a fan of the colors? Update `skeleton-light.css` or `skeleton-dark.css` to the HEX values of your choosing. 
+LittleLink has more than 18 company button styles you can use and we'll be throwing more in soon. You'll also find a light and dark theme ready to go. Not a fan of the colors? Update `skeleton-light.css` or `skeleton-dark.css` to the HEX values of your choosing. 
 
  ![Performance](https://cdn.cottle.cloud/littlelink/performance.png)
 
-Using [Skeleton](http://getskeleton.com/) let us build something that loads quickly & doesn't have any of the unnecessary bloat you would get from using a large framework for requires simpicity. LittleLink scored a 99/100 in performance when tested with Lighthouse.
+Using [Skeleton](http://getskeleton.com/) let us build something that loads quickly & doesn't have any of the unnecessary bloat you would get from using a large framework for requires simplicity. LittleLink scored a 99/100 in performance when tested with Lighthouse.
 
 ![Publish](https://cdn.cottle.cloud/littlelink/fork-edit-publish.png)
 
