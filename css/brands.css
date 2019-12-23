@@ -173,6 +173,22 @@ button:hover,
 .button.button-snapchat:focus {
   filter: brightness(90%) }
 
+/* SoundCloud */
+.button.button-soundcloud {
+  color: #FFFFFF;
+  background-color: #ff5500 }
+.button.button-soundcloud:hover,
+.button.button-soundcloud:focus {
+  filter: brightness(90%) }
+
+/* Spectrum */
+.button.button-spectrum {
+  color: #FFFFFF;
+  background-color: #7b16ff }
+.button.button-spectrum:hover,
+.button.button-spectrum:focus {
+  filter: brightness(90%) }
+
 /* Spotify */
 .button.button-spotify {
   color: #FFFFFF;

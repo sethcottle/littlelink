@@ -11,7 +11,7 @@ LittleLink has more than 18 company button styles you can use and we'll be throw
 
  ![Performance](https://cdn.cottle.cloud/littlelink/performance.png)
 
-Using [Skeleton](http://getskeleton.com/) let us build something that loads quickly & doesn't have any of the unnecessary bloat you would get from using a large framework for requires simplicity. LittleLink scored a 99/100 in performance when tested with Lighthouse.
+Using [Skeleton](http://getskeleton.com/) let us build something that loads quickly & doesn't have any of the unnecessary bloat you would get from using a large framework for a page that requires nothing more than simplicity. LittleLink scored a 99/100 in performance when tested with Lighthouse.
 
 ![Publish](https://cdn.cottle.cloud/littlelink/fork-edit-publish.png)
 
