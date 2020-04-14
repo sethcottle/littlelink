@@ -34,6 +34,7 @@
 .button,
 button {
   display: inline-block;
+  text-decoration: none;
   height: 48px;
   padding: 0 16px;
   text-align: center;
@@ -43,7 +44,6 @@ button {
   font-weight: 600;
   line-height: 48px;
   letter-spacing: 0.5px;
-  text-decoration: none;
   white-space: nowrap;
   background-color: transparent;
   border-radius: 8px;
@@ -67,7 +67,7 @@ button:hover,
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 .icon {
-  padding: 0px 8px;
+  padding: 0px 8px 3.5px 0px;
   vertical-align: middle;
   width: 20px;
   height: 20px;
