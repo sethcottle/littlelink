@@ -181,6 +181,14 @@ button:hover,
 .button.button-youtube:focus {
   filter: brightness(90%) }
 
+/* Rocketseat */
+.button.button-rocketseat {
+  color: #FFFFFF;
+  background-color: #8257E6 }
+.button.button-rocketseat:hover,
+.button.button-rocketseat:focus {
+  filter: brightness(90%) }  
+
 /* Snapchat */
 .button.button-snapchat {
   color: #000000;
