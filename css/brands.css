@@ -109,6 +109,14 @@ button:hover,
 .button.button-github:focus {
   filter: brightness(90%) }
 
+/* Goodreads */
+.button.button-goodreads {
+  color: #553B08;
+  background-color: #F3F1E6 }
+.button.button-youtube:hover,
+.button.button-youtube:focus {
+  filter: brightness(90%) }
+
 /* Instagram */
 .button.button-instagram {
   color: #FFFFFF;
@@ -163,6 +171,14 @@ button:hover,
   background-color: #FF4500 }
 .button.button-reddit:hover,
 .button.button-reddit:focus {
+  filter: brightness(90%) }
+
+/* Skoob */
+.button.button-skoob {
+  color: #FFFFFF;
+  background-color: #5882BE }
+.button.button-youtube:hover,
+.button.button-youtube:focus {
   filter: brightness(90%) }
 
 /* Rocketseat */
