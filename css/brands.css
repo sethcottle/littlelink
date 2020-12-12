@@ -269,3 +269,10 @@ button:hover,
 .button.button-youtube:focus {
   filter: brightness(90%) }
 
+/* Wordpress */
+.button.button-wordpress {
+  color: #FFFFFF;
+  background-color: #0073AA }
+.button.button-wordpress:hover,
+.button.button-wordpress:focus {
+  filter: brightness(90%) }
