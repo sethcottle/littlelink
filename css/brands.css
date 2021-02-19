@@ -44,7 +44,7 @@ button {
   font-weight: 600;
   line-height: 48px;
   letter-spacing: 0.5px;
-  white-space: nowrap;
+  white-space: wrap;
   background-color: transparent;
   border-radius: 8px;
   cursor: pointer;
@@ -93,10 +93,18 @@ button:hover,
 .button.button-facebook:focus {
   filter: brightness(90%) }
 
+/* Facebook Messenger */
+.button.button-messenger {
+  color: #FFFFFF;
+  background-image: linear-gradient(25deg,#0099FF, #5F5DFF,#A033FF, #C740CC, #FF5280, #FF7061) }
+.button.button-messenger:hover,
+.button.button-messenger:focus {
+  filter: brightness(90%) }
+
 /* Figma */
 .button.button-figma {
   color: #FFFFFF;
-  background-color: #131313 }
+  background-color: #000000 }
 .button.button-figma:hover,
 .button.button-figma:focus {
   filter: brightness(90%) }
@@ -104,17 +112,17 @@ button:hover,
 /* Github */
 .button.button-github {
   color: #FFFFFF;
-  background-color: #24292e }
+  background-color: #000000 }
 .button.button-github:hover,
 .button.button-github:focus {
   filter: brightness(90%) }
 
 /* Goodreads */
 .button.button-goodreads {
-  color: #553B08;
+  color: #333333;
   background-color: #F3F1E6 }
-.button.button-youtube:hover,
-.button.button-youtube:focus {
+.button.button-goodreads:hover,
+.button.button-goodreads:focus {
   filter: brightness(90%) }
 
 /* Instagram */
@@ -128,7 +136,7 @@ button:hover,
 /* Kit */
 .button.button-kit {
   color: #FFFFFF;
-  background-color: #10c694 }
+  background-color: #000000 }
 .button.button-kit:hover,
 .button.button-kit:focus {
   filter: brightness(90%) }
@@ -136,39 +144,31 @@ button:hover,
 /* LinkedIn */
 .button.button-linkedin {
   color: #FFFFFF;
-  background-color: #0A66C2 }
+  background-color: #2867B2 }
 .button.button-linkedin:hover,
 .button.button-linkedin:focus {
   filter: brightness(90%) }
 
 /* Medium */
 .button.button-medium {
-  color: #000000;
-  background-color: #E8F3EC }
+  color: #FFFFFF;
+  background-color: #000000 }
 .button.button-medium:hover,
 .button.button-medium:focus {
   filter: brightness(90%) }
 
-/* Mixer */
-.button.button-mixer {
-  color: #FFFFFF;
-  background-color: #212c3d }
-.button.button-mixer:hover,
-.button.button-mixer:focus {
-  filter: brightness(90%) }
-
 /* Pinterest */
 .button.button-pinterest {
-  color: #FFFFFF;
-  background-color: #E60023 }
+  color: #000000;
+  background-color: #FFE2EB }
 .button.button-pinterest:hover,
 .button.button-pinterest:focus {
   filter: brightness(90%) }
 
 /* Reddit */
 .button.button-reddit {
-  color: #FFFFFF;
-  background-color: #FF4500 }
+  color: #000000;
+  background-color: #D7DFE2 }
 .button.button-reddit:hover,
 .button.button-reddit:focus {
   filter: brightness(90%) }
@@ -176,18 +176,10 @@ button:hover,
 /* Skoob */
 .button.button-skoob {
   color: #FFFFFF;
-  background-color: #5882BE }
-.button.button-youtube:hover,
-.button.button-youtube:focus {
+  background-color: #3189C8 }
+.button.button-skoob:hover,
+.button.button-skoob:focus {
   filter: brightness(90%) }
-
-/* Rocketseat */
-.button.button-rocketseat {
-  color: #FFFFFF;
-  background-color: #8257E6 }
-.button.button-rocketseat:hover,
-.button.button-rocketseat:focus {
-  filter: brightness(90%) }  
 
 /* Snapchat */
 .button.button-snapchat {
@@ -205,18 +197,10 @@ button:hover,
 .button.button-soundcloud:focus {
   filter: brightness(90%) }
 
-/* Spectrum */
-.button.button-spectrum {
-  color: #FFFFFF;
-  background-color: #7b16ff }
-.button.button-spectrum:hover,
-.button.button-spectrum:focus {
-  filter: brightness(90%) }
-
 /* Spotify */
 .button.button-spotify {
   color: #FFFFFF;
-  background-color: #1DB954 }
+  background-color: #000000 }
 .button.button-spotify:hover,
 .button.button-spotify:focus {
   filter: brightness(90%) }
@@ -261,10 +245,18 @@ button:hover,
 .button.button-twitter:focus {
   filter: brightness(90%) }
 
+/* Vimeo */
+.button.button-vimeo {
+  color: #FFFFFF;
+  background-color: #1ab7ea }
+.button.button-vimeo:hover,
+.button.button-vimeo:focus {
+  filter: brightness(90%) }
+
 /* YouTube */
 .button.button-youtube {
   color: #FFFFFF;
-  background-color: #FF0000 }
+  background-color:  #000000 }
 .button.button-youtube:hover,
 .button.button-youtube:focus {
   filter: brightness(90%) }
@@ -272,7 +264,7 @@ button:hover,
 /* Wordpress */
 .button.button-wordpress {
   color: #FFFFFF;
-  background-color: #0073AA }
+  background-color: #21759b }
 .button.button-wordpress:hover,
 .button.button-wordpress:focus {
   filter: brightness(90%) }
