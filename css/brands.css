@@ -75,6 +75,14 @@ button:hover,
 /* Brand Styles
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
+/* Default (this is great for your own brand color!) */
+.button.button-default {
+  color: #FFFFFF;
+  background-color: #0085FF }
+.button.button-default:hover,
+.button.button-default:focus {
+  filter: brightness(90%) }
+
 /* Discord */
 .button.button-discord {
   color: #FFFFFF;
@@ -228,6 +236,14 @@ button:hover,
   background-color: #3faee8 }
 .button.button-telegram:hover,
 .button.button-telegram:focus {
+  filter: brightness(90%) }
+
+/* TikTok */
+.button.button-tiktok {
+  color: #FFFFFF;
+  background-color: #000000 }
+.button.button-tiktok:hover,
+.button.button-tiktok:focus {
   filter: brightness(90%) }
 
 /* Tumblr */
