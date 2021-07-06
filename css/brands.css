@@ -190,12 +190,12 @@ button:hover,
 .button.button-reddit:focus {
   filter: brightness(90%) }
 
-/* Skoob */
-.button.button-skoob {
+/* Bot */
+.button.button-bot {
   color: #FFFFFF;
-  background-color: #3189C8 }
-.button.button-skoob:hover,
-.button.button-skoob:focus {
+  background-color: #1976d2 }
+.button.button-bot:hover,
+.button.button-bot:focus {
   filter: brightness(90%) }
 
 /* Snapchat */
