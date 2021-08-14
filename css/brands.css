@@ -278,6 +278,14 @@ button:hover,
 .button.button-vimeo:focus {
   filter: brightness(90%) }
 
+/* PayPal */
+.button.button-paypal {
+  color: #FFFFFF;
+  background-color: #003087 }
+.button.button-paypal:hover,
+.button.button-paypal:focus {
+  filter: brightness(90%) }
+
 /* YouTube */
 .button.button-youtube {
   color: #FFFFFF;
