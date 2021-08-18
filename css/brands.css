@@ -302,6 +302,14 @@ button:hover,
 .button.button-youtube:focus {
   filter: brightness(90%) }
 
+/* WhatsApp */
+.button.button-whatsapp {
+  color: #FFFFFF;
+  background-color:  #455A64 }
+.button.button-whatsapp:hover,
+.button.button-whatsapp:focus {
+  filter: brightness(90%) }
+
 /* Wordpress */
 .button.button-wordpress {
   color: #FFFFFF;
