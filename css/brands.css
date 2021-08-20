@@ -171,6 +171,14 @@ button:hover,
 .button.button-medium:focus {
   filter: brightness(90%) }
 
+/* Micro.blog */
+.button.button-microblog {
+  color: #FFFFFF;
+  background-color: #FD9927 }
+.button.button-microblog:hover,
+.button.button-microblog:focus {
+  filter: brightness(90%) }
+
 /* Pinterest */
 .button.button-pinterest {
   color: #000000;
