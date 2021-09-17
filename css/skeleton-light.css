@@ -126,9 +126,6 @@ pre > code {
 
 /* Spacing
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-button,
-.button {
-  margin-bottom: 1rem; }
 input,
 textarea,
 select,

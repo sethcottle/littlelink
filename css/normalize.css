@@ -425,3 +425,9 @@ td,
 th {
   padding: 0;
 }
+
+.all-link-buttons {
+  display: inline-flex;
+  flex-flow: wrap;
+  justify-content: center;
+}
