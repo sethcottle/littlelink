@@ -1,4 +1,36 @@
-# 🔗 LittleLink
+# 🔗 LittleLink (Docker version)
+
+This project is a fork of [LittleLink](https://github.com/sethcottle/littlelink). I wanted to create a Docker version of this project that is not modify and kept to true original. And that is what I have done here with the exception of creating the docker files in this repo.
+
+## Usage
+
+To help you start with creating a container from this image, you can either use docker-compose or the docker command line. This container image is published on [DockerHub](https://hub.docker.com/r/davisdre/littlelink). 
+
+### docker-compose (recommended)
+
+```
+version: "3"
+services: 
+  little-link:
+    image: davisdre/littlelink:latest
+    container_name: littlelink-server
+    ports: 
+      - 80:80
+```
+
+### docker commandline
+
+```
+docker run -d \
+  --name=littlelink-server \
+  -p 80:80
+  davisdre/littlelink:latest
+```
+
+## Versions
+ * **Sep 1, 2021** - Initial pull.
+
+ # What is littlelink?
 
 ![LittleLink](https://cdn.cottle.cloud/littlelink/social-circle.png)
 
@@ -12,17 +44,3 @@ LittleLink has more than 20 company button styles you can use and we'll be throw
 ![Performance](https://cdn.cottle.cloud/littlelink/performance.png)
 
 Using [Skeleton](http://getskeleton.com/) let us build something that loads quickly & doesn't have any of the unnecessary bloat you would get from using a large framework for a page that requires nothing more than simplicity. LittleLink scored a 99/100 in performance when tested with [Google Lighthouse](https://developers.google.com/web/tools/lighthouse).
-
-![Publish](https://cdn.cottle.cloud/littlelink/fork-edit-publish.png)
-
-No need for gulp, npm, or anything else to make LittleLink work—it uses the bare essentials. You can automatically fork and deploy LittleLink with [Vercel](https://vercel.com/). Enjoy free and fast hosting with automatic deployments on every branch push with one click below. 👇️
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Fsethcottle%2Flittlelink&project-name=littlelink&repository-name=littlelink&demo-title=LittleLink%20Demo&demo-description=Imported%20from%20GitHub.)
-
-#### Community Extras
-
-Duplicate the [LittleLink Template on Figma Community](https://www.figma.com/community/file/846568099968305613) to help plan out and design your LittleLink page.
-
-Docker? [Techno Tim](https://github.com/timothystewart6) built [LittleLink-Server](https://github.com/techno-tim/littlelink-server). Check out [his video](https://youtu.be/42SqfI_AjXU)!
-
-Check out [LittleLink Admin](https://github.com/khashayarzavosh/admin-littlelink) by [Khashayar Zavosh](https://github.com/khashayarzavosh) which lets you host your own admin portal to manage LittleLink! 
