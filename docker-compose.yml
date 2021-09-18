@@ -1,0 +1,7 @@
+version: "3"
+services: 
+  little-link:
+    image: davisdre/littlelink:latest
+    container_name: littlelink-server
+    ports: 
+      - 80:80
