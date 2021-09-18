@@ -1,4 +1,4 @@
-# 🔗 LittleLink (Docker version)
+# LittleLink (Docker version)
 
 This project is a fork of [LittleLink](https://github.com/sethcottle/littlelink). I wanted to create a Docker version of this project that is not modify and kept to true original. And that is what I have done here with the exception of creating the docker files in this repo.
 
@@ -26,6 +26,11 @@ docker run -d \
   -p 80:80
   davisdre/littlelink:latest
 ```
+
+## Support
+If you would like to support this docker build, please feel free to buy me a coffee!
+
+<a href="https://www.buymeacoffee.com/davisdredotcom"> <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210"></a>
 
 ## Versions
  * **Sep 1, 2021** - Initial pull.
