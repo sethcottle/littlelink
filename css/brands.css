@@ -123,6 +123,14 @@ button:hover,
 .button.button-github:focus {
   filter: brightness(90%) }
 
+/* Gitlab */
+.button.button-gitlab {
+  color: #ffffff;
+  background-color: #6151b2 }
+.button.button-gitlab:hover,
+.button.button-gitlab:focus {
+  filter: brightness(90%) }
+
 /* Goodreads */
 .button.button-goodreads {
   color: #333333;
