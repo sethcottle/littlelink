@@ -301,3 +301,11 @@ button:hover,
 .button.button-wordpress:hover,
 .button.button-wordpress:focus {
   filter: brightness(90%) }
+
+/* Xing */
+.button.button-xing {
+  color: #FFFFFF;
+  background-color: #026466 }
+.button.button-xing:hover,
+.button.button-xing:focus {
+  filter: brightness(90%) }
