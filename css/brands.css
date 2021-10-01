@@ -123,6 +123,14 @@ button:hover,
 .button.button-github:focus {
   filter: brightness(90%) }
 
+/* Gitlab */
+.button.button-gitlab {
+  color: #ffffff;
+  background-color: #6151b2 }
+.button.button-gitlab:hover,
+.button.button-gitlab:focus {
+  filter: brightness(90%) }
+
 /* Goodreads */
 .button.button-goodreads {
   color: #333333;
@@ -316,4 +324,12 @@ button:hover,
   background-color: #21759b }
 .button.button-wordpress:hover,
 .button.button-wordpress:focus {
+  filter: brightness(90%) }
+
+/* Xing */
+.button.button-xing {
+  color: #FFFFFF;
+  background-color: #026466 }
+.button.button-xing:hover,
+.button.button-xing:focus {
   filter: brightness(90%) }
