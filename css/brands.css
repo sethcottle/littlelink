@@ -82,6 +82,14 @@ button:hover,
 .button.button-default:hover,
 .button.button-default:focus {
   filter: brightness(90%) }
+  
+/* Bandcamp */
+.button.button-bandcamp {
+  color: #FFFFFF;
+  background-color: #1d9fc3 }
+.button.button-bandcamp:hover,
+.button.button-bandcamp:focus {
+  filter: brightness(90%) }
 
 /* Discord */
 .button.button-discord {
