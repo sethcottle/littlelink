@@ -1,0 +1,5 @@
+[[redirects]]
+  from = "/introduction-to-aspect-oriented-programming-in-dotnet-with-autofac-interceptors*"
+  to = "https://blog.ivankahl.com/introduction-to-aspect-oriented-programming-in-dotnet-with-autofac-interceptors"
+  status = 301
+  force = true
