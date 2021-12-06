@@ -374,3 +374,11 @@ button:hover,
 .button.button-blog:hover,
 .button.button-blog:focus {
   filter: brightness(90%) }
+
+.button.button-credly {
+  color: #ffffff;
+  background-color: #f36c21;
+}
+.button.button-credly:hover,
+.button.button-credly:focus {
+  filter: brightness(90%) }
