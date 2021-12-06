@@ -3,3 +3,213 @@
   to = "https://blog.ivankahl.com/introduction-to-aspect-oriented-programming-in-dotnet-with-autofac-interceptors"
   status = 301
   force = true
+
+[[redirects]]
+  from = "/three-methods-to-convert-strings-into-enums-in-csharp*"
+  to = "https://blog.ivankahl.com/three-methods-to-convert-strings-into-enums-in-csharp"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/use-config-net-for-net-application-configurations*"
+  to = "https://blog.ivankahl.com/use-config-net-for-net-application-configurations"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/the-comprehensive-guide-to-custom-datetime-string-formats-in-csharp*"
+  to = "https://blog.ivankahl.com/the-comprehensive-guide-to-custom-datetime-string-formats-in-csharp"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/backing-up-and-restoring-native-sql-server-backups-in-aws-rds*"
+  to = "https://blog.ivankahl.com/backing-up-and-restoring-native-sql-server-backups-in-aws-rds"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/getting-aws-lambda-environment-variables-in-all-supported-languages*"
+  to = "https://blog.ivankahl.com/getting-aws-lambda-environment-variables-in-all-supported-languages"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/send-slack-messages-from-anywhere-using-webhook-integration*"
+  to = "https://blog.ivankahl.com/send-slack-messages-from-anywhere-using-webhook-integration"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/enabling-and-disabling-hyper-v-in-powershell*"
+  to = "https://blog.ivankahl.com/enabling-and-disabling-hyper-v-in-powershell"
+  status = 301
+  force = true
+  
+[[redirects]]
+  from = "/using-sdata-2-0-in-sage-crm-part-5-a-word-on-authentication*"
+  to = "https://blog.ivankahl.com/using-sdata-2-0-in-sage-crm-part-5-a-word-on-authentication"
+  status = 301
+  force = true
+  
+[[redirects]]
+  from = "/using-sdata-2-0-in-sage-crm-part-4-deleting-records*"
+  to = "https://blog.ivankahl.com/using-sdata-2-0-in-sage-crm-part-4-deleting-records"
+  status = 301
+  force = true
+  
+[[redirects]]
+  from = "/using-sdata-2-0-in-sage-crm-part-3-inserting-records*"
+  to = "https://blog.ivankahl.com/using-sdata-2-0-in-sage-crm-part-3-inserting-records"
+  status = 301
+  force = true
+  
+[[redirects]]
+  from = "/using-sdata-2-0-in-sage-crm-part-2-updating-records*"
+  to = "https://blog.ivankahl.com/using-sdata-2-0-in-sage-crm-part-2-updating-records"
+  status = 301
+  force = true
+  
+[[redirects]]
+  from = "/using-sdata-2-0-in-sage-crm-part-1-introduction-and-querying*"
+  to = "https://blog.ivankahl.com/using-sdata-2-0-in-sage-crm-part-1-introduction-and-querying"
+  status = 301
+  force = true
+  
+[[redirects]]
+  from = "/smtp-imap-and-pop-settings-for-popular-email-providers*"
+  to = "https://blog.ivankahl.com/smtp-imap-and-pop-settings-for-popular-email-providers"
+  status = 301
+  force = true
+  
+[[redirects]]
+  from = "/relicensing-sage-crm*"
+  to = "https://blog.ivankahl.com/relicensing-sage-crm"
+  status = 301
+  force = true
+  
+[[redirects]]
+  from = "/sage-crm-exchange-integration-office-365-setup*"
+  to = "https://blog.ivankahl.com/sage-crm-exchange-integration-office-365-setup"
+  status = 301
+  force = true
+  
+[[redirects]]
+  from = "/sage-crm-exchange-integration-sage-crm-setup*"
+  to = "https://blog.ivankahl.com/sage-crm-exchange-integration-sage-crm-setup"
+  status = 301
+  force = true
+  
+[[redirects]]
+  from = "/cannot-process-file-because-of-mark-of-the-web-error-in-visual-c-project*"
+  to = "https://blog.ivankahl.com/cannot-process-file-because-of-mark-of-the-web-error-in-visual-c-project"
+  status = 301
+  force = true
+  
+[[redirects]]
+  from = "/fixing-authentication-required-browser-session-mismatch-error-in-sage-crm*"
+  to = "https://blog.ivankahl.com/fixing-authentication-required-browser-session-mismatch-error-in-sage-crm"
+  status = 301
+  force = true
+  
+[[redirects]]
+  from = "/fixing-cannot-create-file-error-when-viewing-sage-crm-report-on-screen*"
+  to = "https://blog.ivankahl.com/fixing-cannot-create-file-error-when-viewing-sage-crm-report-on-screen"
+  status = 301
+  force = true
+  
+[[redirects]]
+  from = "/the-humbs-db-attachment-in-sage-crm-emails*"
+  to = "https://blog.ivankahl.com/the-humbs-db-attachment-in-sage-crm-emails"
+  status = 301
+  force = true
+  
+[[redirects]]
+  from = "/enabling-cors-in-nancy*"
+  to = "https://blog.ivankahl.com/enabling-cors-in-nancy"
+  status = 301
+  force = true
+  
+[[redirects]]
+  from = "/disabling-checkpoints-in-hyper-v*"
+  to = "https://blog.ivankahl.com/disabling-checkpoints-in-hyper-v"
+  status = 301
+  force = true
+  
+[[redirects]]
+  from = "/fixing-unexpectedevent-when-uploading-documents-in-sage-crm*"
+  to = "https://blog.ivankahl.com/fixing-unexpectedevent-when-uploading-documents-in-sage-crm"
+  status = 301
+  force = true
+  
+[[redirects]]
+  from = "/fixing-class-not-registered-error-in-sage-crm-net-pages*"
+  to = "https://blog.ivankahl.com/fixing-class-not-registered-error-in-sage-crm-net-pages"
+  status = 301
+  force = true
+  
+[[redirects]]
+  from = "/fixing-credssp-encryption-oracle-remediation-in-rdp*"
+  to = "https://blog.ivankahl.com/fixing-credssp-encryption-oracle-remediation-in-rdp"
+  status = 301
+  force = true
+  
+[[redirects]]
+  from = "/sage-crm-net-templates-visual-studio-extension*"
+  to = "https://blog.ivankahl.com/sage-crm-net-templates-visual-studio-extension"
+  status = 301
+  force = true
+  
+[[redirects]]
+  from = "/using-sql-server-cursors*"
+  to = "https://blog.ivankahl.com/using-sql-server-cursors"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/converting-between-different-virtual-drive-formats*"
+  to = "https://blog.ivankahl.com/converting-between-different-virtual-drive-formats"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/using-reflection-to-execute-assemblies-at-runtime-in-c*"
+  to = "https://blog.ivankahl.com/using-reflection-to-execute-assemblies-at-runtime-in-c"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/creating-custom-configuration-sections-in-app-config*"
+  to = "https://blog.ivankahl.com/creating-custom-configuration-sections-in-app-config"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/python-virtual-environments-in-visual-studio*"
+  to = "https://blog.ivankahl.com/python-virtual-environments-in-visual-studio"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/python-list-and-dictionary-comprehensions*"
+  to = "https://blog.ivankahl.com/python-list-and-dictionary-comprehensions"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/app-review-pythonista*"
+  to = "https://blog.ivankahl.com/app-review-pythonista"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blogs-up-and-running*"
+  to = "https://blog.ivankahl.com/blogs-up-and-running"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog"
+  to = "https://blog.ivankahl.com"
+  status = 301
+  force = true
