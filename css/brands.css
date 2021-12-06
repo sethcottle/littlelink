@@ -39,7 +39,8 @@ button {
   text-align: center;
   vertical-align: middle;
   font-size: 18px;
-  width: 300px;
+  max-width: 300px;
+  width: 100%;
   font-weight: 700;
   line-height: 48px;
   letter-spacing: 0.1px;
@@ -364,4 +365,12 @@ button:hover,
   background-color: #026466 }
 .button.button-xing:hover,
 .button.button-xing:focus {
+  filter: brightness(90%) }
+
+.button.button-blog {
+  color: #ffffff;
+  background-color: #0085FF;
+}
+.button.button-blog:hover,
+.button.button-blog:focus {
   filter: brightness(90%) }
