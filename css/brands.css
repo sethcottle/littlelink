@@ -82,6 +82,38 @@ button:hover,
 .button.button-default:hover,
 .button.button-default:focus {
   filter: brightness(90%) }
+  
+/* Bandcamp */
+.button.button-bandcamp {
+  color: #FFFFFF;
+  background-color: #1d9fc3 }
+.button.button-bandcamp:hover,
+.button.button-bandcamp:focus {
+  filter: brightness(90%) }
+
+/* Patreon */
+.button.button-patreon {
+  color: #FFFFFF;
+  background-color: #ff424d }
+.button.button-patreon:hover,
+.button.button-patreon:focus {
+  filter: brightness(90%) }
+
+/* Signal */
+.button.button-signal {
+  color: #FFFFFF;
+  background-color: #3a76f0 }
+.button.button-signal:hover,
+.button.button-signal:focus {
+  filter: brightness(90%) }
+
+/* Venmo */
+.button.button-venmo {
+  color: #FFFFFF;
+  background-color: #3d95ce }
+.button.button-venmo:hover,
+.button.button-venmo:focus {
+  filter: brightness(90%) }
 
 /* Discord */
 .button.button-discord {
