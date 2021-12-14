@@ -36,6 +36,7 @@ If you would like to support this docker build, please feel free to buy me a cof
 ## Versions
  * **Sep 1, 2021** - Initial pull.
  * **Oct 1, 2021** - Pulled latest. Updated Docker with latest content.
+ * **Dec 13, 2021** - Pulled latest. Updated Docker containers with latest content and security patches. 
 
  # What is littlelink?
 
