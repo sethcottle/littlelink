@@ -38,6 +38,7 @@ If you would like to support this docker build, please feel free to buy me a cof
  * **Oct 1, 2021** - Pulled latest. Updated Docker with latest content.
  * **Oct 31, 2021** - Pulled latest from sethcottle/littelink. Updated Docker image.
  * **Dec 13, 2021** - Pulled latest. Updated Docker containers with latest content and security patches. 
+ * **Jan 28, 2022** - Pulled latest. Updated Docker containers with latest content and security patches. 
 
  # What is littlelink?
 
