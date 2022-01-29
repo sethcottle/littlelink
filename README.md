@@ -56,3 +56,6 @@ Duplicate the [LittleLink Template on Figma Community](https://www.figma.com/com
 
 ##### Misc
 Check out [LittleLink Admin](https://github.com/khashayarzavosh/admin-littlelink) by [Khashayar Zavosh](https://github.com/khashayarzavosh) which lets you host your own admin portal to manage LittleLink! 
+
+#### Supporters
+You can support LittleLink by [buying me a beer](https://www.buymeacoffee.com/seth). You can also have your name or your company added to this section and the supporters page of [LittleLink.io](https://littlelink.io) website.

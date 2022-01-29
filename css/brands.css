@@ -124,11 +124,11 @@ button:hover,
   filter: brightness(90%) }
 
 /* Facebook */
-.button.button-facebook {
+.button.button-faceb {
   color: #FFFFFF;
   background-color: #1877f2 }
-.button.button-facebook:hover,
-.button.button-facebook:focus {
+.button.button-faceb:hover,
+.button.button-faceb:focus {
   filter: brightness(90%) }
 
 /* Facebook Messenger */
@@ -188,11 +188,11 @@ button:hover,
   filter: brightness(90%) }
 
 /* LinkedIn */
-.button.button-linkedin {
+.button.button-linked {
   color: #FFFFFF;
   background-color: #2867B2 }
-.button.button-linkedin:hover,
-.button.button-linkedin:focus {
+.button.button-linked:hover,
+.button.button-linked:focus {
   filter: brightness(90%) }
 
 /* Mastodon */
@@ -295,11 +295,11 @@ button:hover,
   filter: brightness(90%) }
 
 /* Tumblr */
-.button.button-tumblr {
+.button.button-tumb {
   color: #FFFFFF;
   background-color: #131313 }
-.button.button-tumblr:hover,
-.button.button-tumblr:focus {
+.button.button-tumb:hover,
+.button.button-tumb:focus {
   filter: brightness(90%) }
 
 /* Twitch */
@@ -311,11 +311,11 @@ button:hover,
   filter: brightness(90%) }
 
 /* Twitter */
-.button.button-twitter {
+.button.button-twit {
   color: #FFFFFF;
   background-color: #1DA1F2 }
-.button.button-twitter:hover,
-.button.button-twitter:focus {
+.button.button-twit:hover,
+.button.button-twit:focus {
   filter: brightness(90%) }
 
 /* Vimeo */
@@ -335,11 +335,11 @@ button:hover,
   filter: brightness(90%) }
 
 /* YouTube */
-.button.button-youtube {
+.button.button-yt {
   color: #FFFFFF;
   background-color:  #000000 }
-.button.button-youtube:hover,
-.button.button-youtube:focus {
+.button.button-yt:hover,
+.button.button-yt:focus {
   filter: brightness(90%) }
 
 /* WhatsApp */
