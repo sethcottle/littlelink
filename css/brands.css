@@ -115,6 +115,14 @@ button:hover,
 .button.button-venmo:focus {
   filter: brightness(90%) }
 
+/* Cash App */
+.button.button-cashapp {
+  color: #FFFFFF;
+  background-image: linear-gradient(to bottom, #00D64B, #00C244); }
+.button.button-cashapp:hover,
+.button.button-cashapp:focus {
+  filter: brightness(90%) }
+
 /* Discord */
 .button.button-discord {
   color: #FFFFFF;
