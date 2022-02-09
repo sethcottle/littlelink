@@ -1,17 +1,27 @@
-<svg id="Layer_1" data-name="Layer 1"
-    xmlns="http://www.w3.org/2000/svg"
-    xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 64 64">
-    <defs>
-        <style>.cls-1{fill-rule:evenodd;fill:url(#New_Gradient_Swatch_2);}.cls-2{fill:#fff;}</style>
-        <linearGradient id="New_Gradient_Swatch_2" x1="43.2" y1="86.4" x2="43.2" gradientUnits="userSpaceOnUse">
-            <stop offset="0" stop-color="#00c244"/>
-            <stop offset="1" stop-color="#00d64b"/>
-        </linearGradient>
-        <symbol id="RGB_BTC" data-name="RGB BTC" viewBox="0 0 86.4 86.4">
-            <path class="cls-1" d="M56.28,0C65,0,69.29,0,74,1.48a18.34,18.34,0,0,1,11,11c1.48,4.67,1.48,9,1.48,17.68V56.28c0,8.67,0,13-1.48,17.68a18.34,18.34,0,0,1-11,11c-4.67,1.48-9,1.48-17.68,1.48H30.12c-8.67,0-13,0-17.68-1.48a18.34,18.34,0,0,1-11-11C0,69.29,0,65,0,56.28V30.12c0-8.67,0-13,1.48-17.68a18.34,18.34,0,0,1,11-11C17.11,0,21.45,0,30.12,0Z"/>
-            <path class="cls-2" d="M55.69,42.59c4.51-1.28,8.22-4.87,8.22-10.17,0-5.79-4.4-9.55-10.46-10.64l1-5a1.73,1.73,0,0,0-1.69-2.09H46.43a1.73,1.73,0,0,0-1.7,1.37l-1.15,5.4H33.1a1.31,1.31,0,0,0-1.27,1l-9,40.9a1.3,1.3,0,0,0,1.27,1.57h9.86l-1,4.64a1.77,1.77,0,0,0,1.68,2.14H41a1.74,1.74,0,0,0,1.71-1.38l1.14-5.4h1c10.23,0,16.75-5.6,16.75-12.85A10.35,10.35,0,0,0,55.69,42.59ZM44.61,56.72H34.17l2.3-10.42H45c4.2,0,6.76,1.77,6.76,4.94S49.11,56.72,44.61,56.72ZM48.2,38.63h-10l2-8.89h8.5c3.47,0,5.48,1.58,5.48,4.2C54.11,37.05,51.67,38.63,48.2,38.63Z"/>
-        </symbol>
-    </defs>
-    <title>Cash App - BTC - Icon</title>
-    <use id="RGB_BTC-3" data-name="RGB BTC" width="64" height="64" xlink:href="#RGB_BTC"/>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 26.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 64 64" style="enable-background:new 0 0 64 64;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+</style>
+<symbol  id="RGB_BTC" viewBox="-23 -32 46.2 64">
+	<path class="st0" d="M13.9-0.7c5.1-1.4,9.2-5.5,9.2-11.4c0-6.5-4.9-10.7-11.7-11.9l1.1-5.6c0.2-1-0.4-2.1-1.5-2.3
+		c-0.1,0-0.3,0-0.4,0H3.5c-0.9,0-1.7,0.6-1.9,1.5l-1.3,6.1h-11.8c-0.7,0-1.3,0.5-1.4,1.1L-23,22.6c-0.2,0.8,0.3,1.6,1.1,1.7
+		c0.1,0,0.2,0,0.3,0h11.1l-1.1,5.2c-0.2,1.1,0.5,2.1,1.5,2.4c0.1,0,0.2,0,0.4,0h7.1c0.9,0,1.7-0.6,1.9-1.5l1.3-6.1h1.1
+		c11.5,0,18.8-6.3,18.8-14.4C20.6,5.4,18,1.3,13.9-0.7z M1.5,15.2h-11.7l2.6-11.7h9.6c4.7,0,7.6,2,7.6,5.5S6.5,15.2,1.5,15.2z
+		 M5.5-5.1H-5.7l2.2-10h9.5c3.9,0,6.2,1.8,6.2,4.7C12.2-6.9,9.4-5.1,5.5-5.1z"/>
+</symbol>
+<g>
+	<defs>
+		<rect id="SVGID_1_" width="64" height="64"/>
+	</defs>
+	<clipPath id="SVGID_00000155857002718714438840000015121633964882569606_">
+		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+	</clipPath>
+	<g style="clip-path:url(#SVGID_00000155857002718714438840000015121633964882569606_);">
+		
+			<use xlink:href="#RGB_BTC"  width="46.2" height="64" id="RGB_BTC-3" x="-23" y="-32" transform="matrix(1 0 0 1 32 32)" style="overflow:visible;"/>
+	</g>
+</g>
 </svg>
