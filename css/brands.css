@@ -345,6 +345,16 @@ button:hover,
   filter: brightness(90%);
 }
 
+/* SpaceHey */
+.button.button-spacehey {
+  color: #ffffff;
+  background-color: #3234cf;
+}
+.button.button-spacehey:hover,
+.button.button-spacehey:focus {
+  filter: brightness(90%);
+}
+
 /* Telegram */
 .button.button-telegram {
   color: #ffffff;
