@@ -425,6 +425,16 @@ button:hover,
   filter: brightness(90%);
 }
 
+/* Website */
+.button.button-web {
+  color: #ffffff;
+  background-color: #000000;
+}
+.button.button-web:hover,
+.button.button-web:focus {
+  filter: brightness(90%);
+}
+
 /* WhatsApp */
 .button.button-whatsapp {
   color: #ffffff;
