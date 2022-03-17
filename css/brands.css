@@ -94,36 +94,6 @@ button:hover,
   filter: brightness(90%);
 }
 
-/* Patreon */
-.button.button-patreon {
-  color: #ffffff;
-  background-color: #ff424d;
-}
-.button.button-patreon:hover,
-.button.button-patreon:focus {
-  filter: brightness(90%);
-}
-
-/* Signal */
-.button.button-signal {
-  color: #ffffff;
-  background-color: #3a76f0;
-}
-.button.button-signal:hover,
-.button.button-signal:focus {
-  filter: brightness(90%);
-}
-
-/* Venmo */
-.button.button-venmo {
-  color: #ffffff;
-  background-color: #3d95ce;
-}
-.button.button-venmo:hover,
-.button.button-venmo:focus {
-  filter: brightness(90%);
-}
-
 /* Cash App */
 .button.button-cashapp {
   color: #ffffff;
@@ -141,6 +111,16 @@ button:hover,
 }
 .button.button-discord:hover,
 .button.button-discord:focus {
+  filter: brightness(90%);
+}
+
+/* Etsy */
+.button.button-etsy {
+  color: #ffffff;
+  background-color: #F45800;
+}
+.button.button-etsy:hover,
+.button.button-etsy:focus {
   filter: brightness(90%);
 }
 
@@ -222,6 +202,16 @@ button:hover,
   filter: brightness(90%);
 }
 
+/* kickstarter */
+.button.button-kickstarter {
+  color: #ffffff;
+  background-color: #05ce78;
+}
+.button.button-kickstarter:hover,
+.button.button-kickstarter:focus {
+  filter: brightness(90%);
+}
+
 /* Kit */
 .button.button-kit {
   color: #ffffff;
@@ -262,6 +252,39 @@ button:hover,
   filter: brightness(90%);
 }
 
+/* Notion */
+.button.button-notion {
+  color: #000000;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 2px;
+  background-color: #ffffff;
+}
+.button.button-notion:hover,
+.button.button-notion:focus {
+  filter: brightness(90%);
+}
+
+/* Patreon */
+.button.button-patreon {
+  color: #ffffff;
+  background-color: #ff424d;
+}
+.button.button-patreon:hover,
+.button.button-patreon:focus {
+  filter: brightness(90%);
+}
+
+/* PayPal */
+.button.button-paypal {
+  color: #ffffff;
+  background-color: #003087;
+}
+.button.button-paypal:hover,
+.button.button-paypal:focus {
+  filter: brightness(90%);
+}
+
 /* Pinterest */
 .button.button-pinterest {
   color: #000000;
@@ -292,6 +315,16 @@ button:hover,
 }
 .button.button-reddit:hover,
 .button.button-reddit:focus {
+  filter: brightness(90%);
+}
+
+/* Signal */
+.button.button-signal {
+  color: #ffffff;
+  background-color: #3a76f0;
+}
+.button.button-signal:hover,
+.button.button-signal:focus {
   filter: brightness(90%);
 }
 
@@ -365,6 +398,16 @@ button:hover,
   filter: brightness(90%);
 }
 
+/* Trello */
+.button.button-trello {
+  color: #ffffff;
+  background-color: #0065ff;
+}
+.button.button-trello:hover,
+.button.button-trello:focus {
+  filter: brightness(90%);
+}
+
 /* Tumblr */
 .button.button-tumb {
   color: #ffffff;
@@ -395,6 +438,16 @@ button:hover,
   filter: brightness(90%);
 }
 
+/* Venmo */
+.button.button-venmo {
+  color: #ffffff;
+  background-color: #008CFF;
+}
+.button.button-venmo:hover,
+.button.button-venmo:focus {
+  filter: brightness(90%);
+}
+
 /* Vimeo */
 .button.button-vimeo {
   color: #ffffff;
@@ -402,26 +455,6 @@ button:hover,
 }
 .button.button-vimeo:hover,
 .button.button-vimeo:focus {
-  filter: brightness(90%);
-}
-
-/* PayPal */
-.button.button-paypal {
-  color: #ffffff;
-  background-color: #003087;
-}
-.button.button-paypal:hover,
-.button.button-paypal:focus {
-  filter: brightness(90%);
-}
-
-/* YouTube */
-.button.button-yt {
-  color: #ffffff;
-  background-color: #000000;
-}
-.button.button-yt:hover,
-.button.button-yt:focus {
   filter: brightness(90%);
 }
 
@@ -462,5 +495,15 @@ button:hover,
 }
 .button.button-xing:hover,
 .button.button-xing:focus {
+  filter: brightness(90%);
+}
+
+/* YouTube */
+.button.button-yt {
+  color: #ffffff;
+  background-color: #000000;
+}
+.button.button-yt:hover,
+.button.button-yt:focus {
   filter: brightness(90%);
 }

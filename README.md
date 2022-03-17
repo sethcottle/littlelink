@@ -25,15 +25,22 @@ No need for gulp, npm, or anything else to make LittleLink work—it uses the ba
 Duplicate the [LittleLink Template on Figma Community](https://www.figma.com/community/file/846568099968305613) to help plan out and design your LittleLink page.
 
 ##### 🐋 Docker
-[Techno Tim](https://github.com/timothystewart6) built [LittleLink-Server](https://github.com/techno-tim/littlelink-server). Check out [his video](https://youtu.be/42SqfI_AjXU)!
+[Techno Tim](https://github.com/timothystewart6) is building [LittleLink-Server](https://github.com/techno-tim/littlelink-server). Check out [his video](https://youtu.be/42SqfI_AjXU)!
 
-[Drew](https://github.com/davisdre) built a [super simple Docker implementation of LittleLink](https://github.com/davisdre/littlelink).
+[Drew](https://github.com/davisdre) is building a [super simple Docker implementation of LittleLink](https://github.com/davisdre/littlelink).
 
 ##### 🗃️ Misc
-Check out [LittleLink Admin](https://github.com/khashayarzavosh/admin-littlelink) by [Khashayar Zavosh](https://github.com/khashayarzavosh) which lets you host your own admin portal to manage LittleLink! 
+[Khashayar](https://github.com/khashayarzavosh) is building [LittleLink Admin](https://github.com/khashayarzavosh/admin-littlelink) which lets you host your own admin portal to manage LittleLink!
+
+[Julian](https://github.com/JulianPrieber) is building [LittleLink Custom](https://github.com/JulianPrieber/littlelink-custom) which approaches the admin portal with an easy-to-use "plug-and-play" mentality!
 
 #### 💖 Supporters
 You can support LittleLink by [buying me a beer](https://www.buymeacoffee.com/seth). You can also have your name or your company added to this section and the supporters page of the [LittleLink.io](https://littlelink.io) website.
 
+##### 🏢 Business Supporters
+[Add Your Company Name](https://www.buymeacoffee.com/seth/e/50574)
+
 ##### ✨ Individual Supporters
-[Drew Davis](https://connect.davisdre.me)
+**[Drew Davis](https://connect.davisdre.me)**
+
+[Add Your Name](https://www.buymeacoffee.com/seth/e/50573)
