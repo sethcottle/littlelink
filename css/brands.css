@@ -94,6 +94,16 @@ button:hover,
   filter: brightness(90%);
 }
 
+/* Buy Me a Coffee */
+.button.button-coffee {
+  color: #100a26;
+  background-color: #ffdd00;
+}
+.button.button-coffee:hover,
+.button.button-coffee:focus {
+  filter: brightness(90%);
+}
+
 /* Cash App */
 .button.button-cashapp {
   color: #ffffff;
