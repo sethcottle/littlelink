@@ -124,6 +124,16 @@ button:hover,
   filter: brightness(90%);
 }
 
+/* Distiller */
+.button.button-dist {
+  color: #ffffff;
+  background-color: #ed5c47;
+}
+.button.button-dist:hover,
+.button.button-dist:focus {
+  filter: brightness(90%);
+}
+
 /* Etsy */
 .button.button-etsy {
   color: #ffffff;
