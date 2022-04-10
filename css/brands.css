@@ -114,6 +114,17 @@ button:hover,
   filter: brightness(90%);
 }
 
+/* VRChat */
+.button.button-vrchat {
+  color: #000000;
+  background-color: #ffffff;
+  border: 2px solid black;
+}
+.button.button-vrchat:hover,
+.button.button-vrchat:focus {
+  filter: brightness(90%);
+}
+
 /* Discord */
 .button.button-discord {
   color: #ffffff;
