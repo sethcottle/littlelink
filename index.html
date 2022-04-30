@@ -18,7 +18,8 @@
   <div class="container">
     <div class="row">
       <div class="column" style="margin-top: 10%">
-        <img src="https://cdn-bot.dinip.pt/static/dinip_logo_512.png" alt="Dinip Logo" style="border-radius: 50%; max-width: 192px;">
+        <img src="https://cdn-bot.dinip.pt/static/dinip_logo_512.png" alt="Dinip Logo"
+          style="border-radius: 50%; max-width: 192px;">
         <h1>Dinip (Dinis Pimpão)</h1>
         <p>
           <span class="age"></span>yo
@@ -50,10 +51,6 @@
         <!-- <a class="button button-facebook" href="#" target="_blank" rel="noopener"><img class="icon" src="icons/facebook.svg" alt="Facebook Logo">Find us on Facebook</a>
           <br> -->
 
-        <!-- LinkedIn -->
-        <!-- <a class="button button-linkedin" href="#" target="_blank" rel="noopener"><img class="icon" src="icons/linkedin.svg" alt="LinkedIn Logo">LinkedIn</a>
-          <br> -->
-
         <!-- YouTube -->
         <a class="button button-youtube" href="https://www.youtube.com/c/Dinip12gamer/" target="_blank"
           rel="noopener"><img class="icon" src="icons/youtube.svg" alt="YouTube Logo">YouTube</a>
@@ -76,7 +73,7 @@
 
         <!-- Bot -->
         <a class="button button-bot" href="https://twitchalerts.dinip.pt/" target="_blank" rel="noopener"><img
-          class="icon" src="https://cdn-bot.dinip.pt/static/duck.png" alt="Reddit Logo">Twitch Alerts</a>
+            class="icon" src="https://cdn-bot.dinip.pt/static/duck.png" alt="Reddit Logo">Twitch Alerts</a>
         <br>
 
         <!-- Reddit -->
@@ -84,13 +81,18 @@
             class="icon" src="icons/reddit.svg" alt="Reddit Logo">Reddit</a>
         <br>
 
+        <!-- LinkedIn -->
+        <a class="button button-linkedin" href="https://www.linkedin.com/in/dinispimpao" target="_blank"
+          rel="noopener"><img class="icon" src="icons/linkedin.svg" alt="LinkedIn Logo">LinkedIn</a>
+        <br>
+
         <!-- Medium -->
         <!-- <a class="button button-medium" href="#" target="_blank" rel="noopener"><img class="icon" src="icons/medium.svg" alt="Medium Logo">Medium</a>
           <br>  -->
 
         <!-- Email -->
-        <a class="button button-default" href="mailto:me@dinispimpao.pt" target="_blank" rel="noopener"><img class="icon"
-            src="icons/email.svg" alt="Email Icon">me@dinispimpao.pt</a>
+        <a class="button button-default" href="mailto:me@dinispimpao.pt" target="_blank" rel="noopener"><img
+            class="icon" src="icons/email.svg" alt="Email Icon">me@dinispimpao.pt</a>
         <br>
 
         <!-- Email -->
@@ -113,7 +115,7 @@
     for (let i = 0; i < ages.length; i++) {
       ages[i].textContent = getAge('2001-03-10')
     }
-    function getAge(dateString) {
+    function getAge (dateString) {
       let today = new Date();
       let birthDate = new Date(dateString);
       let age = today.getFullYear() - birthDate.getFullYear();
