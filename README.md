@@ -43,4 +43,6 @@ You can support LittleLink by [buying me a beer](https://www.buymeacoffee.com/se
 ##### ✨ Individual Supporters
 **[Drew Davis](https://connect.davisdre.me)**
 
+**[Robotter112](https://robotter112.de/)**
+
 [Add Your Name](https://www.buymeacoffee.com/seth/e/50573)
