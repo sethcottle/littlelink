@@ -84,6 +84,26 @@ button:hover,
   filter: brightness(90%);
 }
 
+/* Amazon */
+.button.button-amazon {
+  color: #000000;
+  background-color: #ffffff;
+}
+.button.button-amazon:hover,
+.button.button-amazon:focus {
+  filter: brightness(90%);
+}
+
+/* Apple App Store */
+.button.button-appstore {
+  color: #ffffff;
+  background-color: #000000;
+}
+.button.button-appstore:hover,
+.button.button-appstore:focus {
+  filter: brightness(90%);
+}
+
 /* Bandcamp */
 .button.button-bandcamp {
   color: #ffffff;
@@ -111,17 +131,6 @@ button:hover,
 }
 .button.button-cashapp:hover,
 .button.button-cashapp:focus {
-  filter: brightness(90%);
-}
-
-/* VRChat */
-.button.button-vrchat {
-  color: #000000;
-  background-color: #ffffff;
-  border: 2px solid black;
-}
-.button.button-vrchat:hover,
-.button.button-vrchat:focus {
   filter: brightness(90%);
 }
 
@@ -223,6 +232,16 @@ button:hover,
   filter: brightness(90%);
 }
 
+/* Google Play Store */
+.button.button-playstore {
+  color: #FFFFFF;
+  background-color: #000000;
+}
+.button.button-playstore:hover,
+.button.button-playstore:focus {
+  filter: brightness(90%);
+}
+
 /* Instagram */
 .button.button-instagram {
   color: #ffffff;
@@ -293,6 +312,16 @@ button:hover,
 }
 .button.button-notion:hover,
 .button.button-notion:focus {
+  filter: brightness(90%);
+}
+
+/* OnlyFans */
+.button.button-onlyfans {
+  color: #ffffff;
+  background-color: #00AEEF;
+}
+.button.button-onlyfans:hover,
+.button.button-onlyfans:focus {
   filter: brightness(90%);
 }
 
@@ -486,6 +515,17 @@ button:hover,
 }
 .button.button-vimeo:hover,
 .button.button-vimeo:focus {
+  filter: brightness(90%);
+}
+
+/* VRChat */
+.button.button-vrchat {
+  color: #000000;
+  background-color: #ffffff;
+  border: 2px solid black;
+}
+.button.button-vrchat:hover,
+.button.button-vrchat:focus {
   filter: brightness(90%);
 }
 
