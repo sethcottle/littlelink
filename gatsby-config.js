@@ -2,13 +2,13 @@ module.exports = {
   siteMetadata: {
     title: `Gatsby Starter Blog`,
     author: {
-      name: `Ryan Overton`,
-      summary: `who loves helping develoeprs improve their knowledge and skills.`,
+      name: `Rances Acosta`,
+      summary: `This is a little practice of CI/CD using gitflow.`,
     },
     description: `A starter blog demonstrating what Gatsby can do.`,
     siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `rances_acosta`,
     },
   },
   plugins: [
