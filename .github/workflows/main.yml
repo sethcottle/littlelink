@@ -4,11 +4,11 @@ name: CI
 
 # Controls when the workflow will run
 on:
-  push:
-    branches: [ main]
+  #push:
+    #branches: [ main]
   # Triggers the workflow on push or pull request events but only for the main branch
-  #pull_request:
-  #  branches: [ main ]
+  pull_request:
+    branches: [ main ]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -16,7 +16,7 @@ on:
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "build"
-  build:
+  Test_CI:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
     
@@ -30,19 +30,6 @@ jobs:
           # Version Spec of the version to use.  Examples: 12.x, 10.15.1, >=10.15.0
           node-version:  12.x
       - run: npm ci
-      
+      - run: npm test 
       - run: npm run build --if-present
       
-      - run: npm test
-      
-      - name: Deploy to GitHub Pages
-        # You may pin to the exact commit or the version.
-        # uses: JamesIves/github-pages-deploy-action@8817a56e5bfec6e2b08345c81f4d422db53a2cdc
-        uses: JamesIves/github-pages-deploy-action@v4.3.3
-        with:
-          branch: master
-          # The folder in your repository that you want to deploy. If your build script compiles into a directory named build you would put it here. Folder paths cannot have a leading / or ./. If you wish to deploy the root directory you can place a . here.
-          folder: public
-          # If you would like to push the contents of the deployment folder into a specific directory on the deployment branch you can specify it here.
-      
-        
