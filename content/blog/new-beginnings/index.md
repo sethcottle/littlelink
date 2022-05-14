@@ -1,7 +1,7 @@
 ---
-title: CI/CD
+title: How easy is CI/CD with Github Actions
 date: "2015-05-28T22:40:32.169Z"
-description: by Racosta.
+description: How this project has been made, walkthrough and opinions by Racosta.
 ---
 
 Far far away, behind the word mountains, far from the countries Vokalia and

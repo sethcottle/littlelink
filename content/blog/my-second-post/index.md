@@ -1,6 +1,7 @@
 ---
 title: 2nd Blog.
 date: "2015-05-06T23:46:37.121Z"
+description: "Second Blog on gatsby this is getting fun."
 ---
 
 Wow! testing new features.
@@ -11,3 +12,4 @@ egg yolk will be less rich."?
 ([Wikipedia Link](https://en.wikipedia.org/wiki/Salted_duck_egg))
 
 Yeah, I didn't either.
+
