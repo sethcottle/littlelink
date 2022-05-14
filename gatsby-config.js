@@ -6,7 +6,7 @@ module.exports = {
       summary: `This is a little practice of CI/CD using gitflow.`,
     },
     description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
+    siteUrl: `https://rancesking.github.io/`,
     social: {
       twitter: `rances_acosta`,
     },
