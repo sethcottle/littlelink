@@ -4,11 +4,11 @@ date: "2022-05-16T22:40:32.169Z"
 description: How this project has been made, walkthrough and opinions by Racosta.
 ---
 
-Hello welcome to my blog in this oportunity im going to talk you about Continuous integration and continuos deployment. First of all we need to know, what is CI/CD? 
+Hello welcome to my blog, in this oportunity i'm going to talk you about Continuous integration and continuos deployment. First of all we need to know, what is CI/CD? 
 
 Continuous integration (CI) and continuous deployment (CD), also known as CI/CD, embodies a culture, operating principles, and a set of practices that application development teams use to deliver code changes more frequently and reliably.
 
-CI/CD is a best practice for devops teams. It is also a best practice in agile methodology. By automating integration and delivery, CI/CD lets software development teams focus on meeting business requirements while ensuring code quality and software security.
+CI/CD is one of the bestest practice for devops teams. It is also a best practice in agile methodology. By automating integration and delivery, CI/CD lets software development teams focus on meeting business requirements while ensuring code quality and software security.
 
 ![devops Cicle](./CICD_CICD.png)
 
