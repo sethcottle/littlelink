@@ -1,4 +1,4 @@
-name: Gatsby Publish
+name: CD
 
 on:
   push:
