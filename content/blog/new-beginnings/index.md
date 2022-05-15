@@ -1,6 +1,6 @@
 ---
 title: How easy is CI/CD with Github Actions
-date: "2022-05-15T22:40:32.169Z"
+date: "2022-05-16T22:40:32.169Z"
 description: How this project has been made, walkthrough and opinions by Racosta.
 ---
 
