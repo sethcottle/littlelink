@@ -40,6 +40,15 @@
   padding: 0 20px;
   box-sizing: border-box;
 }
+.container-left {
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+  text-align: left;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
 .column {
   position: center;
   width: 100%;
