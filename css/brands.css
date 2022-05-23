@@ -458,6 +458,16 @@ button:hover,
   filter: brightness(90%);
 }
 
+/* Threema */
+.button.button-threema {
+  color: #000000;
+  background-color: #3fe669;
+}
+.button.button-threema:hover,
+.button.button-threema:focus {
+  filter: brightness(90%);
+}
+
 /* TikTok */
 .button.button-tiktok {
   color: #ffffff;
@@ -586,15 +596,5 @@ button:hover,
 }
 .button.button-yt:hover,
 .button.button-yt:focus {
-  filter: brightness(90%);
-}
-
-/* Threema */
-.button.button-threema {
-  color: #000000;
-  background-color: #3fe669;
-}
-.button.button-threema:hover,
-.button.button-threema:focus {
   filter: brightness(90%);
 }
