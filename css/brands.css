@@ -124,6 +124,16 @@ button:hover,
   filter: brightness(90%);
 }
 
+/* Ko-fi */
+.button.button-ko-fi {
+  color: #ffffff;
+  background-color: #13C3FF;
+}
+.button.button-ko-fi:hover,
+.button.button-ko-fi:focus {
+  filter: brightness(90%);
+}
+
 /* Cash App */
 .button.button-cashapp {
   color: #ffffff;
