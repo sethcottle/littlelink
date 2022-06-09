@@ -212,6 +212,16 @@ button:hover,
   filter: brightness(90%);
 }
 
+/* Flickr */
+.button.button-flickr {
+  color: #ffffff;
+  background-color: #000000;
+}
+.button.button-flickr:hover,
+.button.button-flickr:focus {
+  filter: brightness(90%);
+}
+
 /* Github */
 .button.button-github {
   color: #ffffff;
