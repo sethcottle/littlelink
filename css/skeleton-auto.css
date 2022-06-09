@@ -194,3 +194,15 @@ hr {
   border-width: 0;
   border-top: 1px solid #e1e1e1;
 }
+/* Radius values:
+
+10%-40%: Squircles
+50% (default): True circle
+*/
+.avatar {
+  width: 128px;
+  height: 128px;
+  object-fit: cover;
+  background-position: center;
+  border-radius: 50%;
+}
