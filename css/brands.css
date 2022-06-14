@@ -608,3 +608,13 @@ button:hover,
 .button.button-yt:focus {
   filter: brightness(90%);
 }
+
+/* Letterboxd */
+.button.button-letterboxd {
+  color: #ffffff;
+  background-color: #2c3440;
+}
+.button.button-letterboxd:hover,
+.button.button-letterboxd:focus {
+  filter: brightness(90%);
+}
