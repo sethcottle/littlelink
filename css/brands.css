@@ -71,6 +71,10 @@ button:hover,
   height: 20px;
 }
 
+.icon-invert {
+  filter:invert(100%)
+}
+
 /* Brand Styles
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
@@ -151,6 +155,16 @@ button:hover,
 }
 .button.button-dev-to:hover,
 .button.button-dev-to:focus {
+  filter: brightness(90%);
+}
+
+/* Devpost */
+.button.button-devpost {
+  color: #ffffff;
+  background-color: #003E54;
+}
+.button.button-devpost:hover,
+.button.button-devpost:focus {
   filter: brightness(90%);
 }
 
