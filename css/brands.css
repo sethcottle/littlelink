@@ -440,8 +440,8 @@ button:hover,
 
 /* Spotify */
 .button.button-spotify {
-  color: #ffffff;
-  background-color: #000000;
+  color: #191414;
+  background-color: #1db954;
 }
 .button.button-spotify:hover,
 .button.button-spotify:focus {
