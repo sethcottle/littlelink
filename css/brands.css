@@ -618,3 +618,13 @@ button:hover,
 .button.button-letterboxd:focus {
   filter: brightness(90%);
 }
+
+/* osu! */
+.button.button-osu {
+  color: #ffffff;
+  background-color: #ff8ee6;
+}
+.button.button-osu:hover,
+.button.button-osu:focus {
+  filter: brightness(90%);
+}
