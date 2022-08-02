@@ -84,6 +84,26 @@ button:hover,
   filter: brightness(90%);
 }
 
+/* Amazon */
+.button.button-amazon {
+  color: #000000;
+  background-color: #ffffff;
+}
+.button.button-amazon:hover,
+.button.button-amazon:focus {
+  filter: brightness(90%);
+}
+
+/* Apple App Store */
+.button.button-appstore {
+  color: #ffffff;
+  background-color: #000000;
+}
+.button.button-appstore:hover,
+.button.button-appstore:focus {
+  filter: brightness(90%);
+}
+
 /* Bandcamp */
 .button.button-bandcamp {
   color: #ffffff;
@@ -104,6 +124,16 @@ button:hover,
   filter: brightness(90%);
 }
 
+/* Ko-fi */
+.button.button-ko-fi {
+  color: #ffffff;
+  background-color: #13C3FF;
+}
+.button.button-ko-fi:hover,
+.button.button-ko-fi:focus {
+  filter: brightness(90%);
+}
+
 /* Cash App */
 .button.button-cashapp {
   color: #ffffff;
@@ -111,6 +141,16 @@ button:hover,
 }
 .button.button-cashapp:hover,
 .button.button-cashapp:focus {
+  filter: brightness(90%);
+}
+
+/* dev.to */
+.button.button-dev-to {
+  color: #000000;
+  background-color: #f5f5f5;
+}
+.button.button-dev-to:hover,
+.button.button-dev-to:focus {
   filter: brightness(90%);
 }
 
@@ -172,6 +212,16 @@ button:hover,
   filter: brightness(90%);
 }
 
+/* Flickr */
+.button.button-flickr {
+  color: #ffffff;
+  background-color: #000000;
+}
+.button.button-flickr:hover,
+.button.button-flickr:focus {
+  filter: brightness(90%);
+}
+
 /* Github */
 .button.button-github {
   color: #ffffff;
@@ -199,6 +249,16 @@ button:hover,
 }
 .button.button-goodreads:hover,
 .button.button-goodreads:focus {
+  filter: brightness(90%);
+}
+
+/* Google Play Store */
+.button.button-playstore {
+  color: #FFFFFF;
+  background-color: #000000;
+}
+.button.button-playstore:hover,
+.button.button-playstore:focus {
   filter: brightness(90%);
 }
 
@@ -272,6 +332,16 @@ button:hover,
 }
 .button.button-notion:hover,
 .button.button-notion:focus {
+  filter: brightness(90%);
+}
+
+/* OnlyFans */
+.button.button-onlyfans {
+  color: #ffffff;
+  background-color: #00AEEF;
+}
+.button.button-onlyfans:hover,
+.button.button-onlyfans:focus {
   filter: brightness(90%);
 }
 
@@ -370,8 +440,8 @@ button:hover,
 
 /* Spotify */
 .button.button-spotify {
-  color: #ffffff;
-  background-color: #000000;
+  color: #191414;
+  background-color: #1db954;
 }
 .button.button-spotify:hover,
 .button.button-spotify:focus {
@@ -395,6 +465,16 @@ button:hover,
 }
 .button.button-telegram:hover,
 .button.button-telegram:focus {
+  filter: brightness(90%);
+}
+
+/* Threema */
+.button.button-threema {
+  color: #000000;
+  background-color: #3fe669;
+}
+.button.button-threema:hover,
+.button.button-threema:focus {
   filter: brightness(90%);
 }
 
@@ -468,6 +548,17 @@ button:hover,
   filter: brightness(90%);
 }
 
+/* VRChat */
+.button.button-vrchat {
+  color: #000000;
+  background-color: #ffffff;
+  border: 2px solid black;
+}
+.button.button-vrchat:hover,
+.button.button-vrchat:focus {
+  filter: brightness(90%);
+}
+
 /* Website */
 .button.button-web {
   color: #ffffff;
@@ -515,5 +606,15 @@ button:hover,
 }
 .button.button-yt:hover,
 .button.button-yt:focus {
+  filter: brightness(90%);
+}
+
+/* Letterboxd */
+.button.button-letterboxd {
+  color: #ffffff;
+  background-color: #2c3440;
+}
+.button.button-letterboxd:hover,
+.button.button-letterboxd:focus {
   filter: brightness(90%);
 }
