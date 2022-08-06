@@ -5,7 +5,7 @@
 LittleLink is a lightweight DIY alternative to services like [Linktree](https://linktr.ee)
 and [many.link](https://many.link/). LittleLink was built using [Skeleton](http://getskeleton.com/), a dead simple, responsive boilerplate—we just stripped out some additional code you wouldn't need and added in branded styles for popular services. 😊
 
-![Themes](https://cdn.cottle.cloud/littlelink/themes.png)
+![Themes](https://cdn.cottle.cloud/littlelink/littlelink-comparison.gif)
 
 LittleLink has more than 50+ branded button styles you can use (with even more being added by our community). You'll also find a light and dark theme ready to go. Not a fan of the default colors? Update `skeleton-light.css` or `skeleton-dark.css` to the HEX values of your choosing. You can also set your CSS to `skeleton-auto.css`, which will use the system theme of the device you visit on.
 
@@ -22,6 +22,9 @@ No need for gulp, npm, or anything else to make LittleLink work—it uses the ba
 ---
 
 ### 🤝 Community Extras
+
+#### 📦 LittleLink Extended
+Looking for more niche services to add to your copy of LittleLink? Check out [LittleLink Extended](https://github.com/sethcottle/littlelink-extended). Users can add more niche services to this repository to help keep the core LittleLink repository less cluttered.
 
 #### 🎨 Figma
 Duplicate the [LittleLink Template on Figma Community](https://www.figma.com/community/file/846568099968305613) to help plan out and design your LittleLink page.
