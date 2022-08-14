@@ -225,7 +225,10 @@ button:hover,
 /* Github */
 .button.button-github {
   color: #ffffff;
-  background-color: #000000;
+  background-color: #161b22;
+  border-style: solid;
+  border-color: #2ea043;
+  border-width: 2px;
 }
 .button.button-github:hover,
 .button.button-github:focus {
@@ -259,6 +262,19 @@ button:hover,
 }
 .button.button-playstore:hover,
 .button.button-playstore:focus {
+  filter: brightness(90%);
+}
+
+/* Highlight */
+.button.button-highlight {
+  color: #da552f;
+  border-style: solid;
+  border-color: #da552f;
+  border-width: 2px;
+  background-color: #ffffff00;
+}
+.button.button-producthunt:hover,
+.button.button-producthunt:focus {
   filter: brightness(90%);
 }
 
@@ -339,6 +355,16 @@ button:hover,
 .button.button-onlyfans {
   color: #ffffff;
   background-color: #00AEEF;
+}
+.button.button-onlyfans:hover,
+.button.button-onlyfans:focus {
+  filter: brightness(90%);
+}
+
+/* OSUC */
+.button.button-osuc {
+  color: #2E3440;
+  background-color: #f2f4f7;
 }
 .button.button-onlyfans:hover,
 .button.button-onlyfans:focus {
@@ -601,8 +627,8 @@ button:hover,
 
 /* YouTube */
 .button.button-yt {
-  color: #ffffff;
-  background-color: #000000;
+  color: #000000;
+  background-color: #ffffff;
 }
 .button.button-yt:hover,
 .button.button-yt:focus {
