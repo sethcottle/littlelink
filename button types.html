@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <!-- Page Information
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>LittleLink</title>
+  <meta name="description" content="Find us online!">
+  <meta name="author" content="Seth Cottle">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800&display=swap" rel="stylesheet">
+
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+
+  <!-- Themes:
+         Auto:   css/skeleton-auto.css
+         Light:  css/skeleton-light.css
+         Dark:   css/skeleton-dark.css
+  -->
+  <link rel="stylesheet" href="css/skeleton-auto.css">
+
+  <link rel="stylesheet" href="css/brands.css">
+
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/avatar.png">
+
+</head>
+
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="container">
+    <div class="row">
+      <div class="column" style="margin-top: 10%">
+
+        <!-- 
+
+          ## Getting Started with LittleLink
+
+          This page has been built with every pre-designed button available in LittleLink by default. You can rearrange and delete as needed.
+
+          You can add your own brand or others brands you may need in the `css/brands.css` file. 
+
+          You can add custom icons to `images/icons/...`. It is recommended to use a 24x24 .SVG.
+
+          Edit the "Your Image Here" section to add your own personal branding, like a picture of yourself or your brand logo!
+
+          Edit the "Title" section to change the page heading. You can use something like your name, your social handle, or your brand name.
+
+          Edit the "Short Bio" section tell users about yourself or your brand.
+
+        -->
+
+        <!-- Your Image Here -->
+        <img src="images/avatar.png" class="avatar" srcset="images/avatar@2x.png 2x" alt="LittleLink Logo">
+
+        <!-- Title -->
+        <h1>LittleLink</h1>
+
+        <!-- Short Bio -->
+        <p>LittleLink is an open source DIY alternative to services like <a href="https://linktr.ee" target="_blank" rel="noopener">Linktree</a> and <a href="https://many.link" target="_blank" rel="noopener">many.link</a>. LittleLink was built using <a href="http://www.getskeleton.com" target="_blank" rel="noopener">Skeleton</a>, a dead simple, responsive boilerplate—we've just created some branded buttons and stripped out the things you won't need. 😊</p>
+
+        <!--
+
+          ## Breaking down <a> attributes:
+          
+          1.) class="button button-default" | The first "button" here is telling this <a> tag that it should make this element a button and applies the default styling in `css/brands.css`.
+          The second portion, button-default, is declaring the specific brand style you would like to apply. Here we're applying the "default" style and color.
+          If you want to make this button to use the brand colors for Discord, just change "button-default" to "button-discord". Brands are found in `css/brands.css`. You can always edit & add your own there.
+
+          2.) Replace the # in href="#" with the desired target URL for the button.
+
+          3.) target="_blank" | This attribute opens links in a new tab. Remove this attribute to prevent links from opening in a new tab.
+
+          4.) rel="noopener" | This attribute instructs the browser to navigate to the target resource without granting the new browsing context access to the document that opened it.
+          This is especially useful when opening untrusted links. https://developer.mozilla.org/en-US/docs/Web/HTML/Link_types/noopener
+
+          ## Breaking down the <img> attributes:
+          
+          1.) class="icon" | This class is telling the <img> tag that it should use the styling for icons found in `css/brands.css`.
+
+          2.) src="icons/[icon_name].svg" | This defines the icon you would like to display from the icons/ folder. For example, you can change this to src="icons/discord.svg" to use the Discord icon.
+          Add your own 24x24 icons to the "icons" folder to reference them. We recommend providing a SVG.
+
+          3.) alt="Example Logo" | This alt attribute helps provides alternate text for an image, this can assist users who use screen readers. 
+
+        -->
+
+        <!-- GitHub -->
+        <a class="button button-github" href="#" target="_blank" rel="noopener">
+            <img class="icon" src="images/icons/github.svg" alt="GitHub Logo">GitHub</a>
+        <br>
+
+        <!-- Twitter -->
+        <a class="button button-twit" href="#" target="_blank" rel="noopener">
+            <img class="icon" src="images/icons/twitter.svg" alt="Twitter Logo">Twitter</a>
+        <br>
+
+        <!-- Instagram -->
+        <a class="button button-instagram" href="#" target="_blank" rel="noopener">
+            <img class="icon" src="images/icons/instagram.svg" alt="Instagram Logo">Instagram</a>
+        <br>
+
+        <!-- Facebook -->
+        <a class="button button-faceb" href="#" target="_blank" rel="noopener">
+            <img class="icon"src="images/icons/facebook.svg" alt="Facebook Logo">Find us on Facebook</a>
+        <br>
+
+        <!-- Facebook Messenger -->
+        <a class="button button-messenger" href="#" target="_blank" rel="noopener">
+            <img class="icon" src="images/icons/messenger.svg" alt="Facebook Messenger Logo">Chat on Messenger</a>
+        <br>
+
+        <!-- LinkedIn -->
+        <a class="button button-linked" href="#" target="_blank" rel="noopener">
+            <img class="icon" src="images/icons/linkedin.svg" alt="LinkedIn Logo">LinkedIn</a>
+        <br>
+
+        <!-- YouTube -->
+        <a class="button button-yt" href="#" target="_blank" rel="noopener">
+            <img class="icon" src="images/icons/youtube.svg" alt="YouTube Logo">YouTube</a>
+        <br>
+
+        <!-- Discord -->
+        <a class="button button-discord" href="#" target="_blank" rel="noopener">
+            <img class="icon" src="images/icons/discord.svg" alt="Discord Logo">Discord</a>
+        <br>
+
+        <!-- Twitch -->
+        <a class="button button-twitch" href="#" target="_blank" rel="noopener">
+            <img class="icon" src="images/icons/twitch.svg" alt="Twitch Logo">Twitch</a>
+        <br>
+
+        <!-- ProductHunt -->
+        <a class="button button-producthunt" href="#" target="_blank" rel="noopener">
+            <img class="icon" src="images/icons/producthunt.svg" alt="Product Hunt Logo">Product Hunt</a>
+        <br>
+
+        <!-- Snapchat -->
+        <a class="button button-snapchat" href="#" target="_blank" rel="noopener">
+            <img class="icon" src="images/icons/snapchat.svg" alt="Snapchat Logo">Snapchat</a>
+        <br>
+
+        <!-- Spotify -->
+        <a class="button button-spotify" href="#" target="_blank" rel="noopener">
+            <img class="icon" src="images/icons/spotify.svg" alt="Spotify Logo">Spotify</a>
+        <br>
+
+        <!-- Reddit -->
+        <a class="button button-reddit" href="#" target="_blank" rel="noopener">
+            <img class="icon" src="images/icons/reddit.svg" alt="Reddit Logo">Reddit</a>
+        <br>
+
+        <!-- Mastodon -->
+        <a class="button button-mastodon" href="#" target="_blank" rel="noopener">
+            <img class="icon" src="images/icons/mastodon.svg" alt="Mastodon Logo">Mastodon</a>
+        <br>
+
+        <!-- Medium -->
+        <a class="button button-medium" href="#" target="_blank" rel="noopener">
+            <img class="icon" src="images/icons/medium.svg" alt="Medium Logo">Medium</a>
+        <br>
+
+        <!-- Pinterest -->
+        <a class="button button-pinterest" href="#" target="_blank" rel="noopener">
+            <img class="icon" src="images/icons/pinterest.svg" alt="Pinterest Logo">Follow on Pinterest</a>
+        <br>
+
+        <!-- TikTok -->
+        <a class="button button-tiktok" href="#" target="_blank" rel="noopener">
+            <img class="icon" src="images/icons/tiktok.svg" alt="TikTok Logo">TikTok</a>
+        <br>
+
+        <!-- Email -->
+        <a class="button button-default" href="#" target="_blank" rel="noopener">
+            <img class="icon" src="images/icons/email.svg" alt="Email Icon">hello@littlelink.io</a>
+        <br>
+
+        <!-- Email Alternative -->
+        <a class="button button-default" href="#" target="_blank" rel="noopener">
+            <img class="icon" src="images/icons/email_alt.svg" alt="Email Icon">hello@littlelink.io</a>
+        <br>
+
+        <!-- Blog -->
+        <a class="button button-default" href="#" target="_blank" rel="noopener">
+            <img class="icon" src="images/icons/blog.svg" alt="Blog Icon">Blog</a>
+        <br>
+
+        <!-- SoundCloud -->
+        <a class="button button-soundcloud" href="#" target="_blank" rel="noopener">
+            <img class="icon" src="images/icons/soundcloud.svg" alt="SoundCloud Logo">SoundCloud</a>
+        <br>
+
+        <!-- Figma -->
+        <a class="button button-figma" href="#" target="_blank" rel="noopener">
+            <img class="icon" src="images/icons/figma.svg" alt="Figma Logo">Figma</a>
+        <br>
+
+        <!-- Kit -->
+        <a class="button button-kit" href="#" target="_blank" rel="noopener">
+            <img class="icon" src="images/icons/kit.svg" alt="Kit Logo">Kit</a>
+        <br>
+
+        <!-- Telegram -->
+        <a class="button button-telegram" href="#" target="_blank" rel="noopener">
+            <img class="icon" src="images/icons/telegram.svg" alt="Telegram Logo">Telegram</a>
+        <br>
+
+        <!-- LittleLink -->
+        <a class="button button-default" href="#" target="_blank" rel="noopener">
+            <img class="icon" src="images/icons/littlelink.svg" alt="LittleLink Logo">LittleLink</a>
+        <br>
+
+        <!-- Trello -->
+        <a class="button button-trello" href="#" target="_blank" rel="noopener">
+            <img class="icon" src="images/icons/trello.svg" alt="Trello Logo">Trello</a>
+        <br>
+
+        <!-- Notion -->
+        <a class="button button-notion" href="#" target="_blank" rel="noopener">
+            <img class="icon" src="images/icons/notion.svg" alt="Notion Logo">Notion</a>
+        <br>
+
+        <!-- Kickstarter -->
+        <a class="button button-kickstarter" href="#" target="_blank" rel="noopener">
+            <img class="icon" src="images/icons/kickstarter.svg" alt="Kickstarter Logo">Kickstarter</a>
+        <br>
+
+        <!-- Etsy -->
+        <a class="button button-etsy" href="#" target="_blank" rel="noopener">
+            <img class="icon" src="images/icons/etsy.svg" alt="Etsy Logo">Etsy</a>
+        <br>
+
+        <!-- Tumblr -->
+        <a class="button button-tumb" href="#" target="_blank" rel="noopener">
+            <img class="icon" src="images/icons/tumblr.svg" alt="Tumblr Logo">Tumblr</a>
+        <br>
+
+        <!-- Steam -->
+        <a class="button button-steam" href="#" target="_blank" rel="noopener">
+            <img class="icon" src="images/icons/steam.svg" alt="Steam Logo">Steam</a>
+        <br>
+
+        <!-- Vimeo -->
+        <a class="button button-vimeo" href="#" target="_blank" rel="noopener">
+            <img class="icon" src="images/icons/vimeo.svg" alt="Vimeo Logo">Vimeo</a>
+        <br>
+
+        <!-- PayPal-->
+        <a class="button button-paypal" href="#" target="_blank" rel="noopener">
+            <img class="icon" src="images/icons/paypal.svg" alt="PayPal Logo">PayPal</a>
+        <br>
+
+        <!-- WhatsApp -->
+        <a class="button button-whatsapp" href="#" target="_blank" rel="noopener">
+            <img class="icon" src="images/icons/whatsapp.svg" alt="WhatsApp Logo">WhatsApp</a>
+        <br>
+
+        <!-- Wordpress -->
+        <a class="button button-wordpress" href="#" target="_blank" rel="noopener">
+            <img class="icon" src="images/icons/wordpress.svg" alt="Wordpress Logo">Wordpress</a>
+        <br>
+
+        <!-- Goodreads -->
+        <a class="button button-goodreads" href="#" target="_blank" rel="noopener">
+            <img class="icon" src="images/icons/goodreads.svg" alt="Goodreads Logo">Goodreads</a>
+        <br>
+
+        <!-- Skoob -->
+        <a class="button button-skoob" href="#" target="_blank" rel="noopener">
+            <img class="icon" src="images/icons/skoob.svg" alt="Skoob Logo">Skoob</a>
+        <br>
+
+        <!-- Gitlab -->
+        <a class="button button-gitlab" href="#" target="_blank" rel="noopener">
+            <img class="icon" src="images/icons/gitlab.svg" alt="GitLab Logo">GitLab</a>
+        <br>
+
+        <!-- XING -->
+        <a class="button button-xing" href="#" target="_blank" rel="noopener">
+            <img class="icon" src="images/icons/xing.svg" alt="xing Logo">Xing</a>
+        <br>
+
+        <!-- Bandcamp -->
+        <a class="button button-bandcamp" href="#" target="_blank" rel="noopener">
+            <img class="icon" src="images/icons/bandcamp.svg" alt="Bandcamp Logo">Bandcamp</a>
+        <br>
+
+        <!-- Patreon -->
+        <a class="button button-patreon" href="#" target="_blank" rel="noopener">
+            <img class="icon" src="images/icons/patreon.svg" alt="Patreon Logo">Patreon</a>
+        <br>
+
+        <!-- Signal -->
+        <a class="button button-signal" href="#" target="_blank" rel="noopener">
+            <img class="icon" src="images/icons/signal.svg" alt="Signal Logo">Signal</a>
+        <br>
+
+        <!-- Apple App Store -->
+        <a class="button button-appstore" href="#" target="_blank" rel="noopener">
+            <img class="icon" src="images/icons/appstore.svg" alt="Apple App Store Logo">Apple App Store</a>
+        <br>
+
+        <!-- Google Play Store  -->
+        <a class="button button-playstore" href="#" target="_blank" rel="noopener">
+            <img class="icon" src="images/icons/playstore.svg" alt="Google Play Store Logo">Google Play Store</a>
+        <br>
+
+        <!-- Amazon  -->
+        <a class="button button-amazon" href="#" target="_blank" rel="noopener">
+            <img class="icon" src="images/icons/amazon.svg" alt="Amazon Logo">Amazon</a>
+        <br>
+                
+        <!-- Venmo -->
+        <a class="button button-venmo" href="#" target="_blank" rel="noopener">
+            <img class="icon" src="images/icons/venmo.svg" alt="Venmo Logo">Venmo</a>
+        <br>
+
+        <!-- Cash App Dollar -->
+        <a class="button button-cashapp" href="#" target="_blank" rel="noopener">
+            <img class="icon" src="images/icons/cashapp_dollar.svg" alt="Cash App Logo">Cash App Dollar</a>
+        <br>
+
+        <!-- Cash App Pound -->
+        <a class="button button-cashapp" href="#" target="_blank" rel="noopener">
+            <img class="icon" src="images/icons/cashapp_pound.svg" alt="Cash App Logo">Cash App Pound</a>
+        <br>
+
+        <!-- Cash App BTC -->
+        <a class="button button-cashapp" href="#" target="_blank" rel="noopener">
+            <img class="icon" src="images/icons/cashapp_btc.svg" alt="Cash App Logo">Cash App Bitcoin</a>
+        <br>
+
+        <!-- dev.to -->
+        <a class="button button-dev-to" href="#" target="_blank" rel="noopener">
+            <img class="icon" src="images/icons/dev_to.svg" alt="dev.to Logo">dev.to</a>
+        <br>
+
+        <!-- OnlyFans -->
+        <a class="button button-onlyfans" href="#" target="_blank" rel="noopener">
+            <img class="icon" src="images/icons/onlyfans.svg" alt="Only Fans Logo">OnlyFans (18+)</a>
+        <br>
+
+        <!-- Web -->
+        <a class="button button-web" href="#" target="_blank" rel="noopener">
+            <img class="icon" src="images/icons/web.svg" alt="Web Logo">Website</a>
+        <br>
+
+        <!-- Buy Me a Coffee -->
+        <a class="button button-coffee" href="#" target="_blank" rel="noopener">
+            <img class="icon" src="images/icons/coffee.svg" alt="Buy Me a Coffee">Buy Me a Coffee</a>
+        <br>
+
+        <!-- Ko-fi -->
+        <a class="button button-ko-fi" href="#" target="_blank" rel="noopener">
+          <img class="icon" src="images/icons/ko-fi.svg" alt="Ko-fi">Ko-fi</a>
+        <br>
+
+        <!-- VRChat -->
+        <a class="button button-vrchat" href="#" target="_blank" rel="noopener">
+            <img class="icon" src="images/icons/vrchat.svg" alt="VRChat Logo">VRChat</a>
+        <br>
+
+        <!-- Threema -->
+        <a class="button button-threema" href="#" target="_blank" rel="noopener">
+            <img class="icon" src="images/icons/threema.svg" alt="Threema Logo">Threema</a>
+        <br>
+
+        <!-- Flickr -->
+        <a class="button button-flickr" href="#" target="_blank" rel="noopener">
+            <img class="icon" src="images/icons/flickr.svg" alt="Flickr Logo">Flickr</a>
+        <br>
+
+        <!-- Letterboxd -->
+        <a class="button button-letterboxd" href="#" target="_blank" rel="noopener">
+            <img class="icon" src="images/icons/letterboxd.svg" alt="Letterboxd Logo">Letterboxd</a>
+        <br>
+
+        <br>
+        <!-- 
+            Footer:
+            This includes a link to privacy.html page which can be setup for your Privacy Policy.
+            This also includes a link to the LittleLink repository to make forking LittleLink easier.
+            You can edit or remove anything here to make your own footer.
+        -->
+        <p><a href="privacy.html">Privacy Policy</a> | Build your own by forking <a href="https://littlelink.io" target="_blank" rel="noopener">LittleLink</a>.</p>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+
+</html>
