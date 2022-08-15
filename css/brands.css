@@ -273,8 +273,8 @@ button:hover,
   border-width: 2px;
   background-color: #ffffff00;
 }
-.button.button-producthunt:hover,
-.button.button-producthunt:focus {
+.button.button-highlight:hover,
+.button.button-highlight:focus {
   filter: brightness(90%);
 }
 
@@ -411,6 +411,19 @@ button:hover,
 }
 .button.button-producthunt:hover,
 .button.button-producthunt:focus {
+  filter: brightness(90%);
+}
+
+/* RamosUC */
+.button.button-ramosuc {
+  color: #000000;
+  border-style: solid;
+  border-color: #6371a7;
+  border-width: 2px;
+  background-color: #ffffff;
+}
+.button.button-ramosuc:hover,
+.button.button-ramosuc:focus {
   filter: brightness(90%);
 }
 
@@ -551,6 +564,16 @@ button:hover,
 }
 .button.button-twit:hover,
 .button.button-twit:focus {
+  filter: brightness(90%);
+}
+
+/* UCalendar */
+.button.button-ucalendar {
+  color: #2e3440;
+  background-color: #7fe4e9;
+}
+.button.button-ucalendar:hover,
+.button.button-ucalendar:focus {
   filter: brightness(90%);
 }
 
