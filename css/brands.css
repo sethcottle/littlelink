@@ -538,6 +538,16 @@ button:hover,
   filter: brightness(90%);
 }
 
+/* Untappd */
+.button.button-untappd {
+  color: #ffffff;
+  background-color: #ffc000;
+}
+.button.button-untappd:hover,
+.button.button-untappd:focus {
+  filter: brightness(90%);
+}
+
 /* Vimeo */
 .button.button-vimeo {
   color: #ffffff;
