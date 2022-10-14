@@ -1,0 +1,181 @@
+/*
+* littlelink.io
+* Skeleton V2.0.4
+* Copyright 2014, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 12/29/2014
+*/
+
+/*
+* Built using on:
+* Skeleton V2.0.4
+* Copyright 2014, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 12/29/2014
+*/
+
+/* Table of contents
+––––––––––––––––––––––––––––––––––––––––––––––––––
+
+- Buttons
+- Brand Styles
+
+*/
+
+/* Buttons
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.button,
+button {
+  display: inline-block;
+  text-decoration: none;
+  height: 48px;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 18px;
+  width: 300px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0.1px;
+  white-space: wrap;
+  border-radius: 8px;
+  cursor: pointer;
+}
+button:hover,
+.button:focus {
+  color: #333;
+  border-color: #888;
+  outline: 0;
+}
+.button.button-primary {
+  color: #fff;
+  filter: brightness(90%);
+}
+.button.button-primary:hover,
+.button.button-primary:focus {
+  color: #fff;
+  filter: brightness(90%);
+}
+
+/* Brand Icons
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.icon {
+  padding: 0px 8px 3.5px 0px;
+  vertical-align: middle;
+  width: 20px;
+  height: 20px;
+}
+
+/* Brand Styles (we recommend adding these in alphabetical order)
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+/* Extended (this is great for your own brand color!) */
+.button.button-extended {
+  color: #ffffff;
+  background-color: #0085ff;
+}
+.button.button-extended:hover,
+.button.button-extended:focus {
+  filter: brightness(90%);
+}
+
+/* Behance */
+.button.button-behance {
+  color: #1769ff;
+  background-color: #ffff;
+}
+.button.button-behance:hover,
+.button.button-behance:focus {
+  filter: brightness(90%);
+}
+
+/* Codepen */
+.button.button-codepen {
+  color: #0000;
+  background-color: #ffff;
+}
+.button.button-codepen:hover,
+.button.button-codepen:focus {
+  filter: brightness(90%);
+}
+
+/* Devpost */
+.button.button-devpost {
+  color: #ffffff;
+  background-color: #003E54;
+}
+.button.button-devpost:hover,
+.button.button-devpost:focus {
+  filter: brightness(90%);
+}
+
+/* Distiller */
+.button.button-dist {
+  color: #ffffff;
+  background-color: #ed5c47;
+}
+.button.button-dist:hover,
+.button.button-dist:focus {
+  filter: brightness(90%);
+}
+
+/* Hackerearth */
+.button.button-hackerearth {
+  color: #fff;
+  background-color: #2b3352;
+}
+.button.button-hackerearth:hover,
+.button.button-hackerearth:focus {
+  filter: brightness(90%);
+}
+
+/* Hackerrank */
+.button.button-hackerrank {
+  color: #0000;
+  background-color: #ffff;
+}
+.button.button-hackerrank:hover,
+.button.button-hackerrank:focus {
+  filter: brightness(90%);
+}
+
+/* Micro.blog */
+.button.button-microblog {
+  color: #FFFFFF;
+  background-color: #FD9927 }
+.button.button-microblog:hover,
+.button.button-microblog:focus {
+  filter: brightness(90%) }
+
+  /* MyAnimeList */
+.button.button-myanimelist {
+  color: #133a95;
+  background-color: #fff }
+.button.button-myanimelist:hover,
+.button.button-myanimelist:focus {
+  filter: brightness(90%) }
+
+  /* osu! */
+.button.button-osu {
+  color: #ffffff;
+  background-color: #ff8ee6;
+}
+.button.button-osu:hover,
+.button.button-osu:focus {
+  filter: brightness(90%);
+}
+
+/* SpaceHey */
+.button.button-spacehey {
+  color: #FFFFFF;
+  background-color: #3234CF;
+}
+.button.button-spacehey:hover,
+.button.button-spacehey:focus {
+  filter: brightness(90%);
+}
