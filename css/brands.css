@@ -292,6 +292,16 @@ button:hover,
   filter: brightness(90%);
 }
 
+/* Leanpub */
+.button.button-leanpub {
+  color: #ffffff;
+  background-color: #231f20;
+}
+.button.button-leanpub:hover,
+.button.button-leanpub:focus {
+  filter: brightness(90%);
+}
+
 /* LinkedIn */
 .button.button-linked {
   color: #ffffff;
