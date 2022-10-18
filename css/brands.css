@@ -450,8 +450,8 @@ button:hover,
 
 /* Spotify */
 .button.button-spotify {
-  color: #ffffff;
-  background-color: #000000;
+  color: #191414;
+  background-color: #1db954;
 }
 .button.button-spotify:hover,
 .button.button-spotify:focus {
@@ -465,6 +465,16 @@ button:hover,
 }
 .button.button-steam:hover,
 .button.button-steam:focus {
+  filter: brightness(90%);
+}
+
+/* Strava */
+.button.button-strava {
+  color: #ffffff;
+  background-color: #fc5200;
+}
+.button.button-strava:hover,
+.button.button-strava:focus {
   filter: brightness(90%);
 }
 
@@ -548,6 +558,16 @@ button:hover,
   filter: brightness(90%);
 }
 
+/* Untappd */
+.button.button-untappd {
+  color: #ffffff;
+  background-color: #ffc000;
+}
+.button.button-untappd:hover,
+.button.button-untappd:focus {
+  filter: brightness(90%);
+}
+
 /* Vimeo */
 .button.button-vimeo {
   color: #ffffff;
@@ -616,5 +636,15 @@ button:hover,
 }
 .button.button-yt:hover,
 .button.button-yt:focus {
+  filter: brightness(90%);
+}
+
+/* Letterboxd */
+.button.button-letterboxd {
+  color: #ffffff;
+  background-color: #2c3440;
+}
+.button.button-letterboxd:hover,
+.button.button-letterboxd:focus {
   filter: brightness(90%);
 }
