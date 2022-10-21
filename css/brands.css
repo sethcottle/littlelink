@@ -638,3 +638,15 @@ button:hover,
 .button.button-letterboxd:focus {
   filter: brightness(90%);
 }
+
+/* Added by Brian Andrews */
+
+/* Pro Lacrosse Talk */
+.button.button-PLT {
+  color: #2fc79e;
+  background-color: #000000;
+}
+.button.button-letterboxd:hover,
+.button.button-letterboxd:focus {
+  filter: brightness(90%);
+}
