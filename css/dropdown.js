@@ -1,3 +1,7 @@
+// to do:
+// - menus need to be clicked twice to open
+// - clicking on window does not result in menu closing
+
 function PRlist() {
   var click = document.getElementById("PR");
   if(click.style.display ==="none") {

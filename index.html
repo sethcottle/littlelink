@@ -107,7 +107,8 @@
 
         <div class="dropdown">
           <button onclick="PRlist()" class="dropbtn">Professional Resources<img class="icon" src="images/downarrow.png"></button>
-          <div id="PR" class="dropdown-content">
+          <!-- style="display:none" eliminates needing to click twice to first open the drop down menu -->
+          <div id="PR" style="display:none" class="dropdown-content">
             <!-- Resume -->
             <a class="button button-github" href="images/Andrews_Resume_2022.pdf" target="_blank" rel="noopener">
                 <img class="icon" src="images/icons/resume.png">Resume</a>
@@ -133,7 +134,8 @@
 
         <div class="dropdown">
           <button onclick="PLTlist()" class="dropbtn-PLT"><img class="icon" src="images/icons/PLT.png">Pro Lacrosse Talk<img class="icon" src="images/downarrow.png"></button>
-          <div id="PLT" class="dropdown-content">
+          <!-- style="display:none" eliminates needing to click twice to first open the drop down menu -->
+          <div id="PLT" style="display:none" class="dropdown-content">
             <!-- Put here spotify links and links to an article or two!
             Also change the PLT font color in the drop down field -->
             <a class="button button-spotify" href="https://open.spotify.com/show/1wvPf4MiVvv6HY7tIGcdYJ?si=c3a123beab884c64" target="_blank" rel="noopener">
@@ -173,6 +175,7 @@
     </div>
   </div>
 
+  <!-- javascript added for drop down menus -->
   <script type="text/javascript" src="css/dropdown.js">
   </script>
 
