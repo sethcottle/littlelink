@@ -36,7 +36,6 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="css/dropdown.css">
 
-
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="images/avatar.jng">
@@ -107,8 +106,8 @@
         -->
 
         <div class="dropdown">
-          <button class="dropbtn">Professional Resources<img class="icon" src="images/downarrow.png"></button>
-          <div class="dropdown-content">
+          <button onclick="PRlist()" class="dropbtn">Professional Resources<img class="icon" src="images/downarrow.png"></button>
+          <div id="PR" class="dropdown-content">
             <!-- Resume -->
             <a class="button button-github" href="images/Andrews_Resume_2022.pdf" target="_blank" rel="noopener">
                 <img class="icon" src="images/icons/resume.png">Resume</a>
@@ -133,8 +132,8 @@
         <br>
 
         <div class="dropdown">
-          <button class="dropbtn-PLT"><img class="icon" src="images/icons/PLT.png">Pro Lacrosse Talk<img class="icon" src="images/downarrow.png"></button>
-          <div class="dropdown-content">
+          <button onclick="PLTlist()" class="dropbtn-PLT"><img class="icon" src="images/icons/PLT.png">Pro Lacrosse Talk<img class="icon" src="images/downarrow.png"></button>
+          <div id="PLT" class="dropdown-content">
             <!-- Put here spotify links and links to an article or two!
             Also change the PLT font color in the drop down field -->
             <a class="button button-spotify" href="https://open.spotify.com/show/1wvPf4MiVvv6HY7tIGcdYJ?si=c3a123beab884c64" target="_blank" rel="noopener">
@@ -151,18 +150,10 @@
           </div>
         </div>
 
-        <div class="dropdown">
-          <button class="dropbtn">Contact<img class="icon" src="images/downarrow.png"></button>
-          <div class="dropdown-content">
-            <!-- Email -->
-            <a class="button button-default" target="_blank" rel="noopener">
-                <img class="icon" src="images/icons/email.svg" alt="Email Icon">b9andrews@gmail.com</a>
-
-            <!-- Email Alternative -->
-            <a class="button button-default" target="_blank" rel="noopener">
-                <img class="icon" src="images/icons/email.svg" alt="Email Icon">ba553@drexel.edu</a>
-          </div>
-        </div>
+        <!-- Email -->
+        <a class="button button-default" target="_blank" rel="noopener">
+            <img class="icon" src="images/icons/email.svg" alt="Email Icon">b9andrews@gmail.com</a>
+        <br>
 
         <!-- Buy Me a Coffee -->
         <a class="button button-coffee" href="https://account.venmo.com/u/Brian-Andrews-9" target="_blank" rel="noopener">
@@ -181,6 +172,9 @@
       </div>
     </div>
   </div>
+
+  <script type="text/javascript" src="css/dropdown.js">
+  </script>
 
   <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
