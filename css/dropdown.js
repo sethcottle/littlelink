@@ -1,6 +1,20 @@
 // to do:
-// - menus need to be clicked twice to open
 // - clicking on window does not result in menu closing
+// - have menu items shift when drop down is open
+
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      //IF STATEMENT IS NOT EXECUTING
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
 
 function PRlist() {
   var click = document.getElementById("PR");
