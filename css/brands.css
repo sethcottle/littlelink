@@ -651,3 +651,13 @@ button:hover,
 .button.button-letterboxd:focus {
   filter: brightness(90%);
 }
+
+/* hashnode */
+.button.button-hashnode {
+  color: #323335;
+  background-color: #ffffff;
+}
+.button.button-hashnode:hover,
+.button.button-hashnode:focus {
+  filter: brightness(90%);
+}
