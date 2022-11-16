@@ -104,6 +104,46 @@ button:hover,
   filter: brightness(90%);
 }
 
+/* Apple Music */
+.button.button-apple-music {
+  color: #ffffff;
+  background-color: #000000;
+}
+.button.button-apple-music:hover,
+.button.button-apple-music:focus {
+  filter: brightness(90%);
+}
+
+/* Apple Music Alt */
+.button.button-apple-music-alt {
+  color: #ffffff;
+  background-image: linear-gradient(to bottom, #FB5C74, #FA233B);
+}
+.button.button-apple-music-alt:hover,
+.button.button-apple-music-alt:focus {
+  filter: brightness(90%);
+}
+
+/* Apple Podcasts */
+.button.button-apple-podcasts {
+  color: #ffffff;
+  background-color: #000000;
+}
+.button.button-apple-podcasts:hover,
+.button.button-apple-podcasts:focus {
+  filter: brightness(90%);
+}
+
+/* Apple Podcasts Alt */
+.button.button-apple-podcasts-alt {
+  color: #ffffff;
+  background-image: linear-gradient(to bottom, #F452FF, #832BC1);
+}
+.button.button-apple-podcasts-alt:hover,
+.button.button-apple-podcasts-alt:focus {
+  filter: brightness(90%);
+}
+
 /* Bandcamp */
 .button.button-bandcamp {
   color: #ffffff;
@@ -118,6 +158,16 @@ button:hover,
 .button.button-coffee {
   color: #100a26;
   background-color: #ffdd00;
+}
+.button.button-coffee:hover,
+.button.button-coffee:focus {
+  filter: brightness(90%);
+}
+
+/* Clubhouse */
+.button.button-clubhouse {
+  color: #1F1F1A;
+  background-color: #F1EFE3;
 }
 .button.button-coffee:hover,
 .button.button-coffee:focus {
@@ -249,6 +299,16 @@ button:hover,
 }
 .button.button-playstore:hover,
 .button.button-playstore:focus {
+  filter: brightness(90%);
+}
+
+/* Google Podcasts */
+.button.button-google-podcasts {
+  color: #000000;
+  background-color: #FFFFFF;
+}
+.button.button-google-podcasts:hover,
+.button.button-google-podcasts:focus {
   filter: brightness(90%);
 }
 
@@ -478,6 +538,16 @@ button:hover,
 }
 .button.button-spotify:hover,
 .button.button-spotify:focus {
+  filter: brightness(90%);
+}
+
+/* Spotify Alt */
+.button.button-spotify-alt {
+  color: #FFFFFF;
+  background-color: #191414;
+}
+.button.button-spotify-alt:hover,
+.button.button-spotify-alt:focus {
   filter: brightness(90%);
 }
 
