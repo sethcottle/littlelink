@@ -571,6 +571,16 @@ button:hover,
   filter: brightness(90%);
 }
 
+/* Substack */
+.button.button-substack {
+  color: #ffffff;
+  background-color: #FF6719;
+}
+.button.button-substack:hover,
+.button.button-substack:focus {
+  filter: brightness(90%);
+}
+
 /* Telegram */
 .button.button-telegram {
   color: #ffffff;
