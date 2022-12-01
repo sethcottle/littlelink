@@ -213,3 +213,69 @@
   to = "https://blog.ivankahl.com"
   status = 301
   force = true
+
+[[redirects]]
+  from = "/github"
+  to = "https://github.com/ivankahl"
+  status = 302
+  force = true
+
+[[redirects]]
+  from = "/gh"
+  to = "https://github.com/ivankahl"
+  status = 302
+  force = true
+
+[[redirects]]
+  from = "/twitter"
+  to = "https://twitter.com/IvanKahl"
+  status = 302
+  force = true
+
+[[redirects]]
+  from = "/youtube"
+  to = "https://www.youtube.com/c/IvanKahl"
+  status = 302
+  force = true
+
+[[redirects]]
+  from = "/yt"
+  to = "https://www.youtube.com/c/IvanKahl"
+  status = 302
+  force = true
+
+[[redirects]]
+  from = "/instagram"
+  to = "https://www.instagram.com/ivan.kahl/"
+  status = 302
+  force = true
+
+[[redirects]]
+  from = "/ig"
+  to = "https://www.instagram.com/ivan.kahl/"
+  status = 302
+  force = true
+
+[[redirects]]
+  from = "/tiktok"
+  to = "https://www.tiktok.com/@ivan.kahl"
+  status = 302
+  force = true
+
+[[redirects]]
+  from = "/linkedin"
+  to = "https://www.linkedin.com/in/ivan-kahl/"
+  status = 302
+  force = true
+
+[[redirects]]
+  from = "/credly"
+  to = "https://www.credly.com/users/ivan-kahl"
+  status = 302
+  force = true
+
+[[redirects]]
+  from = "/email"
+  to = "mailto:hello@ivankahl.com"
+  status = 302
+  force = true
