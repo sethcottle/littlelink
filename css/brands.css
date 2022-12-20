@@ -312,6 +312,16 @@ button:hover,
   filter: brightness(90%);
 }
 
+/* Google Scholar */
+.button.button-google-scholar {
+  color: #000000;
+  background-color: #f5f5f5;
+}
+.button.button-google-scholar:hover,
+.button.button-google-scholar:focus {
+  filter: brightness(90%);
+}
+
 /* Hashnode */
 .button.button-hashnode {
   color: #000000;
