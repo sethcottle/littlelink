@@ -465,6 +465,16 @@ button:hover,
   filter: brightness(90%);
 }
 
+/* Post.news */
+.button.button-post-news {
+  color: #ffffff;
+    background-color: #678BFF;
+}
+.button.button-post-news:hover,
+.button.button-post-news:focus {
+  filter: brightness(90%);
+}
+
 /* Producthunt */
 .button.button-producthunt {
   color: #da552f;
