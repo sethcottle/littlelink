@@ -851,3 +851,14 @@ button:hover,
 .button.button-sessionize:focus {
   filter: brightness(90%);
 }
+
+/* PowerShell Gallery */
+.button.button-psgallery {
+  color: #ffffff;
+  background-color: #222222;
+}
+
+.button.button-psgallery:hover,
+.button.button-psgallery:focus {
+  filter: brightness(90%);
+}
