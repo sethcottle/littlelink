@@ -45,16 +45,19 @@ button {
   border-radius: 8px;
   cursor: pointer;
 }
+
 button:hover,
 .button:focus {
   color: #333;
   border-color: #888;
   outline: 0;
 }
+
 .button.button-primary {
   color: #fff;
   filter: brightness(90%);
 }
+
 .button.button-primary:hover,
 .button.button-primary:focus {
   color: #fff;
@@ -79,6 +82,7 @@ button:hover,
   color: #ffffff;
   background-color: #0085ff;
 }
+
 .button.button-default:hover,
 .button.button-default:focus {
   filter: brightness(90%);
@@ -89,6 +93,7 @@ button:hover,
   color: #000000;
   background-color: #ffffff;
 }
+
 .button.button-amazon:hover,
 .button.button-amazon:focus {
   filter: brightness(90%);
@@ -99,6 +104,7 @@ button:hover,
   color: #ffffff;
   background-color: #000000;
 }
+
 .button.button-appstore:hover,
 .button.button-appstore:focus {
   filter: brightness(90%);
@@ -109,6 +115,7 @@ button:hover,
   color: #ffffff;
   background-color: #000000;
 }
+
 .button.button-apple-music:hover,
 .button.button-apple-music:focus {
   filter: brightness(90%);
@@ -119,6 +126,7 @@ button:hover,
   color: #ffffff;
   background-image: linear-gradient(to bottom, #FB5C74, #FA233B);
 }
+
 .button.button-apple-music-alt:hover,
 .button.button-apple-music-alt:focus {
   filter: brightness(90%);
@@ -129,6 +137,7 @@ button:hover,
   color: #ffffff;
   background-color: #000000;
 }
+
 .button.button-apple-podcasts:hover,
 .button.button-apple-podcasts:focus {
   filter: brightness(90%);
@@ -139,6 +148,7 @@ button:hover,
   color: #ffffff;
   background-image: linear-gradient(to bottom, #F452FF, #832BC1);
 }
+
 .button.button-apple-podcasts-alt:hover,
 .button.button-apple-podcasts-alt:focus {
   filter: brightness(90%);
@@ -149,6 +159,7 @@ button:hover,
   color: #ffffff;
   background-color: #1d9fc3;
 }
+
 .button.button-bandcamp:hover,
 .button.button-bandcamp:focus {
   filter: brightness(90%);
@@ -159,6 +170,7 @@ button:hover,
   color: #100a26;
   background-color: #ffdd00;
 }
+
 .button.button-coffee:hover,
 .button.button-coffee:focus {
   filter: brightness(90%);
@@ -169,6 +181,7 @@ button:hover,
   color: #1F1F1A;
   background-color: #F1EFE3;
 }
+
 .button.button-coffee:hover,
 .button.button-coffee:focus {
   filter: brightness(90%);
@@ -179,6 +192,7 @@ button:hover,
   color: #ffffff;
   background-image: linear-gradient(to bottom, #00d64b, #00c244);
 }
+
 .button.button-cashapp:hover,
 .button.button-cashapp:focus {
   filter: brightness(90%);
@@ -189,6 +203,7 @@ button:hover,
   color: #000000;
   background-color: #f5f5f5;
 }
+
 .button.button-dev-to:hover,
 .button.button-dev-to:focus {
   filter: brightness(90%);
@@ -199,6 +214,7 @@ button:hover,
   color: #ffffff;
   background-color: #5865f2;
 }
+
 .button.button-discord:hover,
 .button.button-discord:focus {
   filter: brightness(90%);
@@ -209,6 +225,7 @@ button:hover,
   color: #ffffff;
   background-color: #F45800;
 }
+
 .button.button-etsy:hover,
 .button.button-etsy:focus {
   filter: brightness(90%);
@@ -219,6 +236,7 @@ button:hover,
   color: #ffffff;
   background-color: #1877f2;
 }
+
 .button.button-faceb:hover,
 .button.button-faceb:focus {
   filter: brightness(90%);
@@ -227,16 +245,15 @@ button:hover,
 /* Facebook Messenger */
 .button.button-messenger {
   color: #ffffff;
-  background-image: linear-gradient(
-    25deg,
-    #0099ff,
-    #5f5dff,
-    #a033ff,
-    #c740cc,
-    #ff5280,
-    #ff7061
-  );
+  background-image: linear-gradient(25deg,
+      #0099ff,
+      #5f5dff,
+      #a033ff,
+      #c740cc,
+      #ff5280,
+      #ff7061);
 }
+
 .button.button-messenger:hover,
 .button.button-messenger:focus {
   filter: brightness(90%);
@@ -247,6 +264,7 @@ button:hover,
   color: #ffffff;
   background-color: #000000;
 }
+
 .button.button-figma:hover,
 .button.button-figma:focus {
   filter: brightness(90%);
@@ -257,6 +275,7 @@ button:hover,
   color: #ffffff;
   background-color: #000000;
 }
+
 .button.button-flickr:hover,
 .button.button-flickr:focus {
   filter: brightness(90%);
@@ -267,6 +286,7 @@ button:hover,
   color: #ffffff;
   background-color: #000000;
 }
+
 .button.button-github:hover,
 .button.button-github:focus {
   filter: brightness(90%);
@@ -277,6 +297,7 @@ button:hover,
   color: #ffffff;
   background-color: #6151b2;
 }
+
 .button.button-gitlab:hover,
 .button.button-gitlab:focus {
   filter: brightness(90%);
@@ -287,6 +308,7 @@ button:hover,
   color: #333333;
   background-color: #f3f1e6;
 }
+
 .button.button-goodreads:hover,
 .button.button-goodreads:focus {
   filter: brightness(90%);
@@ -297,6 +319,7 @@ button:hover,
   color: #FFFFFF;
   background-color: #000000;
 }
+
 .button.button-playstore:hover,
 .button.button-playstore:focus {
   filter: brightness(90%);
@@ -307,6 +330,7 @@ button:hover,
   color: #000000;
   background-color: #FFFFFF;
 }
+
 .button.button-google-podcasts:hover,
 .button.button-google-podcasts:focus {
   filter: brightness(90%);
@@ -317,6 +341,7 @@ button:hover,
   color: #000000;
   background-color: #f5f5f5;
 }
+
 .button.button-google-scholar:hover,
 .button.button-google-scholar:focus {
   filter: brightness(90%);
@@ -327,6 +352,7 @@ button:hover,
   color: #000000;
   background-color: #ffffff;
 }
+
 .button.button-hashnode:hover,
 .button.button-hashnode:focus {
   filter: brightness(90%);
@@ -337,6 +363,7 @@ button:hover,
   color: #ffffff;
   background-image: linear-gradient(-135deg, #1400c8, #b900b4, #f50000);
 }
+
 .button.button-instagram:hover,
 .button.button-instagram:focus {
   filter: brightness(90%);
@@ -347,6 +374,7 @@ button:hover,
   color: #ffffff;
   background-color: #05ce78;
 }
+
 .button.button-kickstarter:hover,
 .button.button-kickstarter:focus {
   filter: brightness(90%);
@@ -357,6 +385,7 @@ button:hover,
   color: #ffffff;
   background-color: #000000;
 }
+
 .button.button-kit:hover,
 .button.button-kit:focus {
   filter: brightness(90%);
@@ -367,6 +396,7 @@ button:hover,
   color: #ffffff;
   background-color: #13C3FF;
 }
+
 .button.button-ko-fi:hover,
 .button.button-ko-fi:focus {
   filter: brightness(90%);
@@ -377,6 +407,7 @@ button:hover,
   color: #ffffff;
   background-color: #2c3440;
 }
+
 .button.button-letterboxd:hover,
 .button.button-letterboxd:focus {
   filter: brightness(90%);
@@ -387,6 +418,7 @@ button:hover,
   color: #ffffff;
   background-color: #2867b2;
 }
+
 .button.button-linked:hover,
 .button.button-linked:focus {
   filter: brightness(90%);
@@ -397,6 +429,7 @@ button:hover,
   color: #ffffff;
   background-color: #17063B;
 }
+
 .button.button-mastodon:hover,
 .button.button-mastodon:focus {
   filter: brightness(90%);
@@ -407,6 +440,7 @@ button:hover,
   color: #ffffff;
   background-color: #000000;
 }
+
 .button.button-medium:hover,
 .button.button-medium:focus {
   filter: brightness(90%);
@@ -420,6 +454,7 @@ button:hover,
   border-width: 2px;
   background-color: #ffffff;
 }
+
 .button.button-notion:hover,
 .button.button-notion:focus {
   filter: brightness(90%);
@@ -430,6 +465,7 @@ button:hover,
   color: #ffffff;
   background-color: #00AEEF;
 }
+
 .button.button-onlyfans:hover,
 .button.button-onlyfans:focus {
   filter: brightness(90%);
@@ -440,6 +476,7 @@ button:hover,
   color: #ffffff;
   background-color: #ff424d;
 }
+
 .button.button-patreon:hover,
 .button.button-patreon:focus {
   filter: brightness(90%);
@@ -450,6 +487,7 @@ button:hover,
   color: #ffffff;
   background-color: #003087;
 }
+
 .button.button-paypal:hover,
 .button.button-paypal:focus {
   filter: brightness(90%);
@@ -460,6 +498,7 @@ button:hover,
   color: #000000;
   background-color: #ffe2eb;
 }
+
 .button.button-pinterest:hover,
 .button.button-pinterest:focus {
   filter: brightness(90%);
@@ -470,6 +509,7 @@ button:hover,
   color: #ffffff;
   background-color: #678BFF;
 }
+
 .button.button-post-news:hover,
 .button.button-post-news:focus {
   filter: brightness(90%);
@@ -483,6 +523,7 @@ button:hover,
   border-width: 2px;
   background-color: #ffffff;
 }
+
 .button.button-producthunt:hover,
 .button.button-producthunt:focus {
   filter: brightness(90%);
@@ -496,6 +537,7 @@ button:hover,
   border-width: 2px;
   background-color: #ffffff;
 }
+
 .button.button-redbubble:hover,
 .button.button-redbubble:focus {
   filter: brightness(90%);
@@ -506,6 +548,7 @@ button:hover,
   color: #000000;
   background-color: #d7dfe2;
 }
+
 .button.button-reddit:hover,
 .button.button-reddit:focus {
   filter: brightness(90%);
@@ -516,6 +559,7 @@ button:hover,
   color: #ffffff;
   background-color: #3a76f0;
 }
+
 .button.button-signal:hover,
 .button.button-signal:focus {
   filter: brightness(90%);
@@ -526,6 +570,7 @@ button:hover,
   color: #ffffff;
   background-color: #3189c8;
 }
+
 .button.button-skoob:hover,
 .button.button-skoob:focus {
   filter: brightness(90%);
@@ -536,6 +581,7 @@ button:hover,
   color: #000000;
   background-color: #fffc00;
 }
+
 .button.button-snapchat:hover,
 .button.button-snapchat:focus {
   filter: brightness(90%);
@@ -546,6 +592,7 @@ button:hover,
   color: #ffffff;
   background-color: #ff5500;
 }
+
 .button.button-soundcloud:hover,
 .button.button-soundcloud:focus {
   filter: brightness(90%);
@@ -556,6 +603,7 @@ button:hover,
   color: #191414;
   background-color: #1db954;
 }
+
 .button.button-spotify:hover,
 .button.button-spotify:focus {
   filter: brightness(90%);
@@ -566,6 +614,7 @@ button:hover,
   color: #FFFFFF;
   background-color: #191414;
 }
+
 .button.button-spotify-alt:hover,
 .button.button-spotify-alt:focus {
   filter: brightness(90%);
@@ -576,6 +625,7 @@ button:hover,
   color: #ffffff;
   background-color: #171a21;
 }
+
 .button.button-steam:hover,
 .button.button-steam:focus {
   filter: brightness(90%);
@@ -586,6 +636,7 @@ button:hover,
   color: #ffffff;
   background-color: #fc5200;
 }
+
 .button.button-strava:hover,
 .button.button-strava:focus {
   filter: brightness(90%);
@@ -596,6 +647,7 @@ button:hover,
   color: #ffffff;
   background-color: #FF6719;
 }
+
 .button.button-substack:hover,
 .button.button-substack:focus {
   filter: brightness(90%);
@@ -606,6 +658,7 @@ button:hover,
   color: #ffffff;
   background-color: #3faee8;
 }
+
 .button.button-telegram:hover,
 .button.button-telegram:focus {
   filter: brightness(90%);
@@ -616,6 +669,7 @@ button:hover,
   color: #000000;
   background-color: #3fe669;
 }
+
 .button.button-threema:hover,
 .button.button-threema:focus {
   filter: brightness(90%);
@@ -626,6 +680,7 @@ button:hover,
   color: #ffffff;
   background-color: #000000;
 }
+
 .button.button-tiktok:hover,
 .button.button-tiktok:focus {
   filter: brightness(90%);
@@ -636,6 +691,7 @@ button:hover,
   color: #ffffff;
   background-color: #0065ff;
 }
+
 .button.button-trello:hover,
 .button.button-trello:focus {
   filter: brightness(90%);
@@ -646,6 +702,7 @@ button:hover,
   color: #ffffff;
   background-color: #131313;
 }
+
 .button.button-tumb:hover,
 .button.button-tumb:focus {
   filter: brightness(90%);
@@ -656,6 +713,7 @@ button:hover,
   color: #ffffff;
   background-color: #9146ff;
 }
+
 .button.button-twitch:hover,
 .button.button-twitch:focus {
   filter: brightness(90%);
@@ -666,6 +724,7 @@ button:hover,
   color: #ffffff;
   background-color: #1da1f2;
 }
+
 .button.button-twit:hover,
 .button.button-twit:focus {
   filter: brightness(90%);
@@ -676,6 +735,7 @@ button:hover,
   color: #ffffff;
   background-color: #ffc000;
 }
+
 .button.button-untappd:hover,
 .button.button-untappd:focus {
   filter: brightness(90%);
@@ -686,6 +746,7 @@ button:hover,
   color: #ffffff;
   background-color: #008CFF;
 }
+
 .button.button-venmo:hover,
 .button.button-venmo:focus {
   filter: brightness(90%);
@@ -696,6 +757,7 @@ button:hover,
   color: #ffffff;
   background-color: #1ab7ea;
 }
+
 .button.button-vimeo:hover,
 .button.button-vimeo:focus {
   filter: brightness(90%);
@@ -707,6 +769,7 @@ button:hover,
   background-color: #ffffff;
   border: 2px solid black;
 }
+
 .button.button-vrchat:hover,
 .button.button-vrchat:focus {
   filter: brightness(90%);
@@ -717,6 +780,7 @@ button:hover,
   color: #ffffff;
   background-color: #000000;
 }
+
 .button.button-web:hover,
 .button.button-web:focus {
   filter: brightness(90%);
@@ -727,6 +791,7 @@ button:hover,
   color: #ffffff;
   background-color: #455a64;
 }
+
 .button.button-whatsapp:hover,
 .button.button-whatsapp:focus {
   filter: brightness(90%);
@@ -737,6 +802,7 @@ button:hover,
   color: #ffffff;
   background-color: #21759b;
 }
+
 .button.button-wordpress:hover,
 .button.button-wordpress:focus {
   filter: brightness(90%);
@@ -747,6 +813,7 @@ button:hover,
   color: #ffffff;
   background-color: #026466;
 }
+
 .button.button-xing:hover,
 .button.button-xing:focus {
   filter: brightness(90%);
@@ -757,7 +824,30 @@ button:hover,
   color: #ffffff;
   background-color: #000000;
 }
+
 .button.button-yt:hover,
 .button.button-yt:focus {
+  filter: brightness(90%);
+}
+
+/* StackOverflow */
+.button.button-stackover {
+  color: #ffffff;
+  background-color: #454545;
+}
+
+.button.button-stackover:hover,
+.button.button-stackover:focus {
+  filter: brightness(90%);
+}
+
+/* Sessionize */
+.button.button-sessionize {
+  color: #000000;
+  background-color: #ecf9f6;
+}
+
+.button.button-sessionize:hover,
+.button.button-sessionize:focus {
   filter: brightness(90%);
 }
