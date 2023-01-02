@@ -117,6 +117,7 @@ h1 {
 
 h1 {
   font-size: 24px;
+  font-family: 'Rubik', sans-serif;
   line-height: 64px;
   letter-spacing: 0;
 }
@@ -131,6 +132,7 @@ h1 {
 
 p {
   margin-top: 0;
+  font-family: "Cormorant Garamond", 'Times New Roman', Times, serif
 }
 
 /* Links
