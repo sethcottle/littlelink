@@ -761,3 +761,13 @@ button:hover,
 .button.button-yt:focus {
   filter: brightness(90%);
 }
+
+/* Unsplash */
+.button.button-unsplash {
+  color: #000000;
+  background-color: #ffffff;
+}
+.button.button-unsplash:hover,
+.button.button-unsplash:focus {
+  filter: brightness(90%);
+}
