@@ -1,773 +1,1030 @@
 /*
+
 * littlelink.io
+
 * Skeleton V2.0.4
+
 * Copyright 2014, Dave Gamache
+
 * www.getskeleton.com
+
 * Free to use under the MIT license.
+
 * http://www.opensource.org/licenses/mit-license.php
+
 * 12/29/2014
+
 */
 
 /*
+
 * Built using on:
+
 * Skeleton V2.0.4
+
 * Copyright 2014, Dave Gamache
+
 * www.getskeleton.com
+
 * Free to use under the MIT license.
+
 * http://www.opensource.org/licenses/mit-license.php
+
 * 12/29/2014
+
 */
 
 /* Table of contents
+
 ––––––––––––––––––––––––––––––––––––––––––––––––––
 
 - Buttons
+
 - Brand Styles
 
 */
 
 /* Buttons
+
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 .button,
 button {
-  display: inline-block;
-  text-decoration: none;
-  height: 48px;
-  text-align: center;
-  vertical-align: middle;
-  font-size: 18px;
-  width: 300px;
-  font-weight: 700;
-  line-height: 48px;
-  letter-spacing: 0.1px;
-  white-space: wrap;
-  border-radius: 8px;
-  cursor: pointer;
+    display: inline-block;
+
+    text-decoration: none;
+
+    height: 48px;
+
+    text-align: center;
+
+    vertical-align: middle;
+
+    font-size: 18px;
+
+    width: 300px;
+
+    font-weight: 700;
+
+    line-height: 48px;
+
+    letter-spacing: 0.1px;
+
+    white-space: wrap;
+
+    border-radius: 8px;
+
+    cursor: pointer;
 }
+
 button:hover,
 .button:focus {
-  color: #333;
-  border-color: #888;
-  outline: 0;
+    color: #333;
+
+    border-color: #888;
+
+    outline: 0;
 }
+
 .button.button-primary {
-  color: #fff;
-  filter: brightness(90%);
+    color: #fff;
+
+    filter: brightness(90%);
 }
+
 .button.button-primary:hover,
 .button.button-primary:focus {
-  color: #fff;
-  filter: brightness(90%);
+    color: #fff;
+
+    filter: brightness(90%);
 }
 
 /* Brand Icons
+
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 .icon {
-  padding: 0px 8px 3.5px 0px;
-  vertical-align: middle;
-  width: 20px;
-  height: 20px;
+    padding: 0px 8px 3.5px 0px;
+
+    vertical-align: middle;
+
+    width: 20px;
+
+    height: 20px;
 }
 
 /* Brand Styles
+
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 /* Default (this is great for your own brand color!) */
+
 .button.button-default {
-  color: #ffffff;
-  background-color: #0085ff;
+    color: #ffffff;
+
+    background-color: #0085ff;
 }
+
 .button.button-default:hover,
 .button.button-default:focus {
-  filter: brightness(90%);
+    filter: brightness(90%);
 }
 
 /* Amazon */
+
 .button.button-amazon {
-  color: #000000;
-  background-color: #ffffff;
+    color: #000000;
+
+    background-color: #ffffff;
 }
+
 .button.button-amazon:hover,
 .button.button-amazon:focus {
-  filter: brightness(90%);
+    filter: brightness(90%);
 }
 
 /* Apple App Store */
+
 .button.button-appstore {
-  color: #ffffff;
-  background-color: #000000;
+    color: #ffffff;
+
+    background-color: #000000;
 }
+
 .button.button-appstore:hover,
 .button.button-appstore:focus {
-  filter: brightness(90%);
+    filter: brightness(90%);
 }
 
 /* Apple Music */
+
 .button.button-apple-music {
-  color: #ffffff;
-  background-color: #000000;
+    color: #ffffff;
+
+    background-color: #000000;
 }
+
 .button.button-apple-music:hover,
 .button.button-apple-music:focus {
-  filter: brightness(90%);
+    filter: brightness(90%);
 }
 
 /* Apple Music Alt */
+
 .button.button-apple-music-alt {
-  color: #ffffff;
-  background-image: linear-gradient(to bottom, #FB5C74, #FA233B);
+    color: #ffffff;
+
+    background-image: linear-gradient(to bottom, #fb5c74, #fa233b);
 }
+
 .button.button-apple-music-alt:hover,
 .button.button-apple-music-alt:focus {
-  filter: brightness(90%);
+    filter: brightness(90%);
 }
 
 /* Apple Podcasts */
+
 .button.button-apple-podcasts {
-  color: #ffffff;
-  background-color: #000000;
+    color: #ffffff;
+
+    background-color: #000000;
 }
+
 .button.button-apple-podcasts:hover,
 .button.button-apple-podcasts:focus {
-  filter: brightness(90%);
+    filter: brightness(90%);
 }
 
 /* Apple Podcasts Alt */
+
 .button.button-apple-podcasts-alt {
-  color: #ffffff;
-  background-image: linear-gradient(to bottom, #F452FF, #832BC1);
+    color: #ffffff;
+
+    background-image: linear-gradient(to bottom, #f452ff, #832bc1);
 }
+
 .button.button-apple-podcasts-alt:hover,
 .button.button-apple-podcasts-alt:focus {
-  filter: brightness(90%);
+    filter: brightness(90%);
 }
 
 /* Bandcamp */
+
 .button.button-bandcamp {
-  color: #ffffff;
-  background-color: #1d9fc3;
+    color: #ffffff;
+
+    background-color: #1d9fc3;
 }
+
 .button.button-bandcamp:hover,
 .button.button-bandcamp:focus {
-  filter: brightness(90%);
+    filter: brightness(90%);
 }
 
 /* Buy Me a Coffee */
+
 .button.button-coffee {
-  color: #100a26;
-  background-color: #ffdd00;
+    color: #100a26;
+
+    background-color: #ffdd00;
 }
+
 .button.button-coffee:hover,
 .button.button-coffee:focus {
-  filter: brightness(90%);
+    filter: brightness(90%);
 }
 
 /* Clubhouse */
+
 .button.button-clubhouse {
-  color: #1F1F1A;
-  background-color: #F1EFE3;
+    color: #1f1f1a;
+
+    background-color: #f1efe3;
 }
+
 .button.button-coffee:hover,
 .button.button-coffee:focus {
-  filter: brightness(90%);
+    filter: brightness(90%);
 }
 
 /* Cash App */
+
 .button.button-cashapp {
-  color: #ffffff;
-  background-image: linear-gradient(to bottom, #00d64b, #00c244);
+    color: #ffffff;
+
+    background-image: linear-gradient(to bottom, #00d64b, #00c244);
 }
+
 .button.button-cashapp:hover,
 .button.button-cashapp:focus {
-  filter: brightness(90%);
+    filter: brightness(90%);
 }
 
 /* dev.to */
+
 .button.button-dev-to {
-  color: #000000;
-  background-color: #f5f5f5;
+    color: #000000;
+
+    background-color: #f5f5f5;
 }
+
 .button.button-dev-to:hover,
 .button.button-dev-to:focus {
-  filter: brightness(90%);
+    filter: brightness(90%);
 }
 
 /* Discord */
+
 .button.button-discord {
-  color: #ffffff;
-  background-color: #5865f2;
+    color: #ffffff;
+
+    background-color: #5865f2;
 }
+
 .button.button-discord:hover,
 .button.button-discord:focus {
-  filter: brightness(90%);
+    filter: brightness(90%);
 }
 
 /* Etsy */
+
 .button.button-etsy {
-  color: #ffffff;
-  background-color: #F45800;
+    color: #ffffff;
+
+    background-color: #f45800;
 }
+
 .button.button-etsy:hover,
 .button.button-etsy:focus {
-  filter: brightness(90%);
+    filter: brightness(90%);
 }
 
 /* Facebook */
+
 .button.button-faceb {
-  color: #ffffff;
-  background-color: #1877f2;
+    color: #ffffff;
+
+    background-color: #1877f2;
 }
+
 .button.button-faceb:hover,
 .button.button-faceb:focus {
-  filter: brightness(90%);
+    filter: brightness(90%);
 }
 
 /* Facebook Messenger */
+
 .button.button-messenger {
-  color: #ffffff;
-  background-image: linear-gradient(
-    25deg,
-    #0099ff,
-    #5f5dff,
-    #a033ff,
-    #c740cc,
-    #ff5280,
-    #ff7061
-  );
+    color: #ffffff;
+
+    background-image: linear-gradient(
+        25deg,
+        #0099ff,
+        #5f5dff,
+        #a033ff,
+        #c740cc,
+        #ff5280,
+        #ff7061
+    );
 }
+
 .button.button-messenger:hover,
 .button.button-messenger:focus {
-  filter: brightness(90%);
+    filter: brightness(90%);
 }
 
 /* Figma */
+
 .button.button-figma {
-  color: #ffffff;
-  background-color: #000000;
+    color: #ffffff;
+
+    background-color: #000000;
 }
+
 .button.button-figma:hover,
 .button.button-figma:focus {
-  filter: brightness(90%);
+    filter: brightness(90%);
 }
 
 /* Flickr */
+
 .button.button-flickr {
-  color: #ffffff;
-  background-color: #000000;
+    color: #ffffff;
+
+    background-color: #000000;
 }
+
 .button.button-flickr:hover,
 .button.button-flickr:focus {
-  filter: brightness(90%);
+    filter: brightness(90%);
 }
 
 /* GitHub */
+
 .button.button-github {
-  color: #ffffff;
-  background-color: #000000;
+    color: #ffffff;
+
+    background-color: #000000;
 }
+
 .button.button-github:hover,
 .button.button-github:focus {
-  filter: brightness(90%);
+    filter: brightness(90%);
 }
 
 /* Gitlab */
+
 .button.button-gitlab {
-  color: #ffffff;
-  background-color: #6151b2;
+    color: #ffffff;
+
+    background-color: #6151b2;
 }
+
 .button.button-gitlab:hover,
 .button.button-gitlab:focus {
-  filter: brightness(90%);
+    filter: brightness(90%);
 }
 
 /* Goodreads */
+
 .button.button-goodreads {
-  color: #333333;
-  background-color: #f3f1e6;
+    color: #333333;
+
+    background-color: #f3f1e6;
 }
+
 .button.button-goodreads:hover,
 .button.button-goodreads:focus {
-  filter: brightness(90%);
+    filter: brightness(90%);
 }
 
 /* Google Play Store */
+
 .button.button-playstore {
-  color: #FFFFFF;
-  background-color: #000000;
+    color: #ffffff;
+
+    background-color: #000000;
 }
+
 .button.button-playstore:hover,
 .button.button-playstore:focus {
-  filter: brightness(90%);
+    filter: brightness(90%);
 }
 
 /* Google Podcasts */
+
 .button.button-google-podcasts {
-  color: #000000;
-  background-color: #FFFFFF;
+    color: #000000;
+
+    background-color: #ffffff;
 }
+
 .button.button-google-podcasts:hover,
 .button.button-google-podcasts:focus {
-  filter: brightness(90%);
+    filter: brightness(90%);
 }
 
 /* Google Scholar */
+
 .button.button-google-scholar {
-  color: #000000;
-  background-color: #f5f5f5;
+    color: #000000;
+
+    background-color: #f5f5f5;
 }
+
 .button.button-google-scholar:hover,
 .button.button-google-scholar:focus {
-  filter: brightness(90%);
+    filter: brightness(90%);
 }
 
 /* Hashnode */
+
 .button.button-hashnode {
-  color: #000000;
-  background-color: #ffffff;
+    color: #000000;
+
+    background-color: #ffffff;
 }
+
 .button.button-hashnode:hover,
 .button.button-hashnode:focus {
-  filter: brightness(90%);
+    filter: brightness(90%);
 }
 
 /* Instagram */
+
 .button.button-instagram {
-  color: #ffffff;
-  background-image: linear-gradient(-135deg, #1400c8, #b900b4, #f50000);
+    color: #ffffff;
+
+    background-image: linear-gradient(-135deg, #1400c8, #b900b4, #f50000);
 }
+
 .button.button-instagram:hover,
 .button.button-instagram:focus {
-  filter: brightness(90%);
+    filter: brightness(90%);
 }
 
 /* kickstarter */
+
 .button.button-kickstarter {
-  color: #ffffff;
-  background-color: #05ce78;
+    color: #ffffff;
+
+    background-color: #05ce78;
 }
+
 .button.button-kickstarter:hover,
 .button.button-kickstarter:focus {
-  filter: brightness(90%);
+    filter: brightness(90%);
 }
 
 /* Kit */
+
 .button.button-kit {
-  color: #ffffff;
-  background-color: #000000;
+    color: #ffffff;
+
+    background-color: #000000;
 }
+
 .button.button-kit:hover,
 .button.button-kit:focus {
-  filter: brightness(90%);
+    filter: brightness(90%);
 }
 
 /* Ko-fi */
+
 .button.button-ko-fi {
-  color: #ffffff;
-  background-color: #13C3FF;
+    color: #ffffff;
+
+    background-color: #13c3ff;
 }
+
 .button.button-ko-fi:hover,
 .button.button-ko-fi:focus {
-  filter: brightness(90%);
+    filter: brightness(90%);
 }
 
 /* Letterboxd */
+
 .button.button-letterboxd {
-  color: #ffffff;
-  background-color: #2c3440;
+    color: #ffffff;
+
+    background-color: #2c3440;
 }
+
 .button.button-letterboxd:hover,
 .button.button-letterboxd:focus {
-  filter: brightness(90%);
+    filter: brightness(90%);
 }
 
 /* LinkedIn */
+
 .button.button-linked {
-  color: #ffffff;
-  background-color: #2867b2;
+    color: #ffffff;
+
+    background-color: #2867b2;
 }
+
 .button.button-linked:hover,
 .button.button-linked:focus {
-  filter: brightness(90%);
+    filter: brightness(90%);
 }
 
 /* Mastodon */
+
 .button.button-mastodon {
-  color: #ffffff;
-  background-color: #17063B;
+    color: #ffffff;
+
+    background-color: #17063b;
 }
+
 .button.button-mastodon:hover,
 .button.button-mastodon:focus {
-  filter: brightness(90%);
+    filter: brightness(90%);
 }
 
 /* Medium */
+
 .button.button-medium {
-  color: #ffffff;
-  background-color: #000000;
+    color: #ffffff;
+
+    background-color: #000000;
 }
+
 .button.button-medium:hover,
 .button.button-medium:focus {
-  filter: brightness(90%);
+    filter: brightness(90%);
 }
 
 /* Notion */
+
 .button.button-notion {
-  color: #000000;
-  border-style: solid;
-  border-color: #000000;
-  border-width: 2px;
-  background-color: #ffffff;
+    color: #000000;
+
+    border-style: solid;
+
+    border-color: #000000;
+
+    border-width: 2px;
+
+    background-color: #ffffff;
 }
+
 .button.button-notion:hover,
 .button.button-notion:focus {
-  filter: brightness(90%);
+    filter: brightness(90%);
 }
 
 /* OnlyFans */
+
 .button.button-onlyfans {
-  color: #ffffff;
-  background-color: #00AEEF;
+    color: #ffffff;
+
+    background-color: #00aeef;
 }
+
 .button.button-onlyfans:hover,
 .button.button-onlyfans:focus {
-  filter: brightness(90%);
+    filter: brightness(90%);
 }
 
 /* Patreon */
+
 .button.button-patreon {
-  color: #ffffff;
-  background-color: #ff424d;
+    color: #ffffff;
+
+    background-color: #ff424d;
 }
+
 .button.button-patreon:hover,
 .button.button-patreon:focus {
-  filter: brightness(90%);
+    filter: brightness(90%);
 }
 
 /* PayPal */
+
 .button.button-paypal {
-  color: #ffffff;
-  background-color: #003087;
+    color: #ffffff;
+
+    background-color: #003087;
 }
+
 .button.button-paypal:hover,
 .button.button-paypal:focus {
-  filter: brightness(90%);
+    filter: brightness(90%);
 }
 
 /* Pinterest */
+
 .button.button-pinterest {
-  color: #000000;
-  background-color: #ffe2eb;
+    color: #000000;
+
+    background-color: #ffe2eb;
 }
+
 .button.button-pinterest:hover,
 .button.button-pinterest:focus {
-  filter: brightness(90%);
+    filter: brightness(90%);
 }
 
 /* Post.news */
+
 .button.button-post-news {
-  color: #ffffff;
-  background-color: #678BFF;
+    color: #ffffff;
+
+    background-color: #678bff;
 }
+
 .button.button-post-news:hover,
 .button.button-post-news:focus {
-  filter: brightness(90%);
+    filter: brightness(90%);
 }
 
 /* Producthunt */
+
 .button.button-producthunt {
-  color: #da552f;
-  border-style: solid;
-  border-color: #da552f;
-  border-width: 2px;
-  background-color: #ffffff;
+    color: #da552f;
+
+    border-style: solid;
+
+    border-color: #da552f;
+
+    border-width: 2px;
+
+    background-color: #ffffff;
 }
+
 .button.button-producthunt:hover,
 .button.button-producthunt:focus {
-  filter: brightness(90%);
+    filter: brightness(90%);
 }
 
 /* Redbubble */
+
 .button.button-redbubble {
-  color: #e41321;
-  border-style: solid;
-  border-color: #e41321;
-  border-width: 2px;
-  background-color: #ffffff;
+    color: #e41321;
+
+    border-style: solid;
+
+    border-color: #e41321;
+
+    border-width: 2px;
+
+    background-color: #ffffff;
 }
+
 .button.button-redbubble:hover,
 .button.button-redbubble:focus {
-  filter: brightness(90%);
+    filter: brightness(90%);
 }
 
 /* Reddit */
+
 .button.button-reddit {
-  color: #000000;
-  background-color: #d7dfe2;
+    color: #000000;
+
+    background-color: #d7dfe2;
 }
+
 .button.button-reddit:hover,
 .button.button-reddit:focus {
-  filter: brightness(90%);
+    filter: brightness(90%);
 }
 
 /* Signal */
+
 .button.button-signal {
-  color: #ffffff;
-  background-color: #3a76f0;
+    color: #ffffff;
+
+    background-color: #3a76f0;
 }
+
 .button.button-signal:hover,
 .button.button-signal:focus {
-  filter: brightness(90%);
+    filter: brightness(90%);
 }
 
 /* Skoob */
+
 .button.button-skoob {
-  color: #ffffff;
-  background-color: #3189c8;
+    color: #ffffff;
+
+    background-color: #3189c8;
 }
+
 .button.button-skoob:hover,
 .button.button-skoob:focus {
-  filter: brightness(90%);
+    filter: brightness(90%);
 }
 
 /* Snapchat */
+
 .button.button-snapchat {
-  color: #000000;
-  background-color: #fffc00;
+    color: #000000;
+
+    background-color: #fffc00;
 }
+
 .button.button-snapchat:hover,
 .button.button-snapchat:focus {
-  filter: brightness(90%);
+    filter: brightness(90%);
 }
 
 /* SoundCloud */
+
 .button.button-soundcloud {
-  color: #ffffff;
-  background-color: #ff5500;
+    color: #ffffff;
+
+    background-color: #ff5500;
 }
+
 .button.button-soundcloud:hover,
 .button.button-soundcloud:focus {
-  filter: brightness(90%);
+    filter: brightness(90%);
 }
 
 /* Spotify */
+
 .button.button-spotify {
-  color: #191414;
-  background-color: #1db954;
+    color: #191414;
+
+    background-color: #1db954;
 }
+
 .button.button-spotify:hover,
 .button.button-spotify:focus {
-  filter: brightness(90%);
+    filter: brightness(90%);
 }
 
 /* Spotify Alt */
+
 .button.button-spotify-alt {
-  color: #FFFFFF;
-  background-color: #191414;
+    color: #ffffff;
+
+    background-color: #191414;
 }
+
 .button.button-spotify-alt:hover,
 .button.button-spotify-alt:focus {
-  filter: brightness(90%);
+    filter: brightness(90%);
 }
 
 /* Steam */
+
 .button.button-steam {
-  color: #ffffff;
-  background-color: #171a21;
+    color: #ffffff;
+
+    background-color: #171a21;
 }
+
 .button.button-steam:hover,
 .button.button-steam:focus {
-  filter: brightness(90%);
+    filter: brightness(90%);
 }
 
 /* Strava */
+
 .button.button-strava {
-  color: #ffffff;
-  background-color: #fc5200;
+    color: #ffffff;
+
+    background-color: #fc5200;
 }
+
 .button.button-strava:hover,
 .button.button-strava:focus {
-  filter: brightness(90%);
+    filter: brightness(90%);
 }
 
 /* Substack */
+
 .button.button-substack {
-  color: #ffffff;
-  background-color: #FF6719;
+    color: #ffffff;
+
+    background-color: #ff6719;
 }
+
 .button.button-substack:hover,
 .button.button-substack:focus {
-  filter: brightness(90%);
+    filter: brightness(90%);
 }
 
 /* Telegram */
+
 .button.button-telegram {
-  color: #ffffff;
-  background-color: #3faee8;
+    color: #ffffff;
+
+    background-color: #3faee8;
 }
+
 .button.button-telegram:hover,
 .button.button-telegram:focus {
-  filter: brightness(90%);
+    filter: brightness(90%);
 }
 
 /* Threema */
+
 .button.button-threema {
-  color: #000000;
-  background-color: #3fe669;
+    color: #000000;
+
+    background-color: #3fe669;
 }
+
 .button.button-threema:hover,
 .button.button-threema:focus {
-  filter: brightness(90%);
+    filter: brightness(90%);
 }
 
 /* TikTok */
+
 .button.button-tiktok {
-  color: #ffffff;
-  background-color: #000000;
+    color: #ffffff;
+
+    background-color: #000000;
 }
+
 .button.button-tiktok:hover,
 .button.button-tiktok:focus {
-  filter: brightness(90%);
+    filter: brightness(90%);
 }
 
 /* Trello */
+
 .button.button-trello {
-  color: #ffffff;
-  background-color: #0065ff;
+    color: #ffffff;
+
+    background-color: #0065ff;
 }
+
 .button.button-trello:hover,
 .button.button-trello:focus {
-  filter: brightness(90%);
+    filter: brightness(90%);
 }
 
 /* Tumblr */
+
 .button.button-tumb {
-  color: #ffffff;
-  background-color: #131313;
+    color: #ffffff;
+
+    background-color: #131313;
 }
+
 .button.button-tumb:hover,
 .button.button-tumb:focus {
-  filter: brightness(90%);
+    filter: brightness(90%);
 }
 
 /* Twitch */
+
 .button.button-twitch {
-  color: #ffffff;
-  background-color: #9146ff;
+    color: #ffffff;
+
+    background-color: #9146ff;
 }
+
 .button.button-twitch:hover,
 .button.button-twitch:focus {
-  filter: brightness(90%);
+    filter: brightness(90%);
 }
 
 /* Twitter */
+
 .button.button-twit {
-  color: #ffffff;
-  background-color: #1da1f2;
+    color: #ffffff;
+
+    background-color: #1da1f2;
 }
+
 .button.button-twit:hover,
 .button.button-twit:focus {
-  filter: brightness(90%);
+    filter: brightness(90%);
 }
 
 /* Untappd */
+
 .button.button-untappd {
-  color: #ffffff;
-  background-color: #ffc000;
+    color: #ffffff;
+
+    background-color: #ffc000;
 }
+
 .button.button-untappd:hover,
 .button.button-untappd:focus {
-  filter: brightness(90%);
+    filter: brightness(90%);
 }
 
 /* Venmo */
+
 .button.button-venmo {
-  color: #ffffff;
-  background-color: #008CFF;
+    color: #ffffff;
+
+    background-color: #008cff;
 }
+
 .button.button-venmo:hover,
 .button.button-venmo:focus {
-  filter: brightness(90%);
+    filter: brightness(90%);
 }
 
 /* Vimeo */
+
 .button.button-vimeo {
-  color: #ffffff;
-  background-color: #1ab7ea;
+    color: #ffffff;
+
+    background-color: #1ab7ea;
 }
+
 .button.button-vimeo:hover,
 .button.button-vimeo:focus {
-  filter: brightness(90%);
+    filter: brightness(90%);
 }
 
 /* VRChat */
+
 .button.button-vrchat {
-  color: #000000;
-  background-color: #ffffff;
-  border: 2px solid black;
+    color: #000000;
+
+    background-color: #ffffff;
+
+    border: 2px solid black;
 }
+
 .button.button-vrchat:hover,
 .button.button-vrchat:focus {
-  filter: brightness(90%);
+    filter: brightness(90%);
 }
 
 /* Website */
+
 .button.button-web {
-  color: #ffffff;
-  background-color: #000000;
+    color: #ffffff;
+
+    background-color: #000000;
 }
+
 .button.button-web:hover,
 .button.button-web:focus {
-  filter: brightness(90%);
+    filter: brightness(90%);
 }
 
 /* WhatsApp */
+
 .button.button-whatsapp {
-  color: #ffffff;
-  background-color: #455a64;
+    color: #ffffff;
+
+    background-color: #455a64;
 }
+
 .button.button-whatsapp:hover,
 .button.button-whatsapp:focus {
-  filter: brightness(90%);
+    filter: brightness(90%);
 }
 
 /* Wordpress */
+
 .button.button-wordpress {
-  color: #ffffff;
-  background-color: #21759b;
+    color: #ffffff;
+
+    background-color: #21759b;
 }
+
 .button.button-wordpress:hover,
 .button.button-wordpress:focus {
-  filter: brightness(90%);
+    filter: brightness(90%);
 }
 
 /* Xing */
+
 .button.button-xing {
-  color: #ffffff;
-  background-color: #026466;
+    color: #ffffff;
+
+    background-color: #026466;
 }
+
 .button.button-xing:hover,
 .button.button-xing:focus {
-  filter: brightness(90%);
+    filter: brightness(90%);
 }
 
 /* YouTube */
+
 .button.button-yt {
-  color: #ffffff;
-  background-color: #000000;
+    color: #ffffff;
+
+    background-color: #000000;
 }
+
 .button.button-yt:hover,
 .button.button-yt:focus {
-  filter: brightness(90%);
+    filter: brightness(90%);
 }
 
 /* Unsplash */
+
 .button.button-unsplash {
-  color: #000000;
-  background-color: #ffffff;
+    color: #000000;
+
+    background-color: #ffffff;
 }
+
 .button.button-unsplash:hover,
 .button.button-unsplash:focus {
-  filter: brightness(90%);
+    filter: brightness(90%);
 }
