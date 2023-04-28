@@ -1,8 +1,7 @@
 ![Logo](https://cdn.cottle.cloud/littlelink/littlelink.gif)
 
 # LittleLink
-DIY <a href="https://linktr.ee/" target="_blank" rel="noopener">LinkTree</a> alternative.
-LittleLink has more than 60+ branded button styles you can use (with even more being added by our community).
+The DIY self-hosted <a href="https://linktr.ee/" target="_blank" rel="noopener">LinkTree</a> alternative. LittleLink has more than 60 branded button styles you can easily use, with more being added by our community all the time.
 
 ![Theme](https://cdn.cottle.cloud/littlelink/themesupport.gif)
 
@@ -18,7 +17,6 @@ No need for gulp, npm, or anything else to make LittleLink work—it uses the ba
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Fsethcottle%2Flittlelink&project-name=littlelink&repository-name=littlelink&demo-title=LittleLink%20Demo&demo-description=Imported%20from%20GitHub.)
 
-<hr>
 ---
 
 ### 🤝 Community Extras
