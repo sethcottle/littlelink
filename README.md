@@ -2,12 +2,11 @@
 
 ![LittleLink](https://cdn.cottle.cloud/littlelink/social-circle.png)
 
-LittleLink is a lightweight DIY alternative to services like [Linktree](https://linktr.ee)
-and [many.link](https://many.link/). LittleLink was built using [Skeleton](http://getskeleton.com/), a dead simple, responsive boilerplate—we just stripped out some additional code you wouldn't need and added in branded styles for popular services. 😊
+LittleLink is a lightweight DIY alternative to services like [Linktree](https://linktr.ee). LittleLink was built using [Skeleton](http://getskeleton.com/), a dead simple, responsive boilerplate—we just stripped out some additional code you wouldn't need and added in branded styles for popular services. 😊
 
 ![Themes](https://cdn.cottle.cloud/littlelink/littlelink-comparison.gif)
 
-LittleLink has more than 50+ branded button styles you can use (with even more being added by our community). You'll also find a light and dark theme ready to go. Not a fan of the default colors? Update `skeleton-light.css` or `skeleton-dark.css` to the HEX values of your choosing. You can also set your CSS to `skeleton-auto.css`, which will use the system theme of the device you visit on.
+LittleLink has more than 60+ branded button styles you can use (with even more being added by our community). You'll also find a light and dark theme ready to go. Not a fan of the default colors? Update `skeleton-light.css` or `skeleton-dark.css` to the HEX values of your choosing. You can also set your CSS to `skeleton-auto.css`, which will use the system theme of the device you visit on.
 
 ![Performance](https://cdn.cottle.cloud/littlelink/performance.png)
 
@@ -58,9 +57,9 @@ You can support LittleLink by [buying me a beer](https://www.buymeacoffee.com/se
 
 ### 📊 Analytics
 
-To help build a more privacy focused product, we recommend using [Fathom Analytics](https://usefathom.com/ref/EQVZMV)*. On May 03, 2022 we moved [LittleLink.io](https://littlelink.io) from Google Analytics to Fathom! We're also making our analytics dashboard [publicly available](https://app.usefathom.com/share/xbmnwxxl/littlelink.io#/?filters=%5B%5D&range=last_7_days&site=2251799827005303)** for everyone to view.
+To help build a more privacy focused product, we recommend using [Fathom Analytics](https://usefathom.com/ref/EQVZMV)*. [View our Fathom analytics dashboard](https://app.usefathom.com/share/xbmnwxxl/littlelink.io#/?filters=%5B%5D&range=last_7_days&site=2251799827005303)**.
 
 ###### * This is a referral link. Using this link to sign up for Fathom is an easy way to help support LittleLink!
 
-###### ** Analytics displayed in this dashboard start May 03, 2022. View this [Google Sheets file](https://docs.google.com/spreadsheets/d/1GL4SroAdH-OZphBVR5z-BoSukHIEVJfao25q_e9-Ii8/edit?usp=sharing) with the generic unique pageview data from Google Analytics.
+###### ** Analytics in this dashboard start May 03, 2022. View this [Google Sheets file](https://docs.google.com/spreadsheets/d/1GL4SroAdH-OZphBVR5z-BoSukHIEVJfao25q_e9-Ii8/edit?usp=sharing) with the generic unique pageview data from Google Analytics.
 
