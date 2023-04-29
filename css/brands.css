@@ -87,7 +87,8 @@ button:hover,
 /* Amazon */
 .button.button-amazon {
   color: #000000;
-  background-color: #ffffff;
+  background-color: #FFFFFF;
+  border: 1px solid #212121;
 }
 .button.button-amazon:hover,
 .button.button-amazon:focus {
@@ -96,8 +97,9 @@ button:hover,
 
 /* Apple App Store */
 .button.button-appstore {
-  color: #ffffff;
+  color: #FFFFFF;
   background-color: #000000;
+  border: 1px solid #FFFFFF;
 }
 .button.button-appstore:hover,
 .button.button-appstore:focus {
@@ -108,6 +110,7 @@ button:hover,
 .button.button-apple-music {
   color: #ffffff;
   background-color: #000000;
+  border: 1px solid #FFFFFF;
 }
 .button.button-apple-music:hover,
 .button.button-apple-music:focus {
@@ -128,6 +131,7 @@ button:hover,
 .button.button-apple-podcasts {
   color: #ffffff;
   background-color: #000000;
+  border: 1px solid #FFFFFF;
 }
 .button.button-apple-podcasts:hover,
 .button.button-apple-podcasts:focus {
@@ -158,6 +162,7 @@ button:hover,
 .button.button-bluesky {
   color: #000000;
   background-color: #F3F9FF;
+  border: 1px solid #212121;
 }
 .button.button-bluesky:hover,
 .button.button-bluesky:focus {
@@ -174,23 +179,24 @@ button:hover,
   filter: brightness(90%);
 }
 
+/* Cash App */
+.button.button-cash-app {
+  color: #ffffff;
+  background-image: linear-gradient(to bottom, #00d64b, #00c244);
+}
+.button.button-cash-app:hover,
+.button.button-cash-app:focus {
+  filter: brightness(90%);
+}
+
 /* Clubhouse */
 .button.button-clubhouse {
   color: #1F1F1A;
   background-color: #F1EFE3;
+  border: 1px solid #212121;
 }
-.button.button-coffee:hover,
-.button.button-coffee:focus {
-  filter: brightness(90%);
-}
-
-/* Cash App */
-.button.button-cashapp {
-  color: #ffffff;
-  background-image: linear-gradient(to bottom, #00d64b, #00c244);
-}
-.button.button-cashapp:hover,
-.button.button-cashapp:focus {
+.button.button-clubhouse:hover,
+.button.button-clubhouse:focus {
   filter: brightness(90%);
 }
 
@@ -198,6 +204,7 @@ button:hover,
 .button.button-dev-to {
   color: #000000;
   background-color: #f5f5f5;
+  border: 1px solid #212121;
 }
 .button.button-dev-to:hover,
 .button.button-dev-to:focus {
@@ -256,6 +263,7 @@ button:hover,
 .button.button-figma {
   color: #ffffff;
   background-color: #000000;
+  border: 1px solid #FFFFFF;
 }
 .button.button-figma:hover,
 .button.button-figma:focus {
@@ -266,6 +274,7 @@ button:hover,
 .button.button-flickr {
   color: #ffffff;
   background-color: #000000;
+  border: 1px solid #FFFFFF;
 }
 .button.button-flickr:hover,
 .button.button-flickr:focus {
@@ -276,6 +285,7 @@ button:hover,
 .button.button-github {
   color: #ffffff;
   background-color: #000000;
+  border: 1px solid #FFFFFF;
 }
 .button.button-github:hover,
 .button.button-github:focus {
@@ -296,6 +306,7 @@ button:hover,
 .button.button-goodreads {
   color: #333333;
   background-color: #f3f1e6;
+  border: 1px solid #212121;
 }
 .button.button-goodreads:hover,
 .button.button-goodreads:focus {
@@ -306,6 +317,7 @@ button:hover,
 .button.button-playstore {
   color: #FFFFFF;
   background-color: #000000;
+  border: 1px solid #FFFFFF;
 }
 .button.button-playstore:hover,
 .button.button-playstore:focus {
@@ -316,6 +328,7 @@ button:hover,
 .button.button-google-podcasts {
   color: #000000;
   background-color: #FFFFFF;
+  border: 1px solid #212121;
 }
 .button.button-google-podcasts:hover,
 .button.button-google-podcasts:focus {
@@ -325,7 +338,8 @@ button:hover,
 /* Google Scholar */
 .button.button-google-scholar {
   color: #000000;
-  background-color: #f5f5f5;
+  background-color: #FFFFFF;
+  border: 1px solid #212121;
 }
 .button.button-google-scholar:hover,
 .button.button-google-scholar:focus {
@@ -336,6 +350,7 @@ button:hover,
 .button.button-hashnode {
   color: #000000;
   background-color: #ffffff;
+  border: 1px solid #212121;
 }
 .button.button-hashnode:hover,
 .button.button-hashnode:focus {
@@ -366,6 +381,7 @@ button:hover,
 .button.button-kit {
   color: #ffffff;
   background-color: #000000;
+  border: 1px solid #FFFFFF;
 }
 .button.button-kit:hover,
 .button.button-kit:focus {
@@ -386,6 +402,7 @@ button:hover,
 .button.button-letterboxd {
   color: #ffffff;
   background-color: #2c3440;
+  border: 1px solid #FFFFFF;
 }
 .button.button-letterboxd:hover,
 .button.button-letterboxd:focus {
@@ -406,6 +423,7 @@ button:hover,
 .button.button-mastodon {
   color: #ffffff;
   background-color: #17063B;
+  border: 1px solid #FFFFFF;
 }
 .button.button-mastodon:hover,
 .button.button-mastodon:focus {
@@ -416,6 +434,7 @@ button:hover,
 .button.button-medium {
   color: #ffffff;
   background-color: #000000;
+  border: 1px solid #FFFFFF;
 }
 .button.button-medium:hover,
 .button.button-medium:focus {
@@ -425,9 +444,7 @@ button:hover,
 /* Notion */
 .button.button-notion {
   color: #000000;
-  border-style: solid;
-  border-color: #000000;
-  border-width: 2px;
+  border: 1px solid #212121;
   background-color: #ffffff;
 }
 .button.button-notion:hover,
@@ -469,6 +486,7 @@ button:hover,
 .button.button-pinterest {
   color: #000000;
   background-color: #ffe2eb;
+  border: 1px solid #212121;
 }
 .button.button-pinterest:hover,
 .button.button-pinterest:focus {
@@ -486,12 +504,10 @@ button:hover,
 }
 
 /* Product Hunt */
-.button.button-producthunt {
+.button.button-product-hunt {
   color: #da552f;
-  border-style: solid;
-  border-color: #da552f;
-  border-width: 2px;
   background-color: #ffffff;
+  border: 1px solid #212121;
 }
 .button.button-producthunt:hover,
 .button.button-producthunt:focus {
@@ -501,10 +517,8 @@ button:hover,
 /* Redbubble */
 .button.button-redbubble {
   color: #e41321;
-  border-style: solid;
-  border-color: #e41321;
-  border-width: 2px;
   background-color: #ffffff;
+  border: 1px solid #212121;
 }
 .button.button-redbubble:hover,
 .button.button-redbubble:focus {
@@ -515,6 +529,7 @@ button:hover,
 .button.button-reddit {
   color: #000000;
   background-color: #d7dfe2;
+  border: 1px solid #212121;
 }
 .button.button-reddit:hover,
 .button.button-reddit:focus {
@@ -575,6 +590,7 @@ button:hover,
 .button.button-spotify-alt {
   color: #FFFFFF;
   background-color: #191414;
+  border: 1px solid #FFFFFF;
 }
 .button.button-spotify-alt:hover,
 .button.button-spotify-alt:focus {
@@ -584,7 +600,7 @@ button:hover,
 /* Steam */
 .button.button-steam {
   color: #ffffff;
-  background-color: #171a21;
+  background-image: linear-gradient(90deg, #08BBFF, #2B75FF);
 }
 .button.button-steam:hover,
 .button.button-steam:focus {
@@ -635,6 +651,7 @@ button:hover,
 .button.button-tiktok {
   color: #ffffff;
   background-color: #000000;
+  border: 1px solid #FFFFFF;
 }
 .button.button-tiktok:hover,
 .button.button-tiktok:focus {
@@ -655,6 +672,7 @@ button:hover,
 .button.button-tumb {
   color: #ffffff;
   background-color: #131313;
+  border: 1px solid #FFFFFF;
 }
 .button.button-tumb:hover,
 .button.button-tumb:focus {
@@ -685,6 +703,7 @@ button:hover,
 .button.button-unsplash {
   color: #000000;
   background-color: #ffffff;
+  border: 1px solid #212121;
 }
 .button.button-unsplash:hover,
 .button.button-unsplash:focus {
@@ -725,7 +744,7 @@ button:hover,
 .button.button-vrchat {
   color: #000000;
   background-color: #ffffff;
-  border: 2px solid black;
+  border: 1px solid black;
 }
 .button.button-vrchat:hover,
 .button.button-vrchat:focus {
@@ -736,6 +755,7 @@ button:hover,
 .button.button-web {
   color: #ffffff;
   background-color: #000000;
+  border: 1px solid #FFFFFF;
 }
 .button.button-web:hover,
 .button.button-web:focus {
@@ -776,6 +796,7 @@ button:hover,
 .button.button-yt {
   color: #ffffff;
   background-color: #000000;
+  border: 1px solid #FFFFFF;
 }
 .button.button-yt:hover,
 .button.button-yt:focus {
