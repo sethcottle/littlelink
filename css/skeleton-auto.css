@@ -125,10 +125,28 @@ p {
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: #4899F7;
+  color: #2457F5;
+}
+a:hover {
+  color: #083BDA; 
+}
+a:focus {
+  outline: #7AB8FF solid 2px;
+  border-radius: 2px;
+}         
+
+/* Link Color Dark Theme */
+@media (prefers-color-scheme: dark) {
+  a {
+    color: #4899F7;
 }
 a:hover {
   color: #7AB8FF;
+}
+a:focus {
+  outline: #7AB8FF solid 2px;
+  border-radius: 2px;
+}
 }
 
 /* Code

@@ -33,23 +33,26 @@
 button {
   display: inline-block;
   text-decoration: none;
-  height: 48px;
+  height: 100%;
   text-align: center;
   vertical-align: middle;
   font-size: 18px;
   width: 300px;
   font-weight: 700;
-  line-height: 48px;
+  line-height: 20px;
+  padding: 14px 12px 12px 12px;
   letter-spacing: 0.1px;
   white-space: wrap;
+  outline: none;
   border-radius: 8px;
   cursor: pointer;
-}
+  
+}     
 button:hover,
 .button:focus {
-  color: #333;
+  color: #212121;
   border-color: #888;
-  outline: 0;
+  outline: #7AB8FF solid 3px
 }
 .button.button-primary {
   color: #fff;
