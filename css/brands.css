@@ -378,6 +378,16 @@ button:hover,
   filter: brightness(90%);
 }
 
+/* GoFundMe */
+.button.button-gofundme {
+  color: #ffffff;
+  background-color: #02A95C;
+}
+.button.button-gofundme:hover,
+.button.button-gofundme:focus {
+  filter: brightness(90%);
+}
+
 /* Goodreads */
 .button.button-goodreads {
   color: #333333;
