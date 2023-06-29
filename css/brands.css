@@ -579,6 +579,16 @@ button:hover,
   filter: brightness(90%);
 }
 
+/* NGL */
+.button.button-ngl {
+  color: #ffffff;
+  background-image: linear-gradient(45deg, #ed1581 0%, #ff8614 100%);
+}
+.button.button-ngl:hover,
+.button.button-ngl:focus {
+  filter: brightness(90%);
+}
+
 /* Notion */
 .button.button-notion {
   color: #000000;
