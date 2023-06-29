@@ -474,6 +474,14 @@ button:hover,
   filter: brightness(90%);
 }
 
+.button.button-kick {
+  background-color:#3d951b;
+  color: #fff
+}
+.button.button-kick:hover {
+  filter: brightness(90%);
+}
+
 /* Kickstarter */
 .button.button-kickstarter {
   color: #ffffff;
