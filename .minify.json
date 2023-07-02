@@ -1,0 +1,20 @@
+{
+    "html": {
+        "removeAttributeQuotes": false,
+	"collapseWhitespace": true,
+	"conservativeCollapse": false,
+	"keepClosingSlash": true,
+	"removeComments": true,
+ 	"removeEmptyAttributes": true
+    },
+    "css": {
+        "compatibility": "*"
+    },
+    "js": {
+        "removeUnusedVariables": true,
+        "removeConsole": false
+    },
+    "img": {
+        "maxSize": 4096
+    }
+}
