@@ -33,3 +33,4 @@ jobs:
           minify css/skeleton-auto.css > _site/css/skeleton-auto.css
           minify css/skeleton-dark.css > _site/css/skeleton-dark.css
           minify css/skeleton-light.css > _site/css/skeleton-light.css
+          rsync --recursive --delete --verbose --human-readable --checksum _site/ /var/www/links.robertkrueger.de/
