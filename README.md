@@ -19,7 +19,7 @@ Edit the "Title" section to change the page heading. You can use something like 
 
 Edit the "Short Bio" section tell users about yourself or your brand.
 
-## Breaking down <a> attributes:
+## Breaking down `<a>` attributes:
 
 1.) class="button button-default" | The first "button" here is telling this <a> tag that it should make this element a button and applies the default styling in `css/brands.css`.
 The second portion, button-default, is declaring the specific brand style you would like to apply. Here we're applying the "default" style and color.
@@ -34,7 +34,7 @@ This is especially useful when opening untrusted links. https://developer.mozill
 
 5.) role="button" | The button role identifies an element as a button to assistive technology such as screen readers.
 
-## Breaking down the <img> attributes:
+## Breaking down the `<img>` attributes:
 
 1.) class="icon" | This class is telling the <img> tag that it should use the styling for icons found in `css/brands.css`.
 
