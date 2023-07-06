@@ -848,6 +848,17 @@ button:hover,
   filter: brightness(90%);
 }
 
+/* Threads */
+.button.button-threads {
+  color: #FFFFFF;
+  background-color: #000000;
+  border: 1px solid #FFFFFF;
+}
+.button.button-threads:hover,
+.button.button-threads:focus {
+  filter: brightness(90%);
+}
+
 /* Threema */
 .button.button-threema {
   color: #000000;
@@ -923,7 +934,7 @@ button:hover,
 
 /* Untappd */
 .button.button-untappd {
-  color: #ffffff;
+  color: #000000;
   background-color: #ffc000;
 }
 .button.button-untappd:hover,
