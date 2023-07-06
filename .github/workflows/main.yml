@@ -1,0 +1,36 @@
+on:
+  # Runs on pushes targeting the default branch
+  push:
+    branches: ["main"]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# Allow one concurrent deployment
+concurrency:
+  group: "littlelink"
+  cancel-in-progress: true
+
+jobs:
+  # Build and Deploy
+  build:
+    runs-on: self-hosted
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Minify & publish
+        # Outputs to the './_site' directory by default
+        run: |
+          rm -Rf _site/
+          mkdir _site
+          minify index.html > _site/index.html
+          minify privacy.html > _site/privacy.html
+          cp -r fonts/ _site/
+          cp -r images/ _site/
+          mkdir _site/css
+          minify css/brands.css > _site/css/brands.css
+          minify css/normalize.css > _site/css/normalize.css
+          minify css/skeleton-auto.css > _site/css/skeleton-auto.css
+          minify css/skeleton-dark.css > _site/css/skeleton-dark.css
+          minify css/skeleton-light.css > _site/css/skeleton-light.css
+          rsync --recursive --delete --verbose --human-readable --checksum _site/ /var/www/links.robertkrueger.de/
