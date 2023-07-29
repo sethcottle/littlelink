@@ -357,6 +357,18 @@ button:hover,
   filter: brightness(90%);
 }
 
+/* Gitea */
+.button.button-gitea {
+  color: #000000;
+  background-color: #FFFFFF;
+  border: 1px solid #212121;
+}
+.button.button-gitea:hover,
+.button.button-gitea:focus {
+  filter: brightness(90%);
+}
+
+
 /* GitHub */
 .button.button-github {
   color: #ffffff;
