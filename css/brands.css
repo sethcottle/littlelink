@@ -546,6 +546,17 @@ button:hover,
   filter: brightness(90%);
 }
 
+/* Trakt */
+.button.button-trakt {
+  color: #ffffff;
+  background-color: #000000;
+  border: 1px solid #FFFFFF;
+}
+.button.button-trakt:hover,
+.button.button-trakt:focus {
+  filter: brightness(90%);
+}
+
 /* Line */
 .button.button-line {
   color: #FFFFFF;
