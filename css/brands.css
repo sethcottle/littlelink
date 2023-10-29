@@ -808,6 +808,16 @@ button:hover,
   filter: brightness(90%);
 }
 
+/* Steam Dark */
+.button.button-steam-dark {
+  color: #ffffff;
+  background-image: linear-gradient(90deg, #09172a, #072a57, #0c5085);
+}
+.button.button-steam-dark:hover,
+.button.button-steam-dark:focus {
+  filter: brightness(90%);
+}
+
 /* Steam */
 .button.button-steam {
   color: #ffffff;
