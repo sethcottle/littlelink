@@ -556,7 +556,6 @@ button:hover,
   filter: brightness(90%);
 }
 
-
 /* LinkedIn */
 .button.button-linked {
   color: #ffffff;
@@ -636,8 +635,8 @@ button:hover,
   background-color: #000000;
   border: 1px solid #FFFFFF;
 }
-.button.button-patreon:hover,
-.button.button-patreon:focus {
+.button.button-partiful:hover,
+.button.button-partiful:focus {
   filter: brightness(90%);
 }
 
