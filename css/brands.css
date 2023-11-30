@@ -546,17 +546,6 @@ button:hover,
   filter: brightness(90%);
 }
 
-/* Trakt */
-.button.button-trakt {
-  color: #ffffff;
-  background-color: #000000;
-  border: 1px solid #FFFFFF;
-}
-.button.button-trakt:hover,
-.button.button-trakt:focus {
-  filter: brightness(90%);
-}
-
 /* Line */
 .button.button-line {
   color: #FFFFFF;
@@ -641,10 +630,22 @@ button:hover,
   filter: brightness(90%);
 }
 
+/* Partiful */
+.button.button-partiful {
+  color: #ffffff;
+  background-color: #000000;
+  border: 1px solid #FFFFFF;
+}
+.button.button-patreon:hover,
+.button.button-patreon:focus {
+  filter: brightness(90%);
+}
+
 /* Patreon */
 .button.button-patreon {
   color: #ffffff;
-  background-color: #ff424d;
+  background-color: #000000;
+  border: 1px solid #FFFFFF;
 }
 .button.button-patreon:hover,
 .button.button-patreon:focus {
@@ -717,9 +718,8 @@ button:hover,
 
 /* Reddit */
 .button.button-reddit {
-  color: #000000;
-  background-color: #d7dfe2;
-  border: 1px solid #212121;
+  color: #FFFFFF;
+  background-color: #FF4500;
 }
 .button.button-reddit:hover,
 .button.button-reddit:focus {
@@ -898,6 +898,16 @@ button:hover,
 }
 .button.button-tiktok:hover,
 .button.button-tiktok:focus {
+  filter: brightness(90%);
+}
+
+/* Trakt */
+.button.button-trakt {
+  color: #ffffff;
+  background-color: #ED1C24;
+}
+.button.button-trakt:hover,
+.button.button-trakt:focus {
   filter: brightness(90%);
 }
 
