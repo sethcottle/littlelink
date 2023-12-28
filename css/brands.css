@@ -693,6 +693,17 @@ button:hover,
   filter: brightness(90%);
 }
 
+/* QQ */
+.button.button-qq {
+  color: #000000;
+  background-color: #FFFFFF;
+  border: 3px solid #4D94FF;
+}
+.button.button-qq:hover,
+.button.button-qq:focus {
+  filter: brightness(90%);
+}
+
 /* Read.cv */
 .button.button-read-cv {
   color: #FFFFFF;
