@@ -277,6 +277,17 @@ button:hover,
   filter: brightness(90%);
 }
 
+/* Discogs_alt */
+.button.button-discogs_alt {
+  color: #FFFFFF;
+  background-color: #000000;
+  border: 1px solid #FFFFFF
+}
+.button.button-discogs:hover,
+.button.button-discogs:focus {
+  filter: brightness(90%);
+}
+
 /* Discord */
 .button.button-discord {
   color: #ffffff;
