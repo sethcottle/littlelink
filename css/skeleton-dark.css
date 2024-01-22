@@ -98,8 +98,7 @@ body {
   font-size: 18px;
   line-height: 24px;
   font-weight: 400;
-  font-family: "Bitter", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial,
-    sans-serif;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, segoe ui, Roboto, helvetica neue, Arial, noto sans, sans-serif, apple color emoji, segoe ui emoji, segoe ui symbol, noto color emoji;
   background-image: url('../images/jingwei-ke-E7w_Ti4BSSs-unsplash.jpg');
   background-size: cover;
   background-position: center center;
@@ -132,7 +131,6 @@ h1 {
 
 p {
   margin-top: 0;
-  font-family: "Bitter", 'Times New Roman', Times, serif
 }
 
 /* Links
