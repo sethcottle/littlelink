@@ -862,3 +862,14 @@ button:hover,
 .button.button-psgallery:focus {
   filter: brightness(90%);
 }
+
+/* Digital Garden */
+.button.button-digitalgarden {
+  color: #ffffff;
+  background-color: #5e409d;
+}
+
+.button.button-digitalgarden:hover,
+.button.button-digitalgarden:focus {
+  filter: brightness(90%);
+}
