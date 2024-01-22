@@ -98,7 +98,7 @@ body {
   font-size: 18px;
   line-height: 24px;
   font-weight: 400;
-  font-family: "Open Sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial,
+  font-family: "Bitter", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial,
     sans-serif;
   background-image: url('../images/jingwei-ke-E7w_Ti4BSSs-unsplash.jpg');
   background-size: cover;
@@ -117,7 +117,7 @@ h1 {
 
 h1 {
   font-size: 24px;
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Titillium Web', sans-serif;
   line-height: 64px;
   letter-spacing: 0;
 }
@@ -132,7 +132,7 @@ h1 {
 
 p {
   margin-top: 0;
-  font-family: "Cormorant Garamond", 'Times New Roman', Times, serif
+  font-family: "Bitter", 'Times New Roman', Times, serif
 }
 
 /* Links
