@@ -33,23 +33,26 @@
 button {
   display: inline-block;
   text-decoration: none;
-  height: 48px;
+  height: 100%;
   text-align: center;
   vertical-align: middle;
   font-size: 18px;
   width: 300px;
   font-weight: 700;
-  line-height: 48px;
+  line-height: 20px;
+  padding: 14px 12px 12px 12px;
   letter-spacing: 0.1px;
   white-space: wrap;
+  outline: none;
   border-radius: 8px;
   cursor: pointer;
-}
+  
+}     
 button:hover,
 .button:focus {
-  color: #333;
+  color: #212121;
   border-color: #888;
-  outline: 0;
+  outline: #7AB8FF solid 3px
 }
 .button.button-primary {
   color: #fff;
@@ -77,7 +80,7 @@ button:hover,
 /* Default (this is great for your own brand color!) */
 .button.button-default {
   color: #ffffff;
-  background-color: #0085ff;
+  background-color: #2457F5;
 }
 .button.button-default:hover,
 .button.button-default:focus {
@@ -87,20 +90,85 @@ button:hover,
 /* Amazon */
 .button.button-amazon {
   color: #000000;
-  background-color: #ffffff;
+  background-color: #FFFFFF;
+  border: 1px solid #212121;
 }
 .button.button-amazon:hover,
 .button.button-amazon:focus {
   filter: brightness(90%);
 }
 
+/* Amazon Music */
+.button.button-amazon-music {
+  color: #000000;
+  background-color: #25D1DA;
+}
+.button.button-amazon-music:hover,
+.button.button-amazon-music:focus {
+  filter: brightness(90%);
+}
+
 /* Apple App Store */
 .button.button-appstore {
-  color: #ffffff;
+  color: #FFFFFF;
   background-color: #000000;
+  border: 1px solid #FFFFFF;
 }
 .button.button-appstore:hover,
 .button.button-appstore:focus {
+  filter: brightness(90%);
+}
+
+/* Apple Music */
+.button.button-apple-music {
+  color: #ffffff;
+  background-color: #000000;
+  border: 1px solid #FFFFFF;
+}
+.button.button-apple-music:hover,
+.button.button-apple-music:focus {
+  filter: brightness(90%);
+}
+
+/* Apple Music Alt */
+.button.button-apple-music-alt {
+  color: #ffffff;
+  background-image: linear-gradient(to bottom, #FB5C74, #FA233B);
+}
+.button.button-apple-music-alt:hover,
+.button.button-apple-music-alt:focus {
+  filter: brightness(90%);
+}
+
+/* Apple Podcasts */
+.button.button-apple-podcasts {
+  color: #ffffff;
+  background-color: #000000;
+  border: 1px solid #FFFFFF;
+}
+.button.button-apple-podcasts:hover,
+.button.button-apple-podcasts:focus {
+  filter: brightness(90%);
+}
+
+/* Apple Podcasts Alt */
+.button.button-apple-podcasts-alt {
+  color: #ffffff;
+  background-image: linear-gradient(to bottom, #F452FF, #832BC1);
+}
+.button.button-apple-podcasts-alt:hover,
+.button.button-apple-podcasts-alt:focus {
+  filter: brightness(90%);
+}
+
+/* ArtStation */
+.button.button-artstation {
+  color: #ffffff;
+  background-color: #18181C;
+  border: 1px solid #FFFFFF;
+}
+.button.button-artstation:hover,
+.button.button-artstation:focus {
   filter: brightness(90%);
 }
 
@@ -114,9 +182,30 @@ button:hover,
   filter: brightness(90%);
 }
 
+/* Behance */
+.button.button-behance {
+  color: #ffffff;
+  background-color: #0057FF;
+}
+.button.button-behance:hover,
+.button.button-behance:focus {
+  filter: brightness(90%);
+}
+
+/* Bluesky */
+.button.button-bluesky {
+  color: #000000;
+  background-color: #F3F9FF;
+  border: 1px solid #212121;
+}
+.button.button-bluesky:hover,
+.button.button-bluesky:focus {
+  filter: brightness(90%);
+}
+
 /* Buy Me a Coffee */
 .button.button-coffee {
-  color: #100a26;
+  color: #000000;
   background-color: #ffdd00;
 }
 .button.button-coffee:hover,
@@ -124,23 +213,45 @@ button:hover,
   filter: brightness(90%);
 }
 
-/* Ko-fi */
-.button.button-ko-fi {
-  color: #ffffff;
-  background-color: #13C3FF;
+/* Cal.com */
+.button.button-cal {
+  color: #FFFFFF;
+  background-color: #292929;
+  border: 1px solid #FFFFFF;
 }
-.button.button-ko-fi:hover,
-.button.button-ko-fi:focus {
+.button.button-cal:hover,
+.button.button-cal:focus {
+  filter: brightness(90%);
+}
+
+/* Calendly */
+.button.button-calendly {
+  color: #FFFFFF;
+  background-color: #006BFF;
+}
+.button.button-calendly:hover,
+.button.button-calendly:focus {
   filter: brightness(90%);
 }
 
 /* Cash App */
-.button.button-cashapp {
+.button.button-cash-app {
   color: #ffffff;
   background-image: linear-gradient(to bottom, #00d64b, #00c244);
 }
-.button.button-cashapp:hover,
-.button.button-cashapp:focus {
+.button.button-cash-app:hover,
+.button.button-cash-app:focus {
+  filter: brightness(90%);
+}
+
+/* Clubhouse */
+.button.button-clubhouse {
+  color: #1F1F1A;
+  background-color: #F1EFE3;
+  border: 1px solid #212121;
+}
+.button.button-clubhouse:hover,
+.button.button-clubhouse:focus {
   filter: brightness(90%);
 }
 
@@ -148,6 +259,7 @@ button:hover,
 .button.button-dev-to {
   color: #000000;
   background-color: #f5f5f5;
+  border: 1px solid #212121;
 }
 .button.button-dev-to:hover,
 .button.button-dev-to:focus {
@@ -161,6 +273,17 @@ button:hover,
 }
 .button.button-discord:hover,
 .button.button-discord:focus {
+  filter: brightness(90%);
+}
+
+/* Dribbble */
+.button.button-dribbble {
+  color: #000000;
+  background-color: #FFFFFF;
+  border: 1px solid #212121;
+}
+.button.button-dribbble:hover,
+.button.button-dribbble:focus {
   filter: brightness(90%);
 }
 
@@ -206,9 +329,20 @@ button:hover,
 .button.button-figma {
   color: #ffffff;
   background-color: #000000;
+  border: 1px solid #FFFFFF;
 }
 .button.button-figma:hover,
 .button.button-figma:focus {
+  filter: brightness(90%);
+}
+
+/* Fiverr */
+.button.button-fiverr {
+  color: #ffffff;
+  background-color: #1DBF73;
+}
+.button.button-fiverr:hover,
+.button.button-fiverr:focus {
   filter: brightness(90%);
 }
 
@@ -216,23 +350,25 @@ button:hover,
 .button.button-flickr {
   color: #ffffff;
   background-color: #000000;
+  border: 1px solid #FFFFFF;
 }
 .button.button-flickr:hover,
 .button.button-flickr:focus {
   filter: brightness(90%);
 }
 
-/* Github */
+/* GitHub */
 .button.button-github {
   color: #ffffff;
   background-color: #000000;
+  border: 1px solid #FFFFFF;
 }
 .button.button-github:hover,
 .button.button-github:focus {
   filter: brightness(90%);
 }
 
-/* Gitlab */
+/* GitLab */
 .button.button-gitlab {
   color: #ffffff;
   background-color: #6151b2;
@@ -242,13 +378,35 @@ button:hover,
   filter: brightness(90%);
 }
 
+/* GoFundMe */
+.button.button-gofundme {
+  color: #ffffff;
+  background-color: #02A95C;
+}
+.button.button-gofundme:hover,
+.button.button-gofundme:focus {
+  filter: brightness(90%);
+}
+
 /* Goodreads */
 .button.button-goodreads {
   color: #333333;
   background-color: #f3f1e6;
+  border: 1px solid #212121;
 }
 .button.button-goodreads:hover,
 .button.button-goodreads:focus {
+  filter: brightness(90%);
+}
+
+/* Google Black */
+.button.button-google-black {
+  color: #FFFFFF;
+  background-color: #000000;
+  border: 1px solid #FFFFFF;
+}
+.button.button-google-black:hover,
+.button.button-google-black:focus {
   filter: brightness(90%);
 }
 
@@ -256,9 +414,53 @@ button:hover,
 .button.button-playstore {
   color: #FFFFFF;
   background-color: #000000;
+  border: 1px solid #FFFFFF;
 }
 .button.button-playstore:hover,
 .button.button-playstore:focus {
+  filter: brightness(90%);
+}
+
+/* Google Podcasts */
+.button.button-google-podcasts {
+  color: #000000;
+  background-color: #FFFFFF;
+  border: 1px solid #212121;
+}
+.button.button-google-podcasts:hover,
+.button.button-google-podcasts:focus {
+  filter: brightness(90%);
+}
+
+/* Google Scholar */
+.button.button-google-scholar {
+  color: #000000;
+  background-color: #FFFFFF;
+  border: 1px solid #212121;
+}
+.button.button-google-scholar:hover,
+.button.button-google-scholar:focus {
+  filter: brightness(90%);
+}
+
+/* Guilded */
+.button.button-guilded {
+  color: #000000;
+  background-color: #F5C400;
+}
+.button.button-guilded:hover,
+.button.button-guilded:focus {
+  filter: brightness(90%);
+}
+
+/* Hashnode */
+.button.button-hashnode {
+  color: #000000;
+  background-color: #ffffff;
+  border: 1px solid #212121;
+}
+.button.button-hashnode:hover,
+.button.button-hashnode:focus {
   filter: brightness(90%);
 }
 
@@ -272,7 +474,27 @@ button:hover,
   filter: brightness(90%);
 }
 
-/* kickstarter */
+/* Kick */
+.button.button-kick {
+  background-color:#000000;
+  color:  #ffffff;
+  border: 1px solid #ffffff;
+}
+.button.button-kick:hover {
+  filter: brightness(90%);
+}
+
+/* Kick Alt */
+.button.button-kick-alt {
+  background-color:#01e701;
+  color:  #000;
+}
+.button.button-kick-alt:hover {
+  filter: brightness(90%);
+}
+
+
+/* Kickstarter */
 .button.button-kickstarter {
   color: #ffffff;
   background-color: #05ce78;
@@ -286,9 +508,51 @@ button:hover,
 .button.button-kit {
   color: #ffffff;
   background-color: #000000;
+  border: 1px solid #FFFFFF;
 }
 .button.button-kit:hover,
 .button.button-kit:focus {
+  filter: brightness(90%);
+}
+
+/* Ko-fi */
+.button.button-ko-fi {
+  color: #ffffff;
+  background-color: #13C3FF;
+}
+.button.button-ko-fi:hover,
+.button.button-ko-fi:focus {
+  filter: brightness(90%);
+}
+
+/* Last.fm */
+.button.button-last-fm {
+  color: #ffffff;
+  background-color: #D51007;
+}
+.button.button-last-fm:hover,
+.button.button-last-fm:focus {
+  filter: brightness(90%);
+}
+
+/* Letterboxd */
+.button.button-letterboxd {
+  color: #ffffff;
+  background-color: #2c3440;
+  border: 1px solid #FFFFFF;
+}
+.button.button-letterboxd:hover,
+.button.button-letterboxd:focus {
+  filter: brightness(90%);
+}
+
+/* Line */
+.button.button-line {
+  color: #FFFFFF;
+  background-color: #06C755;
+}
+.button.button-line:hover,
+.button.button-line:focus {
   filter: brightness(90%);
 }
 
@@ -302,10 +566,21 @@ button:hover,
   filter: brightness(90%);
 }
 
+/* Mailchimp */
+.button.button-mailchimp {
+  color: #000000;
+  background-color: #FFE01B;
+}
+.button.button-mailchimp:hover,
+.button.button-mailchimp:focus {
+  filter: brightness(90%);
+}
+
 /* Mastodon */
 .button.button-mastodon {
   color: #ffffff;
-  background-color: #1f232b;
+  background-color: #17063B;
+  border: 1px solid #FFFFFF;
 }
 .button.button-mastodon:hover,
 .button.button-mastodon:focus {
@@ -316,18 +591,27 @@ button:hover,
 .button.button-medium {
   color: #ffffff;
   background-color: #000000;
+  border: 1px solid #FFFFFF;
 }
 .button.button-medium:hover,
 .button.button-medium:focus {
   filter: brightness(90%);
 }
 
+/* NGL */
+.button.button-ngl {
+  color: #ffffff;
+  background-image: linear-gradient(-45deg, #ff8d10, #ec1187);
+}
+.button.button-ngl:hover,
+.button.button-ngl:focus {
+  filter: brightness(90%);
+}
+
 /* Notion */
 .button.button-notion {
   color: #000000;
-  border-style: solid;
-  border-color: #000000;
-  border-width: 2px;
+  border: 1px solid #212121;
   background-color: #ffffff;
 }
 .button.button-notion:hover,
@@ -345,10 +629,22 @@ button:hover,
   filter: brightness(90%);
 }
 
+/* Partiful */
+.button.button-partiful {
+  color: #ffffff;
+  background-color: #000000;
+  border: 1px solid #FFFFFF;
+}
+.button.button-partiful:hover,
+.button.button-partiful:focus {
+  filter: brightness(90%);
+}
+
 /* Patreon */
 .button.button-patreon {
   color: #ffffff;
-  background-color: #ff424d;
+  background-color: #000000;
+  border: 1px solid #FFFFFF;
 }
 .button.button-patreon:hover,
 .button.button-patreon:focus {
@@ -369,32 +665,73 @@ button:hover,
 .button.button-pinterest {
   color: #000000;
   background-color: #ffe2eb;
+  border: 1px solid #212121;
 }
 .button.button-pinterest:hover,
 .button.button-pinterest:focus {
   filter: brightness(90%);
 }
 
-/* Producthunt */
-.button.button-producthunt {
-  color: #da552f;
-  border-style: solid;
-  border-color: #da552f;
-  border-width: 2px;
+/* Post.news */
+.button.button-post-news {
+  color: #ffffff;
+  background-color: #678BFF;
+}
+.button.button-post-news:hover,
+.button.button-post-news:focus {
+  filter: brightness(90%);
+}
+
+/* Product Hunt */
+.button.button-product-hunt {
+  color: #000000;
   background-color: #ffffff;
+  border: 1px solid #212121;
 }
 .button.button-producthunt:hover,
 .button.button-producthunt:focus {
   filter: brightness(90%);
 }
 
+/* Read.cv */
+.button.button-read-cv {
+  color: #FFFFFF;
+  background-color: #000000;
+  border: 1px solid #FFFFFF;
+}
+.button.button-read-cv:hover,
+.button.button-read-cv:focus {
+  filter: brightness(90%);
+}
+
+/* Redbubble */
+.button.button-redbubble {
+  color: #e41321;
+  background-color: #ffffff;
+  border: 1px solid #212121;
+}
+.button.button-redbubble:hover,
+.button.button-redbubble:focus {
+  filter: brightness(90%);
+}
+
 /* Reddit */
 .button.button-reddit {
-  color: #000000;
-  background-color: #d7dfe2;
+  color: #FFFFFF;
+  background-color: #FF4500;
 }
 .button.button-reddit:hover,
 .button.button-reddit:focus {
+  filter: brightness(90%);
+}
+
+/* Shop */
+.button.button-shop {
+  color: #ffffff;
+  background-color: #5A31F4;
+}
+.button.button-shop:hover,
+.button.button-shop:focus {
   filter: brightness(90%);
 }
 
@@ -418,6 +755,18 @@ button:hover,
   filter: brightness(90%);
 }
 
+/* Slack */
+.button.button-slack {
+  color: #000000;
+  background-color: #FFFFFF;
+  border: 1px solid #212121;
+}
+.button.button-slack:hover,
+.button.button-slack:focus {
+  filter: brightness(90%);
+}
+
+
 /* Snapchat */
 .button.button-snapchat {
   color: #000000;
@@ -440,21 +789,72 @@ button:hover,
 
 /* Spotify */
 .button.button-spotify {
-  color: #ffffff;
-  background-color: #000000;
+  color: #191414;
+  background-color: #1db954;
 }
 .button.button-spotify:hover,
 .button.button-spotify:focus {
   filter: brightness(90%);
 }
 
+/* Spotify Alt */
+.button.button-spotify-alt {
+  color: #FFFFFF;
+  background-color: #191414;
+  border: 1px solid #FFFFFF;
+}
+.button.button-spotify-alt:hover,
+.button.button-spotify-alt:focus {
+  filter: brightness(90%);
+}
+
+/* Square */
+.button.button-square {
+  color: #FFFFFF;
+  background-color: #006AFF;
+}
+.button.button-square:hover,
+.button.button-square:focus {
+  filter: brightness(90%);
+}
+
+/* Steam Dark */
+.button.button-steam-dark {
+  color: #ffffff;
+  background-image: linear-gradient(90deg, #09172a, #072a57, #0c5085);
+}
+.button.button-steam-dark:hover,
+.button.button-steam-dark:focus {
+  filter: brightness(90%);
+}
+
 /* Steam */
 .button.button-steam {
   color: #ffffff;
-  background-color: #171a21;
+  background-image: linear-gradient(90deg, #08BBFF, #2B75FF);
 }
 .button.button-steam:hover,
 .button.button-steam:focus {
+  filter: brightness(90%);
+}
+
+/* Strava */
+.button.button-strava {
+  color: #ffffff;
+  background-color: #fc5200;
+}
+.button.button-strava:hover,
+.button.button-strava:focus {
+  filter: brightness(90%);
+}
+
+/* Substack */
+.button.button-substack {
+  color: #ffffff;
+  background-color: #FF6719;
+}
+.button.button-substack:hover,
+.button.button-substack:focus {
   filter: brightness(90%);
 }
 
@@ -465,6 +865,17 @@ button:hover,
 }
 .button.button-telegram:hover,
 .button.button-telegram:focus {
+  filter: brightness(90%);
+}
+
+/* Threads */
+.button.button-threads {
+  color: #FFFFFF;
+  background-color: #000000;
+  border: 1px solid #FFFFFF;
+}
+.button.button-threads:hover,
+.button.button-threads:focus {
   filter: brightness(90%);
 }
 
@@ -482,9 +893,20 @@ button:hover,
 .button.button-tiktok {
   color: #ffffff;
   background-color: #000000;
+  border: 1px solid #FFFFFF;
 }
 .button.button-tiktok:hover,
 .button.button-tiktok:focus {
+  filter: brightness(90%);
+}
+
+/* Trakt */
+.button.button-trakt {
+  color: #ffffff;
+  background-color: #ED1C24;
+}
+.button.button-trakt:hover,
+.button.button-trakt:focus {
   filter: brightness(90%);
 }
 
@@ -502,6 +924,7 @@ button:hover,
 .button.button-tumb {
   color: #ffffff;
   background-color: #131313;
+  border: 1px solid #FFFFFF;
 }
 .button.button-tumb:hover,
 .button.button-tumb:focus {
@@ -518,13 +941,44 @@ button:hover,
   filter: brightness(90%);
 }
 
-/* Twitter */
+/* Twitter (archiving soon, see 'X') */
 .button.button-twit {
   color: #ffffff;
   background-color: #1da1f2;
 }
 .button.button-twit:hover,
 .button.button-twit:focus {
+  filter: brightness(90%);
+}
+
+/* Unsplash */
+.button.button-unsplash {
+  color: #000000;
+  background-color: #ffffff;
+  border: 1px solid #212121;
+}
+.button.button-unsplash:hover,
+.button.button-unsplash:focus {
+  filter: brightness(90%);
+}
+
+/* Untappd */
+.button.button-untappd {
+  color: #000000;
+  background-color: #ffc000;
+}
+.button.button-untappd:hover,
+.button.button-untappd:focus {
+  filter: brightness(90%);
+}
+
+/* Upwork */
+.button.button-upwork {
+  color: #FFFFFF;
+  background-color: #14A800;
+}
+.button.button-upwork:hover,
+.button.button-upwork:focus {
   filter: brightness(90%);
 }
 
@@ -552,10 +1006,21 @@ button:hover,
 .button.button-vrchat {
   color: #000000;
   background-color: #ffffff;
-  border: 2px solid black;
+  border: 1px solid black;
 }
 .button.button-vrchat:hover,
 .button.button-vrchat:focus {
+  filter: brightness(90%);
+}
+
+/* VSCO */
+.button.button-vsco {
+  color: #FFFFFF;
+  background-color: #000000;
+  border: 1px solid #FFFFFF;
+}
+.button.button-vsco:hover,
+.button.button-vsco:focus {
   filter: brightness(90%);
 }
 
@@ -563,6 +1028,7 @@ button:hover,
 .button.button-web {
   color: #ffffff;
   background-color: #000000;
+  border: 1px solid #FFFFFF;
 }
 .button.button-web:hover,
 .button.button-web:focus {
@@ -589,6 +1055,17 @@ button:hover,
   filter: brightness(90%);
 }
 
+/* X */
+.button.button-x {
+  color: #FFFFFF;
+  background-color: #000000;
+  border: 1px solid #FFFFFF;
+}
+.button.button-x:hover,
+.button.button-x:focus {
+  filter: brightness(90%);
+}
+
 /* Xing */
 .button.button-xing {
   color: #ffffff;
@@ -603,8 +1080,20 @@ button:hover,
 .button.button-yt {
   color: #ffffff;
   background-color: #000000;
+  border: 1px solid #FFFFFF;
 }
 .button.button-yt:hover,
 .button.button-yt:focus {
   filter: brightness(90%);
 }
+
+/* Zoom */
+.button.button-zoom {
+  color: #ffffff;
+  background-color: #0B5CFF;
+}
+.button.button-zoom:hover,
+.button.button-zoom:focus {
+  filter: brightness(90%);
+}
+
