@@ -192,6 +192,16 @@ button:hover,
   filter: brightness(90%);
 }
 
+/* BeReal */
+.button.button-bereal {
+  color: #ffffff;
+  background-color: #000000;
+}
+.button.button-bereal:hover,
+.button.button-bereal:focus {
+  filter: brightness(90%);
+}
+
 /* Bluesky */
 .button.button-bluesky {
   color: #000000;
@@ -725,6 +735,17 @@ button:hover,
   filter: brightness(90%);
 }
 
+/* Revolut */
+.button.button-revolut {
+  color: #000000;
+  background-color: #ffffff;
+  border: 2px solid black;
+}
+.button.button-rev:hover,
+.button.button-rev:focus {
+  filter: brightness(90%);
+}
+
 /* Shop */
 .button.button-shop {
   color: #ffffff;
@@ -1097,13 +1118,6 @@ button:hover,
   filter: brightness(90%);
 }
 
-/* BeReal */
-.button.button-bereal {
-  color: #ffffff;
-  background-color: #000000;
-}
-.button.button-bereal:hover,
-.button.button-bereal:focus {
-  filter: brightness(90%);
-}
+
+
 
