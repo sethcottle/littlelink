@@ -170,6 +170,7 @@
   button,
   .button {
     margin-bottom: 1rem;
+    font-weight: bold; /* bold */
     display: block !important; }
   input,
   textarea,
