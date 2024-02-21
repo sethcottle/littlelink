@@ -266,6 +266,28 @@ button:hover,
   filter: brightness(90%);
 }
 
+/* Discogs */
+.button.button-discogs {
+  color: #000000;
+  background-color: #FFFFFF;
+  border: 1px solid #000000
+}
+.button.button-discogs:hover,
+.button.button-discogs:focus {
+  filter: brightness(90%);
+}
+
+/* Discogs_alt */
+.button.button-discogs_alt {
+  color: #FFFFFF;
+  background-color: #000000;
+  border: 1px solid #FFFFFF
+}
+.button.button-discogs:hover,
+.button.button-discogs:focus {
+  filter: brightness(90%);
+}
+
 /* Discord */
 .button.button-discord {
   color: #ffffff;
@@ -690,6 +712,17 @@ button:hover,
 }
 .button.button-producthunt:hover,
 .button.button-producthunt:focus {
+  filter: brightness(90%);
+}
+
+/* QQ */
+.button.button-qq {
+  color: #000000;
+  background-color: #FFFFFF;
+  border: 3px solid #4D94FF;
+}
+.button.button-qq:hover,
+.button.button-qq:focus {
   filter: brightness(90%);
 }
 
