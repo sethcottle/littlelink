@@ -195,7 +195,8 @@ button:hover,
 /* BeReal */
 .button.button-bereal {
   color: #ffffff;
-  background-color: #000000;
+  background-color: #121212;
+  border: 1px solid #ffffff;
 }
 .button.button-bereal:hover,
 .button.button-bereal:focus {
