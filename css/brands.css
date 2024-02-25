@@ -205,12 +205,22 @@ button:hover,
 
 /* Bluesky */
 .button.button-bluesky {
-  color: #000000;
-  background-color: #F3F9FF;
-  border: 1px solid #212121;
+  color: #FFFFFF;
+  background-color: #1185FE;
 }
+
 .button.button-bluesky:hover,
 .button.button-bluesky:focus {
+  filter: brightness(90%);
+}
+
+/* Bluesky Alt */
+.button.button-bluesky-alt {
+  color: #000000;
+  background-color: #FFFFFF;
+}
+.button.button-bluesky-alt:hover,
+.button.button-bluesky-alt:focus {
   filter: brightness(90%);
 }
 
