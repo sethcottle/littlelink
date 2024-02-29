@@ -83,6 +83,7 @@
     animation-fill-mode: forwards;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     position: relative;
     color: #FFFFFF;
   }
