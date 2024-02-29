@@ -37,9 +37,9 @@
   <style>
     .language-button {
         position: fixed;
-        top: 6px;
-        right: 6px;
-        padding: 7px;
+        top: 10px;
+        right: 10px;
+        padding: 10px;
         background-color: transparent;
         color: #fff;
         border: 2px solid #fff;
@@ -47,6 +47,12 @@
         cursor: pointer;
         text-decoration: none; /* Remove underline for anchor */
     }
+    @media only screen and (max-width: 600px) {
+            .language-button {
+                padding: 8px;
+                font-size: 90%;
+            }
+        }
 </style>
 
 
