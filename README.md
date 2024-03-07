@@ -1,11 +1,13 @@
 ![Logo](https://cdn.cottle.cloud/littlelink/littlelink.gif)
 
 # LittleLink
-The DIY self-hosted LinkTree alternative. LittleLink has more than 100 branded button styles you can easily use, with more being added by our community all the time. 
+The DIY self-hosted LinkTree alternative. LittleLink has more than 100 branded button styles you can easily use, with more regularly added by our community in this repo and in [LittleLink Extended](https://github.com/sethcottle/littlelink-extended). 
+
+---
+### 🌞 Themes and Accessibility
+LittleLink offers both `light` and `dark` themes right out of the box. If the default color schemes don't match your preference, you can easily customize them by updating the values in `skeleton-light.css` or `skeleton-dark.css`. For those who prefer an automatic adjustment, setting your CSS to `skeleton-auto.css` enables the theme to adapt based on the device's system settings. To enhance visual accessibility in both `light` and `dark` modes, buttons lacking sufficient contrast with the background are outlined with an inverse stroke to ensure visibility. While LittleLink emphasizes accessibility, it's important to acknowledge that not all brands incorporated into LittleLink achieve this standard. Branded buttons that come into LittleLink always retain the original essence of the brand and some branded buttons might fall short of optimal accessibility in terms of contrast.
 
 ![Theme](https://cdn.cottle.cloud/littlelink/themesupport.gif)
-
-LittleLink has more than 100 branded button styles you can use (with even more being added by our community). You'll also find a light and dark theme ready to go. Not a fan of the default colors? Update `skeleton-light.css` or `skeleton-dark.css` to the HEX values of your choosing. You can also set your CSS to `skeleton-auto.css`, which will use the system theme of the device you visit on.
 
 ---
 ### 🥇 Performance
@@ -39,7 +41,7 @@ Please reference the [submitting a new brand to LittleLink wiki](https://github.
 ### 📦 Community Extras
 
 #### 🛸 LittleLink Extended
-Looking for more niche services to add to your copy of LittleLink? Check out [LittleLink Extended](https://github.com/sethcottle/littlelink-extended). Users can add more niche services to this repository to help keep the core LittleLink repository less cluttered.
+Looking for more niche services to add to your copy of LittleLink? Check out [LittleLink Extended](https://github.com/sethcottle/littlelink-extended). Users can add more niche services to this repository to help keep the core LittleLink repository less cluttered and more focused on delivering branded experiences for the majority of users.
 
 #### 🎨 Figma
 Duplicate the [LittleLink Template on Figma Community](https://www.figma.com/community/file/846568099968305613) to help plan out and design your LittleLink page.
@@ -101,4 +103,4 @@ To help build a more privacy focused product, we recommend using [Fathom Analyti
 
 ###### ** Analytics in this dashboard start May 03, 2022. View this [Google Sheets file](https://docs.google.com/spreadsheets/d/1GL4SroAdH-OZphBVR5z-BoSukHIEVJfao25q_e9-Ii8/edit?usp=sharing) with the generic unique pageview data from Google Analytics.
 
-[![PayPal](https://cdn.cottle.cloud/littlelink/button-fathom-analytics.svg)](https://usefathom.com/ref/EQVZMV)
+[![Fathom](https://cdn.cottle.cloud/littlelink/button-fathom-analytics.svg)](https://usefathom.com/ref/EQVZMV)
