@@ -1,7 +1,7 @@
 ![Logo](https://cdn.cottle.cloud/littlelink/littlelink.gif)
 
 # LittleLink
-The DIY self-hosted <a href="https://linktr.ee/" target="_blank" rel="noopener">LinkTree</a> alternative. LittleLink has more than 100 branded button styles you can easily use, with more being added by our community all the time.
+The DIY self-hosted LinkTree alternative. LittleLink has more than 100 branded button styles you can easily use, with more being added by our community all the time.
 
 ![Theme](https://cdn.cottle.cloud/littlelink/themesupport.gif)
 
@@ -23,6 +23,10 @@ No need for gulp, npm, or anything else to make LittleLink work—it uses the ba
 
 ---
 
+### 🥰 Contributions
+Please reference the [submitting a new brand to LittleLink wiki](https://github.com/sethcottle/littlelink/wiki/Submitting-a-new-brand-to-LittleLink) before opening a PR.
+
+---
 ### 🤝 Community Extras
 
 #### 📦 LittleLink Extended
