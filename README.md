@@ -19,7 +19,7 @@ LittleLink epitomizes simplicity and minimalism. When evaluating the [LittleLink
 
 ![Publish](https://cdn.cottle.cloud/littlelink/Deployment.svg)
 
-No need for gulp, npm, or anything else to make LittleLink work—it uses the bare essentials. You can automatically fork and deploy LittleLink with [Vercel](https://vercel.com/), [Netlify](https://www.netlify.com/), or [Amplify](https://aws.amazon.com/amplify) using the button below. LittleLink is also easy to host through [GitHub Pages](https://pages.github.com/) or on your homeserver, CDN, or or other frontend hosting services. To edit, all you need is a little basic HTML knowledge to add a link to the exisiting buttons or you can create your own. See our [adding custom buttons to your own fork wiki](https://github.com/sethcottle/littlelink/wiki/Adding-custom-buttons-to-your-own-fork). 
+No need for gulp, npm, or anything else to make LittleLink work—it uses the bare essentials. You can automatically fork and deploy LittleLink with [Vercel](https://vercel.com/), [Netlify](https://www.netlify.com/), or [Amplify](https://aws.amazon.com/amplify) using the button below. LittleLink is also easy to host through [GitHub Pages](https://pages.github.com/) or on your home lab server, CDN, or other frontend hosting services. To edit, all you need is a little basic HTML knowledge to add a link to the exisiting buttons or you can create your own. See our [adding custom buttons to your own fork wiki](https://github.com/sethcottle/littlelink/wiki/Adding-custom-buttons-to-your-own-fork). It's simple, promise. 🤞
 
 ---
 
