@@ -299,14 +299,14 @@ button:hover,
   filter: brightness(90%);
 }
 
-/* Discogs_alt */
-.button.button-discogs_alt {
+/* Discogs Alt */
+.button.button-discogs-alt {
   color: #FFFFFF;
   background-color: #000000;
   border: 1px solid #FFFFFF
 }
-.button.button-discogs:hover,
-.button.button-discogs:focus {
+.button.button-discogs-alt:hover,
+.button.button-discogs-alt:focus {
   filter: brightness(90%);
 }
 
@@ -465,17 +465,6 @@ button:hover,
   filter: brightness(90%);
 }
 
-/* Google Podcasts */
-.button.button-google-podcasts {
-  color: #000000;
-  background-color: #FFFFFF;
-  border: 1px solid #212121;
-}
-.button.button-google-podcasts:hover,
-.button.button-google-podcasts:focus {
-  filter: brightness(90%);
-}
-
 /* Google Scholar */
 .button.button-google-scholar {
   color: #000000;
@@ -536,7 +525,6 @@ button:hover,
 .button.button-kick-alt:hover {
   filter: brightness(90%);
 }
-
 
 /* Kickstarter */
 .button.button-kickstarter {
@@ -752,7 +740,7 @@ button:hover,
 .button.button-qq {
   color: #000000;
   background-color: #FFFFFF;
-  border: 3px solid #4D94FF;
+  border: 1px solid #000000;
 }
 .button.button-qq:hover,
 .button.button-qq:focus {
@@ -842,7 +830,6 @@ button:hover,
 .button.button-slack:focus {
   filter: brightness(90%);
 }
-
 
 /* Snapchat */
 .button.button-snapchat {
@@ -1030,16 +1017,6 @@ button:hover,
   filter: brightness(90%);
 }
 
-/* Twitter (archiving soon, see 'X') */
-.button.button-twit {
-  color: #ffffff;
-  background-color: #1da1f2;
-}
-.button.button-twit:hover,
-.button.button-twit:focus {
-  filter: brightness(90%);
-}
-
 /* Unsplash */
 .button.button-unsplash {
   color: #000000;
@@ -1185,7 +1162,3 @@ button:hover,
 .button.button-zoom:focus {
   filter: brightness(90%);
 }
-
-
-
-
