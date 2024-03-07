@@ -13,11 +13,11 @@ Using [Skeleton](http://getskeleton.com/) let us build something that loads quic
 
 ![Publish](https://cdn.cottle.cloud/littlelink/Publish.svg)
 
-No need for gulp, npm, or anything else to make LittleLink work—it uses the bare essentials. You can automatically fork and deploy LittleLink with [Netlify](https://www.netlify.com/), [Vercel](https://vercel.com/), or [Amplify](https://aws.amazon.com/amplify). 👇️
-
-[![Deploy to Netlify](https://cdn.cottle.cloud/littlelink/button-deploy-netlify.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/sethcottle/littlelink)
+No need for gulp, npm, or anything else to make LittleLink work—it uses the bare essentials. You can automatically fork and deploy LittleLink with [Vercel](https://vercel.com/), [Netlify](https://www.netlify.com/), or [Amplify](https://aws.amazon.com/amplify). 👇️
 
 [![Deploy to Vercel](https://cdn.cottle.cloud/littlelink/button-deploy-vercel.svg)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fsethcottle%2Flittlelink&project-name=littlelink&repository-name=littlelink)
+
+[![Deploy to Netlify](https://cdn.cottle.cloud/littlelink/button-deploy-netlify.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/sethcottle/littlelink)
 
 [![Deploy to Amplify](https://cdn.cottle.cloud/littlelink/button-deploy-amplify.svg)](https://console.aws.amazon.com/amplify/home#/deploy?repo=https://github.com/sethcottle/littlelink)
 
