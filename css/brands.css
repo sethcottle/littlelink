@@ -503,7 +503,8 @@ button:hover,
   color:  #ffffff;
   border: 1px solid #ffffff;
 }
-.button.button-gumroad:hover {
+.button.button-gumroad:hover,
+.button.button-gumroad:focus {
   filter: brightness(90%);
 }
 
