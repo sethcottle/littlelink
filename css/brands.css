@@ -203,6 +203,17 @@ button:hover,
   filter: brightness(90%);
 }
 
+/* Big Cartel */
+.button.button-bigcartel {
+  color: #ffffff;
+  background-color: #222222;
+  border: 1px solid #ffffff;
+}
+.button.button-bigcartel:hover,
+.button.button-bigcartel:focus {
+  filter: brightness(90%);
+}
+
 /* Bluesky */
 .button.button-bluesky {
   color: #FFFFFF;
@@ -483,6 +494,16 @@ button:hover,
 }
 .button.button-guilded:hover,
 .button.button-guilded:focus {
+  filter: brightness(90%);
+}
+
+/* Gumroad */
+.button.button-gumroad {
+  background-color:#000000;
+  color:  #ffffff;
+  border: 1px solid #ffffff;
+}
+.button.button-gumroad:hover {
   filter: brightness(90%);
 }
 
