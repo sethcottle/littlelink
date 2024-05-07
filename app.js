@@ -6,16 +6,10 @@ const port = 8000;
 
 // app.use(express.static(path.join(__dirname, 'public')));
 
-app.use("/css", express.static("css"));
-app.use("/images", express.static("images"));
-app.use("/fonts", express.static("fonts"));
+app.use("/", express.static("public"));
 
 app.get("/", (req, res) => {
     res.sendFile(path.join(__dirname, "index.html"));
-});
-
-app.get("/privacy.html", (req, res) => {
-    res.sendFile(path.join(__dirname, "privacy.html"));
 });
 
 app.listen(port, () => {
