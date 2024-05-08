@@ -1,7 +1,12 @@
-version: "3.8"
 services:
-    web:
+    littlelink:
         build: .
         command: npm run start
         ports:
-            - "8000:8000"
+            - "127.0.0.1:8000:8000"
+        container_name: littlelink
+
+networks:
+    default:
+        external: true
+        name: proxypool
