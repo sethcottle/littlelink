@@ -1,0 +1,10 @@
+/* Leetcode */
+.button.button-leetcode {
+    color: #ffffff;
+    background-color: #17063B;
+    border: 1px solid #FFFFFF;
+  }
+  .button.button-leetcode:hover,
+  .button.button-leetcode:focus {
+    filter: brightness(90%);
+  }
