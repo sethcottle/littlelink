@@ -64,7 +64,7 @@
   :root {
     --bgColor: #f51919;
     --bgColor2: #1119f1;
-    --accentColor2: #881980;
+    --accentColor2: #ed1c24;
     --accentColor: #FFF;
     --font: 'Roboto', sans-serif;
     --delay: .3s; }
@@ -144,7 +144,7 @@
     text-decoration: none;
   }
   a:hover {
-    color: #f5af19; }
+    color: #ed1c24; }
   
   .spacing {
     padding: 0 10px;
