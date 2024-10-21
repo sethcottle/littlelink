@@ -41,14 +41,11 @@
     <iframe id="contentFrame" src="https://rokvaz.github.io/littlelink_AN/en.html"></iframe>
 
     <script>
-        // Current page is set to "test"
         let currentPage = "EN";
 
         document.getElementById("toggleButton").addEventListener("click", function() {
-            // Get the iframe element
             const iframe = document.getElementById("contentFrame");
 
-            // Toggle between 'test' and 'othertest' within the iframe
             if (currentPage === "EN") {
                 iframe.src = "https://rokvaz.github.io/littlelink_AN/lt.html";
                 currentPage = "LT";
