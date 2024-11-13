@@ -1,6 +1,10 @@
 # LittleLink Version History
 
-## Current Version: v3.0.0
+## Current Version: v3.0.1
+
+### v3.0.1 - 11/13/2024
+- Removed Trakt logo from `images/icons` since this now lives in LittleLink Extended
+- Favicon update for `privacy.html`
 
 ### v3.0.0 - 11/13/2024
 A complete modernization of LittleLink focusing on accessibility, maintainability, and more modern web standards.
