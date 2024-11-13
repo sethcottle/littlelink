@@ -9,7 +9,7 @@ A complete modernization of LittleLink focusing on accessibility, maintainabilit
 - Complete rebuild of CSS architecture
   - Moved away from Skeleton CSS dependency to custom, purpose-built CSS
   - Improved maintainability with modular CSS structure
-  - Enhanced dark mode and auto themeing implementation
+  - Enhanced dark mode and auto theming implementation
   - Enhanced `brands.css`
 
 - Accessibility Improvements

@@ -54,8 +54,6 @@ Duplicate the [LittleLink Template on Figma Community](https://www.figma.com/com
 • [Drew](https://github.com/davisdre) is building a [super simple Docker implementation of LittleLink](https://github.com/davisdre/littlelink).
 
 #### 🗃️ Misc
-• [Khashayar](https://github.com/khashayarzavosh) is building [LittleLink Admin](https://github.com/khashayarzavosh/admin-littlelink) which lets you host your own admin portal to manage LittleLink!
-
 • [Julian](https://github.com/JulianPrieber) is building [LinkStack](https://github.com/LinkStackOrg/LinkStack), which is a fork of [Khashayar](https://github.com/khashayarzavosh)'s [LittleLink Admin](https://github.com/khashayarzavosh/admin-littlelink).
 
 ---
