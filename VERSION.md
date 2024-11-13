@@ -33,9 +33,17 @@ A complete modernization of LittleLink focusing on accessibility, maintainabilit
 #### Brand Changes
 - Updated PayPal button color
 - Updated Discord button color
-- Updated YouTube to us their Almost Black
+- Updated YouTube button color
+- Updated Pinterest button color
 - Updated Ko-fi button color and updated their logo
 - Updated Medium logo
+- Updated WordPress button color
+- Moved NGL to LittleLink Extended
+- Moved Redbubble to LittleLink Extended
+- Moved Revolut to LittleLink Extended
+- Moved Trakt to LittleLink Extended
+- Moved Untapped to LittleLink Extended
+- Moved Upwork to LittleLink Extended
 
 ---
 For the complete history of changes, please visit:

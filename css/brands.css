@@ -382,7 +382,7 @@
 /* Pinterest */
 .button-pinterest {
 	--button-text:#000000;
-	--button-background:#ffe2eb;
+	--button-background:#ffffff;
 	--button-border:1px solid #212121;
 }
 
@@ -400,24 +400,10 @@
 	--button-border:1px solid #FFFFFF;
 }
 
-/* Redbubble */
-.button-redbubble {
-	--button-text:#e41321;
-	--button-background:#ffffff;
-	--button-border:1px solid #212121;
-}
-
 /* Reddit */
 .button-reddit {
 	--button-text:#FFFFFF;
 	--button-background:#FF4500;
-}
-
-/* Revolut */
-.button-revolut {
-	--button-text:#000000;
-	--button-background:#ffffff;
-	--button-border:1px solid black;
 }
 
 /* Shop */
@@ -528,12 +514,6 @@
 	--button-border:1px solid #FFFFFF;
 }
 
-/* Trakt */
-.button-trakt {
-	--button-text:#ffffff;
-	--button-background:#ED1C24;
-}
-
 /* Trello */
 .button-trello {
 	--button-text:#ffffff;
@@ -558,18 +538,6 @@
 	--button-text:#000000;
 	--button-background:#ffffff;
 	--button-border:1px solid #212121;
-}
-
-/* Untappd */
-.button-untappd {
-	--button-text:#000000;
-	--button-background:#ffc000;
-}
-
-/* Upwork */
-.button-upwork {
-	--button-text:#FFFFFF;
-	--button-background:#14A800;
 }
 
 /* Venmo */
@@ -600,7 +568,7 @@
 /* WordPress */
 .button-wordpress {
 	--button-text:#ffffff;
-	--button-background:#21759b;
+	--button-background:#3858E9;
 }
 
 /* X */
@@ -622,101 +590,4 @@
 	--button-text:#ffffff;
 	--button-background:#0B5CFF;
   --button-border:1px solid #FFFFFF;
-}
-
-/* Generic Buttons */
-.button-default {
-	--button-text:#ffffff;
-	--button-background:#000000;
-	--button-border:1px solid #FFFFFF;
-}
-
-.button-blog {
-	--button-text:#ffffff;
-	--button-background:#000000;
-	--button-border:1px solid #FFFFFF;
-}
-
-.button-calendar {
-	--button-text:#ffffff;
-	--button-background:#000000;
-	--button-border:1px solid #FFFFFF;
-}
-
-.button-cloud {
-	--button-text:#ffffff;
-	--button-background:#000000;
-	--button-border:1px solid #FFFFFF;
-}
-
-.button-code {
-	--button-text:#ffffff;
-	--button-background:#000000;
-	--button-border:1px solid #FFFFFF;
-}
-
-.button-computer {
-	--button-text:#ffffff;
-	--button-background:#000000;
-	--button-border:1px solid #FFFFFF;
-}
-
-.button-email {
-	--button-text:#ffffff;
-	--button-background:#000000;
-	--button-border:1px solid #FFFFFF;
-}
-
-.button-homepage {
-	--button-text:#ffffff;
-	--button-background:#000000;
-	--button-border:1px solid #FFFFFF;
-}
-
-.button-map {
-	--button-text:#ffffff;
-	--button-background:#000000;
-	--button-border:1px solid #FFFFFF;
-}
-
-.button-phone {
-	--button-text:#ffffff;
-	--button-background:#000000;
-	--button-border:1px solid #FFFFFF;
-}
-
-.button-review {
-	--button-text:#ffffff;
-	--button-background:#000000;
-	--button-border:1px solid #FFFFFF;
-}
-
-.button-rss {
-	--button-text:#ffffff;
-	--button-background:#000000;
-	--button-border:1px solid #FFFFFF;
-}
-
-.button-shopping-bag {
-	--button-text:#ffffff;
-	--button-background:#000000;
-	--button-border:1px solid #FFFFFF;
-}
-
-.button-shopping-tag {
-	--button-text:#ffffff;
-	--button-background:#000000;
-	--button-border:1px solid #FFFFFF;
-}
-
-.button-sms {
-	--button-text:#ffffff;
-	--button-background:#000000;
-	--button-border:1px solid #FFFFFF;
-}
-
-.button-website {
-	--button-text:#ffffff;
-	--button-background:#000000;
-	--button-border:1px solid #FFFFFF;
 }
