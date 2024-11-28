@@ -1,640 +1,593 @@
 /*
-* littlelink.io
-* Skeleton V2.0.4
-* Copyright 2014, Dave Gamache
-* www.getskeleton.com
-* Free to use under the MIT license.
+* LittleLink Button Styles
+* https://littlelink.io
+* Free to use under the MIT license
 * http://www.opensource.org/licenses/mit-license.php
-* 12/29/2014
 */
 
-/*
-* Built using on:
-* Skeleton V2.0.4
-* Copyright 2014, Dave Gamache
-* www.getskeleton.com
-* Free to use under the MIT license.
-* http://www.opensource.org/licenses/mit-license.php
-* 12/29/2014
-*/
-
-/* Table of contents
-––––––––––––––––––––––––––––––––––––––––––––––––––
-
-- Buttons
-- Brand Styles
-
-*/
-
-/* Buttons
+/* Brand Button Base Styles
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-
-.button,
-button {
-  display: inline-block;
-  text-decoration: none;
-  height: 48px;
-  text-align: center;
-  vertical-align: middle;
-  font-size: 18px;
-  width: 300px;
-  font-weight: 700;
-  line-height: 48px;
-  letter-spacing: 0.1px;
-  white-space: wrap;
-  border-radius: 8px;
-  cursor: pointer;
-}
-button:hover,
-.button:focus {
-  color: #333;
-  border-color: #888;
-  outline: 0;
-}
-.button.button-primary {
-  color: #fff;
-  filter: brightness(90%);
-}
-.button.button-primary:hover,
-.button.button-primary:focus {
-  color: #fff;
-  filter: brightness(90%);
+/* Only include brand-specific button styling here */
+.button,button {
+  color:var(--button-text,#000000);
+  background-color:var(--button-background,transparent);
+	border:var(--button-border,none);
+	transition:filter 0.2s ease,transform 0.2s ease;
 }
 
-/* Brand Icons
+/* Global Button Hover Effect
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+.button:hover,button:hover {
+	filter:brightness(90%);
+	transform:translateY(-1px);
+}
 
+/* Button Icons
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
 .icon {
-  padding: 0px 8px 3.5px 0px;
-  vertical-align: middle;
-  width: 20px;
-  height: 20px;
+	filter:var(--icon-filter,none);
 }
 
-/* Brand Styles
+/* Brand-Specific Styles
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-/* Default (this is great for your own brand color!) */
+/* Default */
 .button.button-default {
-  color: #ffffff;
-  background-color: #0085ff;
-}
-.button.button-default:hover,
-.button.button-default:focus {
-  filter: brightness(90%);
+	--button-text:#ffffff;
+	--button-background:#2457F5;
+	--button-border:1px solid #ffffff;
 }
 
 /* Amazon */
-.button.button-amazon {
-  color: #000000;
-  background-color: #ffffff;
+.button-amazon {
+	--button-text:#000000;
+	--button-background:#FFFFFF;
+	--button-border:1px solid #212121;
 }
-.button.button-amazon:hover,
-.button.button-amazon:focus {
-  filter: brightness(90%);
+
+/* Amazon Music */
+.button-amazon-music {
+	--button-text:#000000;
+	--button-background:#25D1DA;
 }
 
 /* Apple App Store */
-.button.button-appstore {
-  color: #ffffff;
-  background-color: #000000;
+.button-appstore {
+	--button-text:#FFFFFF;
+	--button-background:#000000;
+	--button-border:1px solid #FFFFFF;
 }
-.button.button-appstore:hover,
-.button.button-appstore:focus {
-  filter: brightness(90%);
+
+/* Apple Music */
+.button-apple-music {
+	--button-text:#ffffff;
+	--button-background:#000000;
+	--button-border:1px solid #FFFFFF;
+}
+
+/* Apple Music Alt */
+.button-apple-music-alt {
+	--button-text:#ffffff;
+	background-image:linear-gradient(to bottom,#FB5C74,#FA233B);
+}
+
+/* Apple Podcasts */
+.button-apple-podcasts {
+	--button-text:#ffffff;
+	--button-background:#000000;
+	--button-border:1px solid #FFFFFF;
+}
+
+/* Apple Podcasts Alt */
+.button-apple-podcasts-alt {
+	--button-text:#ffffff;
+	background-image:linear-gradient(to bottom,#F452FF,#832BC1);
 }
 
 /* Bandcamp */
-.button.button-bandcamp {
-  color: #ffffff;
-  background-color: #1d9fc3;
+.button-bandcamp {
+	--button-text:#ffffff;
+	--button-background:#1d9fc3;
 }
-.button.button-bandcamp:hover,
-.button.button-bandcamp:focus {
-  filter: brightness(90%);
+
+/* Behance */
+.button-behance {
+	--button-text:#ffffff;
+	--button-background:#0057FF;
+  --button-border:1px solid #FFFFFF;
+}
+
+/* Bluesky */
+.button-bluesky {
+	--button-text:#FFFFFF;
+	--button-background:#1185FE;
+}
+
+/* Bluesky Alt */
+.button-bluesky-alt {
+	--button-text:#000000;
+	--button-background:#FFFFFF;
+	--button-border:1px solid #000000;
 }
 
 /* Buy Me a Coffee */
-.button.button-coffee {
-  color: #100a26;
-  background-color: #ffdd00;
-}
-.button.button-coffee:hover,
-.button.button-coffee:focus {
-  filter: brightness(90%);
+.button-coffee {
+	--button-text:#000000;
+	--button-background:#ffdd00;
 }
 
-/* Ko-fi */
-.button.button-ko-fi {
-  color: #ffffff;
-  background-color: #13C3FF;
+/* Cal.com */
+.button-cal {
+	--button-text:#FFFFFF;
+	--button-background:#292929;
+	--button-border:1px solid #FFFFFF;
 }
-.button.button-ko-fi:hover,
-.button.button-ko-fi:focus {
-  filter: brightness(90%);
+
+/* Calendly */
+.button-calendly {
+	--button-text:#FFFFFF;
+	--button-background:#006BFF;
 }
 
 /* Cash App */
-.button.button-cashapp {
-  color: #ffffff;
-  background-image: linear-gradient(to bottom, #00d64b, #00c244);
-}
-.button.button-cashapp:hover,
-.button.button-cashapp:focus {
-  filter: brightness(90%);
+.button-cash-app {
+	--button-text:#ffffff;
+	background-image:linear-gradient(to bottom,#00d64b,#00c244);
 }
 
 /* dev.to */
-.button.button-dev-to {
-  color: #000000;
-  background-color: #f5f5f5;
+.button-dev-to {
+	--button-text:#000000;
+	--button-background:#f5f5f5;
+	--button-border:1px solid #212121;
 }
-.button.button-dev-to:hover,
-.button.button-dev-to:focus {
-  filter: brightness(90%);
+
+/* Discogs */
+.button-discogs {
+	--button-text:#000000;
+	--button-background:#FFFFFF;
+	--button-border:1px solid #000000;
+}
+
+/* Discogs Alt */
+.button-discogs-alt {
+	--button-text:#FFFFFF;
+	--button-background:#000000;
+	--button-border:1px solid #FFFFFF;
 }
 
 /* Discord */
-.button.button-discord {
-  color: #ffffff;
-  background-color: #5865f2;
+.button-discord {
+	--button-text:#ffffff;
+	--button-background:#5865F2;
 }
-.button.button-discord:hover,
-.button.button-discord:focus {
-  filter: brightness(90%);
+
+/* Dribbble */
+.button-dribbble {
+	--button-text:#000000;
+	--button-background:#FFFFFF;
+	--button-border:1px solid #212121;
 }
 
 /* Etsy */
-.button.button-etsy {
-  color: #ffffff;
-  background-color: #F45800;
-}
-.button.button-etsy:hover,
-.button.button-etsy:focus {
-  filter: brightness(90%);
+.button-etsy {
+	--button-text:#ffffff;
+	--button-background:#F45800;
 }
 
 /* Facebook */
-.button.button-faceb {
-  color: #ffffff;
-  background-color: #1877f2;
-}
-.button.button-faceb:hover,
-.button.button-faceb:focus {
-  filter: brightness(90%);
+.button-faceb {
+	--button-text:#ffffff;
+	--button-background:#1877f2;
 }
 
 /* Facebook Messenger */
-.button.button-messenger {
-  color: #ffffff;
-  background-image: linear-gradient(
-    25deg,
-    #0099ff,
-    #5f5dff,
-    #a033ff,
-    #c740cc,
-    #ff5280,
-    #ff7061
-  );
-}
-.button.button-messenger:hover,
-.button.button-messenger:focus {
-  filter: brightness(90%);
+.button-messenger {
+	--button-text:#ffffff;
+	background-image:linear-gradient(25deg,#0099ff,#5f5dff,#a033ff,#c740cc,#ff5280,#ff7061);
 }
 
 /* Figma */
-.button.button-figma {
-  color: #ffffff;
-  background-color: #000000;
+.button-figma {
+	--button-text:#ffffff;
+	--button-background:#000000;
+	--button-border:1px solid #FFFFFF;
 }
-.button.button-figma:hover,
-.button.button-figma:focus {
-  filter: brightness(90%);
+
+/* Fiverr */
+.button-fiverr {
+	--button-text:#ffffff;
+	--button-background:#1DBF73;
 }
 
 /* Flickr */
-.button.button-flickr {
-  color: #ffffff;
-  background-color: #000000;
-}
-.button.button-flickr:hover,
-.button.button-flickr:focus {
-  filter: brightness(90%);
+.button-flickr {
+	--button-text:#ffffff;
+	--button-background:#000000;
+	--button-border:1px solid #FFFFFF;
 }
 
-/* Github */
-.button.button-github {
-  color: #ffffff;
-  background-color: #000000;
-}
-.button.button-github:hover,
-.button.button-github:focus {
-  filter: brightness(90%);
+/* GitHub */
+.button-github {
+	--button-text:#ffffff;
+	--button-background:#000000;
+	--button-border:1px solid #FFFFFF;
 }
 
-/* Gitlab */
-.button.button-gitlab {
-  color: #ffffff;
-  background-color: #6151b2;
+/* GitLab */
+.button-gitlab {
+	--button-text:#ffffff;
+	--button-background:#6151b2;
 }
-.button.button-gitlab:hover,
-.button.button-gitlab:focus {
-  filter: brightness(90%);
+
+/* GoFundMe */
+.button-gofundme {
+	--button-text:#ffffff;
+	--button-background:#02A95C;
 }
 
 /* Goodreads */
-.button.button-goodreads {
-  color: #333333;
-  background-color: #f3f1e6;
+.button-goodreads {
+	--button-text:#333333;
+	--button-background:#f3f1e6;
+	--button-border:1px solid #212121;
 }
-.button.button-goodreads:hover,
-.button.button-goodreads:focus {
-  filter: brightness(90%);
+
+/* Google Black */
+.button-google-black {
+	--button-text:#FFFFFF;
+	--button-background:#000000;
+	--button-border:1px solid #FFFFFF;
 }
 
 /* Google Play Store */
-.button.button-playstore {
-  color: #FFFFFF;
-  background-color: #000000;
+.button-playstore {
+	--button-text:#FFFFFF;
+	--button-background:#000000;
+	--button-border:1px solid #FFFFFF;
 }
-.button.button-playstore:hover,
-.button.button-playstore:focus {
-  filter: brightness(90%);
+
+/* Google Scholar */
+.button-google-scholar {
+	--button-text:#000000;
+	--button-background:#FFFFFF;
+	--button-border:1px solid #212121;
+}
+
+/* Hashnode */
+.button-hashnode {
+	--button-text:#000000;
+	--button-background:#ffffff;
+	--button-border:1px solid #212121;
 }
 
 /* Instagram */
-.button.button-instagram {
-  color: #ffffff;
-  background-image: linear-gradient(-135deg, #1400c8, #b900b4, #f50000);
-}
-.button.button-instagram:hover,
-.button.button-instagram:focus {
-  filter: brightness(90%);
+.button-instagram {
+	--button-text:#ffffff;
+	background-image:linear-gradient(-135deg,#1400c8,#b900b4,#f50000);
 }
 
-/* kickstarter */
-.button.button-kickstarter {
-  color: #ffffff;
-  background-color: #05ce78;
+/* Kick */
+.button-kick {
+	--button-text:#ffffff;
+	--button-background:#000000;
+	--button-border:1px solid #ffffff;
 }
-.button.button-kickstarter:hover,
-.button.button-kickstarter:focus {
-  filter: brightness(90%);
+
+/* Kick Alt */
+.button-kick-alt {
+	--button-text:#000000;
+	--button-background:#01e701;
+}
+
+/* Kickstarter */
+.button-kickstarter {
+	--button-text:#ffffff;
+	--button-background:#05ce78;
 }
 
 /* Kit */
-.button.button-kit {
-  color: #ffffff;
-  background-color: #000000;
-}
-.button.button-kit:hover,
-.button.button-kit:focus {
-  filter: brightness(90%);
+.button-kit {
+	--button-text:#ffffff;
+	--button-background:#000000;
+	--button-border:1px solid #FFFFFF;
 }
 
-/* LinkedIn */
-.button.button-linked {
-  color: #ffffff;
-  background-color: #2867b2;
-}
-.button.button-linked:hover,
-.button.button-linked:focus {
-  filter: brightness(90%);
+/* Ko-fi */
+.button-ko-fi {
+	--button-text:#ffffff;
+	--button-background:#000000;
+  --button-border:1px solid #FFFFFF;
 }
 
-/* Mastodon */
-.button.button-mastodon {
-  color: #ffffff;
-  background-color: #1f232b;
-}
-.button.button-mastodon:hover,
-.button.button-mastodon:focus {
-  filter: brightness(90%);
-}
-
-/* Medium */
-.button.button-medium {
-  color: #ffffff;
-  background-color: #000000;
-}
-.button.button-medium:hover,
-.button.button-medium:focus {
-  filter: brightness(90%);
-}
-
-/* Notion */
-.button.button-notion {
-  color: #000000;
-  border-style: solid;
-  border-color: #000000;
-  border-width: 2px;
-  background-color: #ffffff;
-}
-.button.button-notion:hover,
-.button.button-notion:focus {
-  filter: brightness(90%);
-}
-
-/* OnlyFans */
-.button.button-onlyfans {
-  color: #ffffff;
-  background-color: #00AEEF;
-}
-.button.button-onlyfans:hover,
-.button.button-onlyfans:focus {
-  filter: brightness(90%);
-}
-
-/* Patreon */
-.button.button-patreon {
-  color: #ffffff;
-  background-color: #ff424d;
-}
-.button.button-patreon:hover,
-.button.button-patreon:focus {
-  filter: brightness(90%);
-}
-
-/* PayPal */
-.button.button-paypal {
-  color: #ffffff;
-  background-color: #003087;
-}
-.button.button-paypal:hover,
-.button.button-paypal:focus {
-  filter: brightness(90%);
-}
-
-/* Pinterest */
-.button.button-pinterest {
-  color: #000000;
-  background-color: #ffe2eb;
-}
-.button.button-pinterest:hover,
-.button.button-pinterest:focus {
-  filter: brightness(90%);
-}
-
-/* Producthunt */
-.button.button-producthunt {
-  color: #da552f;
-  border-style: solid;
-  border-color: #da552f;
-  border-width: 2px;
-  background-color: #ffffff;
-}
-.button.button-producthunt:hover,
-.button.button-producthunt:focus {
-  filter: brightness(90%);
-}
-
-/* Reddit */
-.button.button-reddit {
-  color: #000000;
-  background-color: #d7dfe2;
-}
-.button.button-reddit:hover,
-.button.button-reddit:focus {
-  filter: brightness(90%);
-}
-
-/* Signal */
-.button.button-signal {
-  color: #ffffff;
-  background-color: #3a76f0;
-}
-.button.button-signal:hover,
-.button.button-signal:focus {
-  filter: brightness(90%);
-}
-
-/* Skoob */
-.button.button-skoob {
-  color: #ffffff;
-  background-color: #3189c8;
-}
-.button.button-skoob:hover,
-.button.button-skoob:focus {
-  filter: brightness(90%);
-}
-
-/* Snapchat */
-.button.button-snapchat {
-  color: #000000;
-  background-color: #fffc00;
-}
-.button.button-snapchat:hover,
-.button.button-snapchat:focus {
-  filter: brightness(90%);
-}
-
-/* SoundCloud */
-.button.button-soundcloud {
-  color: #ffffff;
-  background-color: #ff5500;
-}
-.button.button-soundcloud:hover,
-.button.button-soundcloud:focus {
-  filter: brightness(90%);
-}
-
-/* Spotify */
-.button.button-spotify {
-  color: #191414;
-  background-color: #1db954;
-}
-.button.button-spotify:hover,
-.button.button-spotify:focus {
-  filter: brightness(90%);
-}
-
-/* Steam */
-.button.button-steam {
-  color: #ffffff;
-  background-color: #171a21;
-}
-.button.button-steam:hover,
-.button.button-steam:focus {
-  filter: brightness(90%);
-}
-
-/* Strava */
-.button.button-strava {
-  color: #ffffff;
-  background-color: #fc5200;
-}
-.button.button-strava:hover,
-.button.button-strava:focus {
-  filter: brightness(90%);
-}
-
-/* Telegram */
-.button.button-telegram {
-  color: #ffffff;
-  background-color: #3faee8;
-}
-.button.button-telegram:hover,
-.button.button-telegram:focus {
-  filter: brightness(90%);
-}
-
-/* Threema */
-.button.button-threema {
-  color: #000000;
-  background-color: #3fe669;
-}
-.button.button-threema:hover,
-.button.button-threema:focus {
-  filter: brightness(90%);
-}
-
-/* TikTok */
-.button.button-tiktok {
-  color: #ffffff;
-  background-color: #000000;
-}
-.button.button-tiktok:hover,
-.button.button-tiktok:focus {
-  filter: brightness(90%);
-}
-
-/* Trello */
-.button.button-trello {
-  color: #ffffff;
-  background-color: #0065ff;
-}
-.button.button-trello:hover,
-.button.button-trello:focus {
-  filter: brightness(90%);
-}
-
-/* Tumblr */
-.button.button-tumb {
-  color: #ffffff;
-  background-color: #131313;
-}
-.button.button-tumb:hover,
-.button.button-tumb:focus {
-  filter: brightness(90%);
-}
-
-/* Twitch */
-.button.button-twitch {
-  color: #ffffff;
-  background-color: #9146ff;
-}
-.button.button-twitch:hover,
-.button.button-twitch:focus {
-  filter: brightness(90%);
-}
-
-/* Twitter */
-.button.button-twit {
-  color: #ffffff;
-  background-color: #1da1f2;
-}
-.button.button-twit:hover,
-.button.button-twit:focus {
-  filter: brightness(90%);
-}
-
-/* Venmo */
-.button.button-venmo {
-  color: #ffffff;
-  background-color: #008CFF;
-}
-.button.button-venmo:hover,
-.button.button-venmo:focus {
-  filter: brightness(90%);
-}
-
-/* Untappd */
-.button.button-untappd {
-  color: #ffffff;
-  background-color: #ffc000;
-}
-.button.button-untappd:hover,
-.button.button-untappd:focus {
-  filter: brightness(90%);
-}
-
-/* Vimeo */
-.button.button-vimeo {
-  color: #ffffff;
-  background-color: #1ab7ea;
-}
-.button.button-vimeo:hover,
-.button.button-vimeo:focus {
-  filter: brightness(90%);
-}
-
-/* VRChat */
-.button.button-vrchat {
-  color: #000000;
-  background-color: #ffffff;
-  border: 2px solid black;
-}
-.button.button-vrchat:hover,
-.button.button-vrchat:focus {
-  filter: brightness(90%);
-}
-
-/* Website */
-.button.button-web {
-  color: #ffffff;
-  background-color: #000000;
-}
-.button.button-web:hover,
-.button.button-web:focus {
-  filter: brightness(90%);
-}
-
-/* WhatsApp */
-.button.button-whatsapp {
-  color: #ffffff;
-  background-color: #455a64;
-}
-.button.button-whatsapp:hover,
-.button.button-whatsapp:focus {
-  filter: brightness(90%);
-}
-
-/* Wordpress */
-.button.button-wordpress {
-  color: #ffffff;
-  background-color: #21759b;
-}
-.button.button-wordpress:hover,
-.button.button-wordpress:focus {
-  filter: brightness(90%);
-}
-
-/* Xing */
-.button.button-xing {
-  color: #ffffff;
-  background-color: #026466;
-}
-.button.button-xing:hover,
-.button.button-xing:focus {
-  filter: brightness(90%);
-}
-
-/* YouTube */
-.button.button-yt {
-  color: #ffffff;
-  background-color: #000000;
-}
-.button.button-yt:hover,
-.button.button-yt:focus {
-  filter: brightness(90%);
+/* Last.fm */
+.button-last-fm {
+	--button-text:#ffffff;
+	--button-background:#D51007;
 }
 
 /* Letterboxd */
-.button.button-letterboxd {
-  color: #ffffff;
-  background-color: #2c3440;
+.button-letterboxd {
+	--button-text:#ffffff;
+	--button-background:#2c3440;
+	--button-border:1px solid #FFFFFF;
 }
-.button.button-letterboxd:hover,
-.button.button-letterboxd:focus {
-  filter: brightness(90%);
+
+/* Line */
+.button-line {
+	--button-text:#FFFFFF;
+	--button-background:#06C755;
+}
+
+/* LinkedIn */
+.button-linked {
+	--button-text:#ffffff;
+	--button-background:#2867b2;
+}
+
+/* Mailchimp */
+.button-mailchimp {
+	--button-text:#000000;
+	--button-background:#FFE01B;
+}
+
+/* Mastodon */
+.button-mastodon {
+	--button-text:#ffffff;
+	--button-background:#17063B;
+	--button-border:1px solid #FFFFFF;
+}
+
+/* Medium */
+.button-medium {
+	--button-text:#ffffff;
+	--button-background:#000000;
+	--button-border:1px solid #FFFFFF;
+}
+
+/* Microsoft */
+.button-microsoft {
+	--button-text:#ffffff;
+	--button-background:#000000;
+	--button-border:1px solid #FFFFFF;
+}
+
+/* Notion */
+.button-notion {
+	--button-text:#000000;
+	--button-background:#ffffff;
+	--button-border:1px solid #212121;
+}
+
+/* OnlyFans */
+.button-onlyfans {
+	--button-text:#ffffff;
+	--button-background:#00AEEF;
+}
+
+/* Patreon */
+.button-patreon {
+	--button-text:#ffffff;
+	--button-background:#000000;
+	--button-border:1px solid #FFFFFF;
+}
+
+/* PayPal */
+.button-paypal {
+	--button-text:#ffffff;
+	--button-background:#002991;
+  --button-border:1px solid #FFFFFF;
+}
+
+/* Pinterest */
+.button-pinterest {
+	--button-text:#000000;
+	--button-background:#ffffff;
+	--button-border:1px solid #212121;
+}
+
+/* Product Hunt */
+.button-product-hunt {
+	--button-text:#000000;
+	--button-background:#ffffff;
+	--button-border:1px solid #212121;
+}
+
+/* Read.cv */
+.button-read-cv {
+	--button-text:#FFFFFF;
+	--button-background:#000000;
+	--button-border:1px solid #FFFFFF;
+}
+
+/* Reddit */
+.button-reddit {
+	--button-text:#FFFFFF;
+	--button-background:#FF4500;
+}
+
+/* Shop */
+.button-shop {
+	--button-text:#ffffff;
+	--button-background:#5A31F4;
+}
+
+/* Signal */
+.button-signal {
+	--button-text:#ffffff;
+	--button-background:#3a76f0;
+}
+
+/* Slack */
+.button-slack {
+	--button-text:#000000;
+	--button-background:#FFFFFF;
+	--button-border:1px solid #212121;
+}
+
+/* Snapchat */
+.button-snapchat {
+	--button-text:#000000;
+	--button-background:#fffc00;
+}
+
+/* SoundCloud */
+.button-soundcloud {
+	--button-text:#ffffff;
+	--button-background:#ff5500;
+}
+
+/* Spotify */
+.button-spotify {
+	--button-text:#191414;
+	--button-background:#1db954;
+}
+
+/* Spotify Alt */
+.button-spotify-alt {
+	--button-text:#FFFFFF;
+	--button-background:#191414;
+	--button-border:1px solid #FFFFFF;
+}
+
+/* Square */
+.button-square {
+	--button-text:#FFFFFF;
+	--button-background:#006AFF;
+}
+
+/* Stack Overflow */
+.button-stack-overflow {
+	--button-text:#000000;
+	--button-background:#FFFFFF;
+	--button-border:1px solid #000000;
+}
+
+/* Steam */
+.button-steam {
+	--button-text:#ffffff;
+	background-image:linear-gradient(90deg,#08BBFF,#2B75FF);
+}
+
+/* Steam Alt */
+.button-steam-alt {
+	--button-text:#ffffff;
+	background-image:linear-gradient(90deg,#09172a,#072a57,#0c5085);
+	--button-border:1px solid #FFFFFF;
+}
+
+/* Strava */
+.button-strava {
+	--button-text:#ffffff;
+	--button-background:#fc5200;
+}
+
+/* Substack */
+.button-substack {
+	--button-text:#ffffff;
+	--button-background:#FF6719;
+}
+
+/* Telegram */
+.button-telegram {
+	--button-text:#ffffff;
+	--button-background:#3faee8;
+}
+
+/* Threads */
+.button-threads {
+	--button-text:#FFFFFF;
+	--button-background:#000000;
+	--button-border:1px solid #FFFFFF;
+}
+
+/* Threema */
+.button-threema {
+	--button-text:#000000;
+	--button-background:#3fe669;
+}
+
+/* TikTok */
+.button-tiktok {
+	--button-text:#ffffff;
+	--button-background:#000000;
+	--button-border:1px solid #FFFFFF;
+}
+
+/* Trello */
+.button-trello {
+	--button-text:#ffffff;
+	--button-background:#0065ff;
+}
+
+/* Tumblr */
+.button-tumb {
+	--button-text:#ffffff;
+	--button-background:#131313;
+	--button-border:1px solid #FFFFFF;
+}
+
+/* Twitch */
+.button-twitch {
+	--button-text:#ffffff;
+	--button-background:#9146ff;
+}
+
+/* Unsplash */
+.button-unsplash {
+	--button-text:#000000;
+	--button-background:#ffffff;
+	--button-border:1px solid #212121;
+}
+
+/* Venmo */
+.button-venmo {
+	--button-text:#ffffff;
+	--button-background:#008CFF;
+}
+
+/* Vimeo */
+.button-vimeo {
+	--button-text:#ffffff;
+	--button-background:#1ab7ea;
+}
+
+/* VSCO */
+.button-vsco {
+	--button-text:#FFFFFF;
+	--button-background:#000000;
+	--button-border:1px solid #FFFFFF;
+}
+
+/* WhatsApp */
+.button-whatsapp {
+	--button-text:#ffffff;
+	--button-background:#455a64;
+}
+
+/* WordPress */
+.button-wordpress {
+	--button-text:#ffffff;
+	--button-background:#3858E9;
+}
+
+/* X */
+.button-x {
+	--button-text:#FFFFFF;
+	--button-background:#000000;
+	--button-border:1px solid #FFFFFF;
+}
+
+/* YouTube */
+.button-yt {
+	--button-text:#ffffff;
+	--button-background:#282828;
+	--button-border:1px solid #FFFFFF;
+}
+
+/* Zoom */
+.button-zoom {
+	--button-text:#ffffff;
+	--button-background:#0B5CFF;
+  --button-border:1px solid #FFFFFF;
 }
