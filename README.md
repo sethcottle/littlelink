@@ -1,3 +1,15 @@
+Links for Dale Slack
+
+
+
+
+
+
+
+****
+
+
+
 ![Logo](https://cdn.cottle.cloud/GitHub/LittleLink/littlelink.gif)
 
 # LittleLink
