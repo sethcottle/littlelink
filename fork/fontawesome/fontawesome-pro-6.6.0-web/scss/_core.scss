@@ -1,0 +1,86 @@
+// base icon class definition
+// -------------------------
+
+.#{$fa-css-prefix} {
+  font-family: var(--#{$fa-css-prefix}-style-family, '#{$fa-style-family}');
+  font-weight: var(--#{$fa-css-prefix}-style, #{$fa-style});
+}
+
+.#{$fa-css-prefix}-solid,
+.#{$fa-css-prefix}-regular,
+.#{$fa-css-prefix}-brands,
+.fas,
+.far,
+.fab,
+.fal,
+.fat,
+.fad,
+.fass,
+.fasr,
+.fasl,
+.fast,
+.fasds,
+.#{$fa-css-prefix}-light,
+.#{$fa-css-prefix}-thin,
+.#{$fa-css-prefix}-duotone,
+.#{$fa-css-prefix}-sharp,
+.#{$fa-css-prefix}-sharp-duotone,
+.#{$fa-css-prefix}-sharp-solid,
+.#{$fa-css-prefix}-classic,
+.#{$fa-css-prefix} {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: var(--#{$fa-css-prefix}-display, #{$fa-display});
+  font-style: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-rendering: auto;
+}
+
+.fas,
+.far,
+.fal,
+.fat,
+.#{$fa-css-prefix}-solid,
+.#{$fa-css-prefix}-regular,
+.#{$fa-css-prefix}-light,
+.#{$fa-css-prefix}-thin,
+.#{$fa-css-prefix}-classic {
+  font-family: 'Font Awesome 6 Pro';
+}
+
+.fab,
+.#{$fa-css-prefix}-brands {
+  font-family: 'Font Awesome 6 Brands';
+}
+
+.fad,
+.#{$fa-css-prefix}-classic.#{$fa-css-prefix}-duotone,
+.#{$fa-css-prefix}-duotone {
+  font-family: 'Font Awesome 6 Duotone';
+}
+
+.fasds,
+.#{$fa-css-prefix}-sharp-duotone {
+  font-family: 'Font Awesome 6 Sharp Duotone';
+}
+.fasds,
+.#{$fa-css-prefix}-sharp-duotone {
+  font-weight: 900;
+}
+
+.fass,
+.fasr,
+.fasl,
+.fast,
+.#{$fa-css-prefix}-sharp {
+  font-family: 'Font Awesome 6 Sharp';
+}
+.fass,
+.#{$fa-css-prefix}-sharp {
+  font-weight: 900;
+}
+
+%fa-icon {
+  @include fa-icon;
+}

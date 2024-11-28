@@ -1,0 +1,80 @@
+/*!
+ * Font Awesome Pro 6.6.0 by @fontawesome - https://fontawesome.com
+ * License - https://fontawesome.com/license (Commercial License)
+ * Copyright 2024 Fonticons, Inc.
+ */
+@import "_variables.less";
+
+:root, :host {
+  --@{fa-css-prefix}-style-family-sharp-duotone: 'Font Awesome 6 Sharp Duotone';
+  --@{fa-css-prefix}-font-sharp-duotone-solid: normal 900 1em/1 'Font Awesome 6 Sharp Duotone';
+}
+
+@font-face {
+  font-family: 'Font Awesome 6 Sharp Duotone';
+  font-style: normal;
+  font-weight: 900;
+  font-display: @fa-font-display;
+  src: url('@{fa-font-path}/fa-sharp-duotone-solid-900.woff2') format('woff2'),
+    url('@{fa-font-path}/fa-sharp-duotone-solid-900.ttf') format('truetype');
+}
+
+.fasds,
+  .@{fa-css-prefix}-sharp-duotone,
+.@{fa-css-prefix}-sharp-duotone.@{fa-css-prefix}-solid {
+  position: relative;
+  font-weight: 900;
+  letter-spacing: normal;
+}
+
+.fasds:before,
+  .@{fa-css-prefix}-sharp-duotone:before,
+.@{fa-css-prefix}-sharp-duotone.@{fa-css-prefix}-solid:before {
+  position: absolute;
+  color: ~'var(--@{fa-css-prefix}-primary-color, inherit)';
+  opacity: @fa-primary-opacity;
+  opacity: ~'var(--@{fa-css-prefix}-primary-opacity, @{fa-primary-opacity})';
+}
+
+.fasds:after,
+  .fa-sharp-duotone:after,
+.@{fa-css-prefix}-sharp-duotone.@{fa-css-prefix}-solid:after {
+  color: ~'var(--@{fa-css-prefix}-secondary-color, inherit)';
+  opacity: @fa-secondary-opacity;
+  opacity: ~'var(--@{fa-css-prefix}-secondary-opacity, @{fa-secondary-opacity})';
+}
+
+.@{fa-css-prefix}-swap-opacity .fasds:before,
+  .@{fa-css-prefix}-swap-opacity .@{fa-css-prefix}-sharp-duotone:before,
+.@{fa-css-prefix}-swap-opacity .@{fa-css-prefix}-sharp-duotone.@{fa-css-prefix}-solid:before,
+.fasds.@{fa-css-prefix}-swap-opacity:before,
+.@{fa-css-prefix}-sharp-duotone.@{fa-css-prefix}-swap-opacity:before,
+.@{fa-css-prefix}-sharp-duotone.fa-solid.@{fa-css-prefix}-swap-opacity:before {
+  opacity: @fa-secondary-opacity;
+  opacity: ~'var(--@{fa-css-prefix}-secondary-opacity, @{fa-secondary-opacity})';
+}
+
+.@{fa-css-prefix}-swap-opacity .fasds:after,
+  .@{fa-css-prefix}-swap-opacity .@{fa-css-prefix}-sharp-duotone:after,
+.@{fa-css-prefix}-swap-opacity .@{fa-css-prefix}-sharp-duotone.@{fa-css-prefix}-solid:after,
+.fasds.@{fa-css-prefix}-swap-opacity:after,
+.@{fa-css-prefix}-sharp-duotone.@{fa-css-prefix}-swap-opacity:after,
+.@{fa-css-prefix}-sharp-duotone.@{fa-css-prefix}-solid.@{fa-css-prefix}-swap-opacity:after {
+  opacity: @fa-primary-opacity;
+  opacity: ~'var(--@{fa-css-prefix}-primary-opacity, @{fa-primary-opacity})';
+}
+
+.fasds.@{fa-css-prefix}-inverse,
+  .@{fa-css-prefix}-sharp-duotone.@{fa-css-prefix}-inverse,
+.@{fa-css-prefix}-sharp-duotone.@{fa-css-prefix}-solid.@{fa-css-prefix}-inverse {
+  color: ~'var(--@{fa-css-prefix}-inverse, @{fa-inverse})';
+}
+
+.fasds.@{fa-css-prefix}-stack-1x,
+.fasds.@{fa-css-prefix}-stack-2x,
+  .@{fa-css-prefix}-sharp-duotone.@{fa-css-prefix}-stack-1x,
+.@{fa-css-prefix}-sharp-duotone.@{fa-css-prefix}-solid.@{fa-css-prefix}-stack-1x,
+  .@{fa-css-prefix}-sharp-duotone.@{fa-css-prefix}-stack-2x,
+.@{fa-css-prefix}-sharp-duotone.@{fa-css-prefix}-solid.@{fa-css-prefix}-stack-2x {
+  position: absolute;
+}

@@ -1,0 +1,10 @@
+// specific sharp duotone icon class definition
+// -------------------------
+
+/* Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen readers do not read off random characters that represent icons */
+
+each(.fa-icons(), {
+    .fasds.@{fa-css-prefix}-@{key}::after, .@{fa-css-prefix}-sharp-duotone.@{fa-css-prefix}-@{key}::after {
+      content: %("%s%s", @value, @value);
+    }
+});
