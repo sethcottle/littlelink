@@ -70,6 +70,24 @@
 
 <link href="fork/fontawesome/fontawesome-pro-6.6.0-web/css/all.css" rel="stylesheet" />
 
+<!-- Matomo -->
+<script>
+  var _paq = window._paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//analytics.dslack.uk/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '10']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript><p><img referrerpolicy="no-referrer-when-downgrade" src="//analytics.dslack.uk/matomo.php?idsite=10&amp;rec=1" style="border:0;" alt="" /></p></noscript>
+<!-- End Matomo Code -->
+
+
   </head>
 
 <body>
@@ -110,41 +128,75 @@
             <!-- All your buttons go here -->
             <div class="button-stack" role="navigation">
 
-              <h2 id="project">Project</h2>
+              <hgroup>
 
-              <!-- DSlack -->
-              <a class="button button-wordpress" href="https://daleslack.link/dslack" target="_blank" rel="noopener" role="button">
-                <i class="fa-brands fa-wordpress fa-fw"></i>DSlack</a>
+                <h2 id="project">Project</h2>
 
-                <!-- Tube History -->
-                <a class="button button-default" href="https://daleslack.link/tubehistory" target="_blank" rel="noopener" role="button">
-                <i class="fa-brands fa-php fa-fw"></i>Tube History</a>
+                <p>My public published projects:</p>
+
+              </hgroup>
+              
+                  <!-- DSlack -->
+                  <a class="button button-wordpress" href="https://daleslack.link/dslack" target="_blank" rel="noopener" role="button"><i class="fa-brands fa-wordpress fa-fw fa-2x">&nbsp;</i>DSlack</a>
+
+                  <!-- Tube History -->
+                  <a class="button button-default" href="https://daleslack.link/tubehistory" target="_blank" rel="noopener" role="button"><i class="fa-brands fa-php fa-fw fa-2x">&nbsp;</i>Tube History</a>
+
+                  </div>
+
+              <div class="button-stack" role="navigation">
+
+                <hgroup>
+
+                  <h2 id='social'>Social</h2>
+
+                  <p>Find me on social networks:</p>
+
+                </hgroup>
+
+                  <!-- Bluesky -->
+                  <a class="button button-bluesky" href="https://daleslack.link/bluesky" target="_blank" rel="noopener" role="button"><i class="fa-brands fa-bluesky fa-fw fa-2x">&nbsp;</i>Bluesky</a>
+
+                  <!-- Discord -->
+                  <a class="button button-discord" href="https://daleslack.link/discord" target="_blank" rel="noopener" role="button"><i class="fa-brands fa-discord fa-fw fa-2x">&nbsp;</i>Discord</a>
+
+                  <!-- Facebook -->
+                  <a class="button button-faceb" href="https://daleslack.link/facebook" target="_blank" rel="noopener"><i class="fa-brands fa-facebook fa-fw fa-2x">&nbsp;</i>Facebook</a>
+
+                  <!-- Instagram -->
+                  <a class="button button-instagram" href="https://daleslack.link/instagram" target="_blank" rel="noopener" role="button"><i class="fa-brands fa-instagram fa-fw fa-2x">&nbsp;</i>Instagram</a>
+
+                  <!-- Mastodon -->
+                  <a class="button button-mastodon" href="https://daleslack.link/mastodon" target="_blank" rel="noopener" role="button"><i class="fa-brands fa-mastodon fa-fw fa-2x">&nbsp;</i>Mastodon</a>
+
+                  <!-- Reddit -->
+                  <a class="button button-reddit" href="https://daleslack.link/reddit" target="_blank" rel="noopener" role="button"><i class="fa-brands fa-reddit fa-fw fa-2x">&nbsp;</i>Reddit</a>
+
+                  <!-- Threads -->
+                  <a class="button button-threads" href="https://daleslack.link/threads" target="_blank" rel="noopener" role="button"><i class="fa-brands fa-threads fa-fw fa-2x">&nbsp;</i>Threads</a>
+
+                  <!-- YouTube -->
+                  <a class="button button-yt" href="https://daleslack.link/youtube" target="_blank" rel="noopener" role="button"><i class="fa-brands fa-youtube fa-fw fa-2x">&nbsp;</i>YouTube</a>
+
+                  <!-- X -->
+                  <a class="button button-x" href="https://daleslack.link/twitter" target="_blank" rel="noopener" role="button"><i class="fa-brands fa-x-twitter fa-fw fa-2x">&nbsp;</i>X (Twitter)</a>
+
             </div>
 
             <div class="button-stack" role="navigation">
 
-              <h2 id='social'>Social</h2>
-        <!-- Facebook -->
-        <a class="button button-faceb" href="https://daleslack.link/facebook" target="_blank" rel="noopener">
-          <i class="fa-brands fa-facebook"></i>Facebook</a>
-          
-           <!-- X -->
-           <a class="button button-x" href="https://daleslack.link/twitter" target="_blank" rel="noopener" role="button">
-            <i class="fa-brands fa-x-twitter"></i>Follow on X</a>
+              <hgroup>
 
-            </div>
+                <h2 id='tool'>Tool</h2>
 
-            <div class="button-stack" role="navigation">
+                <p>My tools</p>
 
-              <h2 id='tool'>Tool</h2>
+              </hgroup>
+              
+              <!-- GitHub -->
+              <a class="button button-github" href="https://daleslack.link/github" target="_blank" rel="noopener"><i class="fa-brands fa-github fa-fw fa-2x">&nbsp;</i>GitHub</a>
 
-        <!-- GitHub -->
-        <a class="button button-github" href="https://daleslack.link/github" target="_blank" rel="noopener">
-          <i class="fa-brands fa-github"></i>GitHub</a>
-
-        <a class="button button-github" href="https://daleslack.link/github-org" target="_blank" rel="noopener">
-          <i class="fa-brands fa-square-github"></i>GitHub (Organisation)</a>
-
+              <a class="button button-github" href="https://daleslack.link/github-org" target="_blank" rel="noopener"><i class="fa-brands fa-square-github fa-fw fa-2x">&nbsp;</i>GitHub (Organisation)</a>
 
             </div>
         
