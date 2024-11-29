@@ -1,0 +1,83 @@
+{
+  "name": "dark-mode-toggle",
+  "version": "0.16.1",
+  "description": "Web Component that toggles dark mode 🌒",
+  "main": "./dist/dark-mode-toggle.min.mjs",
+  "module": "./dist/dark-mode-toggle.min.mjs",
+  "unpkg": "./dist/dark-mode-toggle.min.mjs",
+  "exports": {
+    ".": {
+      "types": "./src/dark-mode-toggle.d.ts",
+      "module": "./dist/dark-mode-toggle.min.mjs",
+      "import": "./dist/dark-mode-toggle.min.mjs",
+      "browser": "./dist/dark-mode-toggle.min.mjs"
+    }
+  },
+  "files": [
+    "src",
+    "dist"
+  ],
+  "scripts": {
+    "start": "npx http-server && echo \"Server running on http://localhost:8080/demo/\"",
+    "clean": "shx rm -rf ./dist && mkdir dist",
+    "lint:js": "npx eslint \"./src/*.mjs\" --fix && npx eslint \"./demo/*.mjs\" --fix",
+    "lint:css": "shx cp ./src/template-contents.tpl ./src/template-contents.html && npx stylelint \"./src/*.html\" --fix && shx cp ./src/template-contents.html ./src/template-contents.tpl && shx rm ./src/template-contents.html && npx stylelint \"./demo/*.css\" --fix",
+    "lint": "npm run lint:js && npm run lint:css",
+    "fix": "npx prettier --write .",
+    "build": "npm run clean && npx terser ./src/dark-mode-toggle.mjs --toplevel --mangle-props regex=\\\"^_\\\" --comments /@license/ --ecma=8 -o ./dist/dark-mode-toggle.min.mjs && npx terser ./src/dark-mode-toggle-stylesheets-loader.js --toplevel --mangle-props regex=\\\"^_\\\" --comments /@license/ --ecma=8 -o ./dist/dark-mode-toggle-stylesheets-loader.min.js",
+    "prepare": "npm run lint && npm run fix && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/googlechromelabs/dark-mode-toggle.git"
+  },
+  "keywords": [
+    "dark",
+    "mode"
+  ],
+  "author": "Thomas Steiner <steiner.thomas@gmail.com> (https://blog.tomayac.com/)",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/googlechromelabs/dark-mode-toggle/issues"
+  },
+  "homepage": "https://github.com/googlechromelabs/dark-mode-toggle#readme",
+  "devDependencies": {
+    "eslint": "^9.12.0",
+    "eslint-config-google": "^0.14.0",
+    "http-server": "^14.1.1",
+    "postcss-html": "^1.7.0",
+    "prettier": "^3.3.3",
+    "shx": "^0.3.4",
+    "stylelint": "^16.9.0",
+    "stylelint-config-standard": "^36.0.1",
+    "terser": "^5.34.1"
+  },
+  "stylelint": {
+    "extends": "stylelint-config-standard",
+    "rules": {
+      "selector-type-no-unknown": [
+        true,
+        {
+          "ignore": [
+            "custom-elements"
+          ]
+        }
+      ],
+      "property-no-unknown": [
+        true,
+        {
+          "ignoreProperties": []
+        }
+      ]
+    },
+    "overrides": [
+      {
+        "files": [
+          "*.html",
+          "**/*.html"
+        ],
+        "customSyntax": "postcss-html"
+      }
+    ]
+  }
+}

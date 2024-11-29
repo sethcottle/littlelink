@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Hello Dark Mode</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="dark light" />
+    <meta name="theme-color" content="" />
+    <link rel="icon" content="" />
+    <script>
+      // If `prefers-color-scheme` is not supported, fall back to light mode.
+      // In this case, light.css will be downloaded with `highest` priority.
+      if (window.matchMedia('(prefers-color-scheme)').media === 'not all') {
+        document.documentElement.style.display = 'none';
+        document.head.insertAdjacentHTML(
+          'beforeend',
+          '<link rel="stylesheet" href="light.css" onload="document.documentElement.style.display = ``">',
+        );
+      }
+    </script>
+    <link
+      rel="stylesheet"
+      href="dark.css"
+      media="(prefers-color-scheme: dark)"
+    />
+    <link
+      rel="stylesheet"
+      href="light.css"
+      media="(prefers-color-scheme: light)"
+    />
+    <link rel="stylesheet" href="common.css" />
+    <script type="module" src="dark-mode-toggle-playground.mjs"></script>
+    <script type="module" src="../dist/dark-mode-toggle.min.mjs"></script>
+  </head>
+  <body>
+    <main>
+      <h1>Hi there!</h1>
+      <img
+        src="cat.jpg"
+        alt="Sitting cat in front of a tree"
+        width="640"
+        height="390"
+      />
+      <p>
+        Lorem ipsum dolor sit amet, legere ancillae ne vis. Ne vim laudem
+        accusam consectetuer, eu utinam integre abhorreant sea. Quo eius veri
+        ei, nibh invenire democritum vel in, utamur vulputate id est. Possit
+        ceteros vis an.
+      </p>
+      <form id="content">
+        <fieldset>
+          <legend>Lorem ipsum</legend>
+          <div>
+            <select>
+              <option>Lorem</option>
+              <option>Ipsum</option>
+            </select>
+          </div>
+          <div>
+            <button type="button">Lorem</button>
+          </div>
+          <div>
+            <label>
+              <input type="text" value="Lorem ipsum" />
+              Lorem ipsum
+            </label>
+          </div>
+          <div>
+            <label>
+              <input type="search" value="Lorem ipsum" />
+              Lorem ipsum
+            </label>
+          </div>
+          <div>
+            <label><input checked type="checkbox" /> Lorem</label>
+            <label><input type="checkbox" /> Ipsum</label>
+          </div>
+          <div>
+            <label><input checked name="foo" type="radio" /> Lorem</label>
+            <label><input name="foo" type="radio" /> Ipsum</label>
+          </div>
+        </fieldset>
+      </form>
+      <p>
+        Also see the <a href="unstyled.html">unstyled variant</a>
+        that shows the out-of-the-box experience.
+      </p>
+    </main>
+    <aside>
+      <dark-mode-toggle id="dark-mode-toggle-1"></dark-mode-toggle>
+    </aside>
+    <aside>
+      <dark-mode-toggle id="dark-mode-toggle-2"></dark-mode-toggle>
+    </aside>
+    <aside>
+      <dark-mode-toggle
+        id="dark-mode-toggle-3"
+        legend="Dark Mode"
+        light="off"
+        dark="on"
+        remember="always"
+      ></dark-mode-toggle>
+    </aside>
+    <aside>
+      <dark-mode-toggle
+        id="dark-mode-toggle-4"
+        legend="Theme Switcher"
+        light="Light"
+        dark="Dark"
+        remember="Remember this"
+        appearance="switch"
+      ></dark-mode-toggle>
+    </aside>
+  </body>
+</html>

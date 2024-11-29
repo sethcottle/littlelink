@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+  <head>
+    <noscript id="dark-mode-toggle-stylesheets">
+      <link
+        rel="stylesheet"
+        href="light.css"
+        media="(prefers-color-scheme: light)"
+      />
+      <link
+        rel="stylesheet"
+        href="dark.css"
+        media="(prefers-color-scheme: dark)"
+      />
+    </noscript>
+    <script src="../src/dark-mode-toggle-stylesheets-loader.js"></script>
+  </head>
+  <body>
+    <h1>Demo without flashing</h1>
+
+    <div>Refresh to test: <a href="without-flashing.html">Refresh</a></div>
+
+    <div>Go to the version <a href="with-flashing.html">with flashing</a></div>
+
+    <div>
+      Switch theme:
+      <dark-mode-toggle permanent></dark-mode-toggle>
+    </div>
+
+    <script type="module" src="../src/dark-mode-toggle.mjs"></script>
+    <script>
+      // Load uncached script to simulate a slow loading.
+      const rand = Math.random();
+      document.write('<script src="1-mb.js?r=' + rand + '"><\/script>');
+    </script>
+  </body>
+</html>

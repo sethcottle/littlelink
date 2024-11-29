@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script type="module" src="../src/dark-mode-toggle.mjs"></script>
+    <style>
+      body {
+        font-family: sans-serif;
+      }
+      .dark {
+        color: #fff;
+        background-color: #000;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Unstyled out-of-the-box experience</h1>
+    <aside>
+      <code>&lt;dark-mode-toggle&gt;&lt;/dark-mode-toggle&gt;</code>
+      <dark-mode-toggle></dark-mode-toggle>
+      <code
+        >&lt;dark-mode-toggle
+        appearance="switch"&gt;&lt;/dark-mode-toggle&gt;</code
+      >
+      <dark-mode-toggle appearance="switch"></dark-mode-toggle>
+      <code
+        >&lt;dark-mode-toggle permanent
+        remember="Remember"&gt;&lt;/dark-mode-toggle&gt;</code
+      >
+      <dark-mode-toggle permanent remember="Remember"></dark-mode-toggle>
+      <code
+        >&lt;dark-mode-toggle appearance="switch" permanent
+        remember="Remember"&gt;&lt;/dark-mode-toggle&gt;</code
+      >
+      <dark-mode-toggle
+        appearance="switch"
+        permanent
+        remember="Remember"
+      ></dark-mode-toggle>
+    </aside>
+    <script>
+      window.addEventListener('colorschemechange', (e) => {
+        document.body.classList.toggle('dark', e.target.mode === 'dark');
+      });
+    </script>
+  </body>
+</html>
