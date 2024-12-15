@@ -359,6 +359,13 @@
 	--button-border:1px solid #212121;
 }
 
+/* Obsidian */
+.button.button-obsidian {
+	--button-text:#ffffff;
+	--button-background:#262626;
+	--button-border:1px solid #ffffff;
+}
+
 /* OnlyFans */
 .button-onlyfans {
 	--button-text:#ffffff;
