@@ -1,6 +1,9 @@
 # LittleLink Version History
 
-## Current Version: v3.0.1
+## Current Version: v3.0.2
+
+### v3.0.2 - 12/20/2024
+- Added Obsidian as a brand
 
 ### v3.0.1 - 11/13/2024
 - Removed Trakt logo from `images/icons` since this now lives in LittleLink Extended
