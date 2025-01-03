@@ -592,6 +592,12 @@
 	--button-border:1px solid #FFFFFF;
 }
 
+/* YouTube Alt */
+.button-yt-alt {
+	--button-text:#ffffff;
+	--button-background:#FF0000;
+}
+
 /* Zoom */
 .button-zoom {
 	--button-text:#ffffff;
