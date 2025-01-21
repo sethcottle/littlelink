@@ -1,6 +1,10 @@
 # LittleLink Version History
 
-## Current Version: v3.0.2
+## Current Version: v3.1.0
+
+### v3.1.0 - 1/20/2024
+- Added alternate YouTube button (`PR #138` / `@Omikorin`)
+- Fixed `index.html` accessibilty issues (`PR #137` / `@rosahaj`)
 
 ### v3.0.2 - 12/20/2024
 - Added Obsidian as a brand
