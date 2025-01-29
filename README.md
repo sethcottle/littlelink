@@ -5,7 +5,7 @@ The DIY self-hosted LinkTree alternative. LittleLink has more than 100 branded b
 
 ---
 ### 🆕 LittleLink Button Builder
-Want to make your own buttons for LittleLink but you're not too sure where to start? [Check out our new Button Builder](https://builder.littlelink.io). This new builder lets you preview button styles and with a single click, copy the generated CSS code to put in `css/brands.css` or copy the generated HTML code to put in `index.html`. This builder also helps automate accessibility features by checking contrast ratios and suggesting borders when needed, ensuring your custom buttons maintain LittleLink's high standards for visibility in both light and dark themes. Design your buttons visually, preview them live, and get ready to go code. [Live Site](https://builder.littlelink.io) | [GitHub Repo](https://github.com/sethcottle/littlelink-button-builder)
+Want to make your own buttons for LittleLink but you're not too sure where to start? [Check out our new Button Builder](https://builder.littlelink.io). This new builder lets you preview button styles and with a single click, copy the generated CSS code to put in `css/brands.css`, and copy the generated HTML code to put in `index.html`. This builder also helps automate accessibility features by checking contrast ratios and suggesting strokes when needed, ensuring your custom buttons maintain LittleLink's high standards for visibility in both light and dark themes. Design your buttons visually, preview them live, and get ready to go code. [Live Site](https://builder.littlelink.io) | [GitHub Repo](https://github.com/sethcottle/littlelink-button-builder)
 
 ---
 ### 🌞 Themes and Accessibility
