@@ -1,8 +1,11 @@
 # LittleLink Version History
 
-## Current Version: v3.1.0
+## Current Version: v3.1.1
 
-### v3.1.0 - 1/20/2024
+### v3.1.1 - 1/28/2025
+- Fixed the alt text for Obsidian (`PR #138` / `@timtjtim`)
+  
+### v3.1.0 - 1/20/2025
 - Added alternate YouTube button (`PR #138` / `@Omikorin`)
 - Fixed `index.html` accessibilty issues (`PR #137` / `@rosahaj`)
 
