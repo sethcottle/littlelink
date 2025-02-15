@@ -1,6 +1,10 @@
 # LittleLink Version History
 
-## Current Version: v3.1.1
+## Current Version: v3.2.0
+
+### v3.2.0 - 2/14/2025
+- Added Apple Invites
+- Removed Read.cv (service is winding down)
 
 ### v3.1.1 - 1/28/2025
 - Fixed the alt text for Obsidian (`PR #138` / `@timtjtim`)

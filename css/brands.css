@@ -58,6 +58,13 @@
 	--button-border:1px solid #FFFFFF;
 }
 
+/* Apple Invites */
+.button-invites {
+	--button-text:#FFFFFF;
+	--button-background:#000000;
+	--button-border:1px solid #FFFFFF;
+}
+
 /* Apple Music */
 .button-apple-music {
 	--button-text:#ffffff;
@@ -398,13 +405,6 @@
 	--button-text:#000000;
 	--button-background:#ffffff;
 	--button-border:1px solid #212121;
-}
-
-/* Read.cv */
-.button-read-cv {
-	--button-text:#FFFFFF;
-	--button-background:#000000;
-	--button-border:1px solid #FFFFFF;
 }
 
 /* Reddit */
