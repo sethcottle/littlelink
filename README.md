@@ -65,19 +65,21 @@ Duplicate the [LittleLink Template on Figma Community](https://www.figma.com/com
 ### 💖 Supporters
 You can support LittleLink by [buying me a coffee](https://www.buymeacoffee.com/seth). You can also have your name or your company added to this section and the supporters page of the [LittleLink.io](https://littlelink.io) website.
 
-#### 🏢 Business Supporters
+#### 🏢 Business Supporters ($75 tier)
 • **[links.dev](https://github.com/fatih-yavuz/links.dev)**
 
 [![Add Your Company Name](https://cdn.cottle.cloud/littlelink/button-buy-me-a-coffee-company.svg)](https://www.buymeacoffee.com/seth/e/50574)
 
-#### ✨ Individual Supporters
+#### ✨ Individual Supporters ($25 tier)
 • **[Drew Davis](https://connect.davisdre.me)**
 
 • **[Robotter112](https://robotter112.de/)**
 
 [![Buy Me A Coffee](https://cdn.cottle.cloud/littlelink/button-buy-me-a-coffee-individual.svg)](https://www.buymeacoffee.com/seth/e/50573)
 
-#### 🐙 GitHub Sponsors
+#### 🐙 Active GitHub Sponsors
+• **[@nghialele](https://github.com/nghialele)**
+
 • **[Your Name Here](https://github.com/sponsors/sethcottle)**
 
 [![GitHub Sponsors](https://cdn.cottle.cloud/littlelink/button-github-sponsors.svg)](https://github.com/sponsors/sethcottle)
@@ -94,6 +96,14 @@ You can support LittleLink by [buying me a coffee](https://www.buymeacoffee.com/
 [![Ko-Fi](https://cdn.cottle.cloud/littlelink/button-ko-fi.svg)](https://ko-fi.com/sethcottle)
 
 [![PayPal](https://cdn.cottle.cloud/littlelink/button-paypal.svg)](https://paypal.me/sethcottle/)
+
+---
+
+### 🆕 Stay Connected
+
+Join the [Seth's Nook Discord](https://discord.gg/PrAEQFF2fK) server to get updates on LittleLink and more. Use the invite code `PrAEQFF2fK` or click the button below.
+
+[![Discord](https://cdn.cottle.cloud/littlelink/button-discord.svg)](https://discord.gg/PrAEQFF2fK)
 
 ---
 
