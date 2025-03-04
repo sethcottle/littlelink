@@ -345,6 +345,12 @@
 	--button-border:1px solid #FFFFFF;
 }
 
+/* Matrix */
+.button-matrix {
+	--button-text:#000000;
+	--button-background:#ffffff;
+}
+
 /* Medium */
 .button-medium {
 	--button-text:#ffffff;
