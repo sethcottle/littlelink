@@ -1,6 +1,14 @@
 # LittleLink Version History
 
-## Current Version: v3.2.0
+## Current Version: v3.4.0
+
+### v3.4.0 - 3/04/2025
+- Added Matrix
+- 
+### v3.3.0 - 03/01/2025
+- Updated Facebook Logo
+- Updated Messenger Logo
+- Updated Messenger Button Color
 
 ### v3.2.0 - 2/14/2025
 - Added Apple Invites
