@@ -1,6 +1,10 @@
 # LittleLink Version History
 
-## Current Version: v3.4.0
+## Current Version: v3.5.0
+
+### v3.5.0 - 3/10/2025
+- Added LittleLink Extended information in `index.html`
+- Added `PULL_REQUEST_TEMPLATE.md` to `.github` which is a reflection of [submitting a new brand](https://github.com/sethcottle/littlelink/wiki/Submitting-a-new-brand-to-LittleLink) wiki.
 
 ### v3.4.0 - 3/04/2025
 - Added Matrix
