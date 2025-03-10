@@ -142,6 +142,13 @@
 	background-image:linear-gradient(to bottom,#00d64b,#00c244);
 }
 
+/* Deezer */
+.button-deezer {
+	--button-text:#ffffff;
+	--button-background:#000000;
+	--button-border:1px solid #FFFFFF;
+}
+
 /* dev.to */
 .button-dev-to {
 	--button-text:#000000;
