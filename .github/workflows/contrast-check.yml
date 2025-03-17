@@ -1,0 +1,53 @@
+name: "Contrast Check"
+on:
+  pull_request:
+    paths:
+      - 'css/brands.css'
+  push:
+    paths:
+      - 'css/brands.css'
+  workflow_dispatch:
+
+jobs:
+  contrast-check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0  # Fetch all history
+      
+      - name: Setup for contrast check
+        run: |
+          # For PR, fetch the base branch
+          if [[ "${{ github.event_name }}" == "pull_request" ]]; then
+            echo "Running on PR from ${{ github.head_ref }} to ${{ github.base_ref }}"
+            git fetch origin ${{ github.base_ref }}:${{ github.base_ref }}
+            echo "BASE_BRANCH=origin/${{ github.base_ref }}" >> $GITHUB_ENV
+          else
+            # For push or manual, use the default branch
+            echo "Running on push or manual trigger"
+            echo "BASE_BRANCH=HEAD~1" >> $GITHUB_ENV
+          fi
+          
+          # Make script executable
+          chmod +x ./scripts/audit-contrast.sh
+      
+      - name: Modify contrast check script
+        run: |
+          # Create a temporary version of the script with the correct reference
+          grep -v "new_css=" ./scripts/audit-contrast.sh > temp.sh
+          
+          # Add the corrected git diff command
+          echo "# ---- FIXED GIT DIFF HANDLING ----" >> temp.sh
+          echo "new_css=\$(git diff $BASE_BRANCH --unified=0 -- css/brands.css | awk '/^\+.*(--button-text|--button-background|--button-border|background-image|\/\*|\.button-)/)" >> temp.sh
+          
+          # Add the rest of the original script 
+          grep -A 1000 "if \[\[ -z \"\$new_css\" \]\]; then" ./scripts/audit-contrast.sh >> temp.sh
+          
+          # Replace the original script
+          mv temp.sh ./scripts/audit-contrast.sh
+          chmod +x ./scripts/audit-contrast.sh
+      
+      - name: Run Contrast Check
+        run: ./scripts/audit-contrast.sh
