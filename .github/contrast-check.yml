@@ -3,6 +3,7 @@ on:
   pull_request:
     paths:
       - 'css/brands.css'
+  workflow_dispatch:
 
 jobs:
   contrast-check:
