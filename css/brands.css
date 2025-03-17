@@ -366,6 +366,13 @@
 	--button-border:1px solid #FFFFFF;
 }
 
+/* NEW BUTTON ONE */
+.button-newButtonOne {
+	--button-text:#000000;
+	--button-background:#f2f2f2;
+	--button-border:1px solid #000000;
+}
+
 /* Notion */
 .button-notion {
 	--button-text:#000000;
