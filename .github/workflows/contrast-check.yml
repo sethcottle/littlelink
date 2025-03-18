@@ -3,10 +3,7 @@ on:
   pull_request:
     paths:
       - 'css/brands.css'
-  push:
-    paths:
-      - 'css/brands.css'
-  workflow_dispatch:
+  workflow_dispatch:  # Manual trigger for testing
 
 jobs:
   contrast-check:
@@ -15,39 +12,231 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
         with:
-          fetch-depth: 0  # Fetch all history
-      
-      - name: Setup for contrast check
+          fetch-depth: 0
+          
+      - name: Setup for PR comparison
         run: |
-          # For PR, fetch the base branch
-          if [[ "${{ github.event_name }}" == "pull_request" ]]; then
-            echo "Running on PR from ${{ github.head_ref }} to ${{ github.base_ref }}"
-            git fetch origin ${{ github.base_ref }}:${{ github.base_ref }}
-            echo "BASE_BRANCH=origin/${{ github.base_ref }}" >> $GITHUB_ENV
-          else
-            # For push or manual, use the default branch
-            echo "Running on push or manual trigger"
-            echo "BASE_BRANCH=HEAD~1" >> $GITHUB_ENV
+          echo "Fetching base branch for comparison"
+          git fetch origin ${{ github.base_ref }}
+          
+      - name: Contrast Check (Review Me)
+        run: |
+          cat > contrast-check.sh << 'EOF'
+          #!/bin/bash
+          
+          # WCAG Minimum Contrast Ratio
+          MIN_CONTRAST=4.5
+          
+          FAILED=0
+          ALL_RESOLVED=1
+          NEEDS_MANUAL_REVIEW=0
+          
+          # Only get buttons that were modified in the PR
+          echo "Finding changed button styles..."
+          BUTTON_CLASSES=$(git diff origin/$GITHUB_BASE_REF -- css/brands.css | grep -E "^\+.*\.button-[a-zA-Z0-9]+" | sed -E 's/.*\.button-([a-zA-Z0-9]+).*/\1/' | sort -u)
+          
+          if [[ -z "$BUTTON_CLASSES" ]]; then
+            echo "✅ No button changes to check."
+            exit 0
           fi
           
-          # Make script executable
-          chmod +x ./scripts/audit-contrast.sh
-      
-      - name: Modify contrast check script
-        run: |
-          # Create a temporary version of the script with the correct reference
-          grep -v "new_css=" ./scripts/audit-contrast.sh > temp.sh
+          echo "Found button classes to check: $BUTTON_CLASSES"
+          echo "🔍 Auditing CSS for contrast issues..."
           
-          # Add the corrected git diff command
-          echo "# ---- FIXED GIT DIFF HANDLING ----" >> temp.sh
-          echo "new_css=\$(git diff $BASE_BRANCH --unified=0 -- css/brands.css | awk '/^\+.*(--button-text|--button-background|--button-border|background-image|\/\*|\.button-)/)" >> temp.sh
+          # Function to normalize hex colors to lowercase
+          normalize_color() {
+              local color="$1"
+              if [[ -n "$color" ]]; then
+                  echo "$color" | tr '[:upper:]' '[:lower:]'
+              else
+                  echo ""
+              fi
+          }
           
-          # Add the rest of the original script 
-          grep -A 1000 "if \[\[ -z \"\$new_css\" \]\]; then" ./scripts/audit-contrast.sh >> temp.sh
+          # Function to calculate luminance
+          get_luminance() {
+              local color="$1"
+              
+              if [[ -z "$color" || "$color" == "#" ]]; then
+                  echo 0
+                  return
+              fi
+              
+              color="${color#'#'}"
+              
+              if [[ ${#color} -ne 6 ]]; then
+                  echo 0
+                  return
+              fi
+              
+              r=$(printf "%d" 0x${color:0:2} 2>/dev/null || echo 0)
+              g=$(printf "%d" 0x${color:2:2} 2>/dev/null || echo 0)
+              b=$(printf "%d" 0x${color:4:2} 2>/dev/null || echo 0)
+              
+              r=$(awk "BEGIN { print ($r/255 <= 0.03928) ? ($r/255)/12.92 : ((($r/255) + 0.055)/1.055) ^ 2.4 }")
+              g=$(awk "BEGIN { print ($g/255 <= 0.03928) ? ($g/255)/12.92 : ((($g/255) + 0.055)/1.055) ^ 2.4 }")
+              b=$(awk "BEGIN { print ($b/255 <= 0.03928) ? ($b/255)/12.92 : ((($b/255) + 0.055)/1.055) ^ 2.4 }")
+              
+              echo $(awk "BEGIN { print (0.2126 * $r) + (0.7152 * $g) + (0.0722 * $b) }")
+          }
           
-          # Replace the original script
-          mv temp.sh ./scripts/audit-contrast.sh
-          chmod +x ./scripts/audit-contrast.sh
-      
-      - name: Run Contrast Check
-        run: ./scripts/audit-contrast.sh
+          # Function to calculate contrast ratio
+          get_contrast_ratio() {
+              local lum1=$(get_luminance "$1")
+              local lum2=$(get_luminance "$2")
+          
+              if [[ -z "$lum1" || -z "$lum2" ]]; then
+                  echo 0
+                  return
+              fi
+          
+              if (( $(awk "BEGIN { print ($lum1 > $lum2) ? 1 : 0 }") )); then
+                  awk "BEGIN { printf \"%.5f\", ($lum1 + 0.05) / ($lum2 + 0.05) }"
+              else
+                  awk "BEGIN { printf \"%.5f\", ($lum2 + 0.05) / ($lum1 + 0.05) }"
+              fi
+          }
+          
+          # Function to extract hex color
+          extract_color() {
+              local input="$1"
+              local color=""
+              
+              if [[ "$input" =~ "#[0-9a-fA-F]{6}" ]]; then
+                  color=$(echo "$input" | grep -o "#[0-9a-fA-F]\{6\}")
+              elif [[ "$input" =~ "1px solid #" ]]; then
+                  color=$(echo "$input" | sed -E 's/.*1px solid (#[0-9a-fA-F]{6}).*/\1/')
+              elif [[ "$input" =~ "solid #" ]]; then
+                  color=$(echo "$input" | sed -E 's/.*solid (#[0-9a-fA-F]{6}).*/\1/')
+              elif [[ "$input" =~ "#" ]]; then
+                  color=$(echo "$input" | grep -o "#[0-9a-fA-F]*" | head -1)
+              fi
+              
+              # Return normalized (lowercase) hex color
+              normalize_color "$color"
+          }
+          
+          # Check contrast
+          check_contrast() {
+              local text_color="$1"
+              local background_color="$2"
+              local context="$3"
+              local border_color="$4"
+              local recommend_stroke="$5"
+              local is_background_check="$6"
+              local button_name="$7"
+              local check_failed=0
+              
+              # Normalize all colors to lowercase for comparison
+              text_color=$(normalize_color "$text_color")
+              background_color=$(normalize_color "$background_color")
+              border_color=$(normalize_color "$border_color")
+              recommend_stroke=$(normalize_color "$recommend_stroke")
+              
+              if [[ -z "$text_color" || -z "$background_color" ]]; then
+                  return 0
+              fi
+          
+              local contrast_ratio=$(get_contrast_ratio "$text_color" "$background_color")
+          
+              if [[ -z "$contrast_ratio" ]]; then
+                  contrast_ratio=0
+              fi
+          
+              contrast_ratio=$(printf "%.2f" "$contrast_ratio")
+          
+              # Case-insensitive comparison for hex colors
+              if (( $(awk "BEGIN { print ($contrast_ratio < $MIN_CONTRAST) ? 1 : 0 }") )); then
+                  if [[ -n "$border_color" && "$border_color" == "$recommend_stroke" && "$is_background_check" -eq 1 ]]; then
+                      echo "✅ [$context → $button_name] Contrast ratio $contrast_ratio fails WCAG but has a $recommend_stroke border → Treated as passing."
+                      echo "✅ [$context → $button_name] Issue resolved by stroke → Fully passing."
+                      check_failed=0
+                  else
+                      echo "❌ [$context → $button_name] Contrast ratio $contrast_ratio fails WCAG — Recommend adding a $recommend_stroke stroke."
+                      check_failed=1
+                  fi
+              else
+                  echo "✅ [$context → $button_name] Contrast ratio $contrast_ratio passes WCAG"
+                  check_failed=0
+              fi
+              
+              return $check_failed
+          }
+          
+          # For each button class, check its properties
+          for button_class in $BUTTON_CLASSES; do
+              echo "Checking button: $button_class"
+              
+              # Extract button section
+              # Avoid partial matches
+              button_start=$(grep -n "\.button-$button_class\( \|{\)" css/brands.css | cut -d: -f1)
+              if [[ -z "$button_start" ]]; then
+                  button_start=$(grep -n "\.button-$button_class$" css/brands.css | cut -d: -f1)
+              fi
+              
+              if [[ -z "$button_start" ]]; then
+                  echo "Could not find button-$button_class in css/brands.css"
+                  continue
+              fi
+              
+              # Look for the next closing bracket
+              button_end=$(tail -n +$button_start css/brands.css | grep -n "}" | head -1 | cut -d: -f1)
+              if [[ -z "$button_end" ]]; then
+                  button_end=10
+              fi
+              
+              button_section=$(tail -n +$button_start css/brands.css | head -n $button_end)
+              
+              # Check for gradient
+              if echo "$button_section" | grep -q "background-image"; then
+                  echo "🚩 [./css/brands.css → $button_class] Detected gradient background → Flagging for manual review."
+                  NEEDS_MANUAL_REVIEW=1
+                  continue
+              fi
+              
+              # Extract colors
+              text_color=$(echo "$button_section" | grep "button-text" | grep -o "#[0-9A-Fa-f]*")
+              bg_color=$(echo "$button_section" | grep "button-background" | grep -o "#[0-9A-Fa-f]*")
+              border_color=$(extract_color "$(echo "$button_section" | grep "button-border")")
+              
+              button_failed=0
+              
+              # Check text vs background
+              if [[ -n "$text_color" && -n "$bg_color" ]]; then
+                  check_contrast "$text_color" "$bg_color" "TEXT vs BUTTON" "$border_color" "" 0 "$button_class"
+                  button_failed=$((button_failed | $?))
+              fi
+              
+              # Check button vs light theme
+              if [[ -n "$bg_color" ]]; then
+                  check_contrast "#ffffff" "$bg_color" "BUTTON vs LIGHT THEME" "$border_color" "#000000" 1 "$button_class"
+                  button_failed=$((button_failed | $?))
+                  
+                  # Check button vs dark theme
+                  check_contrast "#121212" "$bg_color" "BUTTON vs DARK THEME" "$border_color" "#ffffff" 1 "$button_class"
+                  button_failed=$((button_failed | $?))
+              fi
+              
+              if [[ $button_failed -eq 1 ]]; then
+                  FAILED=1
+                  ALL_RESOLVED=0
+              fi
+          done
+          
+          # Final report
+          if [[ "$NEEDS_MANUAL_REVIEW" -eq 1 ]]; then
+              echo "⚠️ Manual review required for gradients!"
+              exit 1
+          elif [[ "$ALL_RESOLVED" -eq 1 ]]; then
+              echo "✅ All contrast checks passed!"
+              exit 0
+          else
+              echo "❌ Contrast issues found!"
+              exit 1
+          fi
+          EOF
+          
+          chmod +x contrast-check.sh
+          ./contrast-check.sh
+        env:
+          GITHUB_BASE_REF: ${{ github.base_ref }}
