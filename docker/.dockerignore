@@ -1,0 +1,46 @@
+# Include any files or directories that you don't want to be copied to your
+# container here (e.g., local build artifacts, temporary files, etc.).
+#
+# For more help, visit the .dockerignore file reference guide at
+# https://docs.docker.com/go/build-context-dockerignore/
+
+# Git
+.git
+.github
+.gitignore
+
+# Docker
+.dockerignore
+docker-compose*
+compose.yaml
+
+# Logs
+*.log
+
+# Editor directories and files
+.idea
+.vscode
+**/.DS_Store
+
+# Documentation files
+README*
+LICENSE*
+VERSION*
+CONTRIBUTING*
+
+# Exclude unnecessary files
+**/__pycache__
+**/.venv
+**/bin
+**/obj
+**/charts
+**/.env
+**/secrets.dev.yaml
+**/values.dev.yaml
+
+# Keep only essential files for the static website
+!index.html
+!privacy.html
+!css/
+!images/
+!fonts/
