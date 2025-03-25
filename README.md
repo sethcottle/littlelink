@@ -116,3 +116,19 @@ To help build a more privacy focused product, we recommend using [Fathom Analyti
 ###### ** Analytics in this dashboard start May 03, 2022. View this [Google Sheets file](https://docs.google.com/spreadsheets/d/1GL4SroAdH-OZphBVR5z-BoSukHIEVJfao25q_e9-Ii8/edit?usp=sharing) with the generic unique pageview data from Google Analytics.
 
 [![Fathom](https://cdn.cottle.cloud/littlelink/button-fathom-analytics.svg)](https://usefathom.com/ref/EQVZMV)
+
+---
+### 🐳 Docker Support
+LittleLink includes Docker support for easy deployment and development. All Docker-related files are located in the `docker/` directory.
+
+To run LittleLink using Docker:
+
+```bash
+docker compose -f docker/compose.yaml up
+```
+
+This will make the site available at http://localhost:8080
+
+For more information about Docker configuration, see [docker/README.md](docker/README.md).
+
+---
