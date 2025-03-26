@@ -429,7 +429,14 @@
 /* Signal */
 .button-signal {
 	--button-text:#ffffff;
-	--button-background:#3a76f0;
+	--button-background:#3B45FD;
+}
+
+/* Signal Alt */
+.button-signal-alt {
+	--button-text:#3B45FD;
+	--button-background:#E3E8FE;
+	--button-border:1px solid #000000;
 }
 
 /* Slack */
