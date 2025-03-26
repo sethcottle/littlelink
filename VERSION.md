@@ -1,6 +1,11 @@
 # LittleLink Version History
 
-## Current Version: v3.5.0
+## Current Version: v3.6.0
+
+### v3.6.0 - 3/25/2025
+- Finally adds Docker support to LittleLink. See [PR #151](https://github.com/sethcottle/littlelink/pull/151), thank you [@lllahaye](https://github.com/lllahaye).
+  - Docker support has been a long-standing community request. While I previously closed similar PRs in an effort to keep the LittleLink repo as minimal as possible, several community forks emerged that added Docker support independently. Over the last few weeks I had been reconsidering this stance—this PR arrived at just the right time.
+- Updated the brand color for Signal.
 
 ### v3.5.0 - 3/10/2025
 - Added LittleLink Extended information in `index.html`
