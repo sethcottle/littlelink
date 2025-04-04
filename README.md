@@ -78,8 +78,6 @@ You can support LittleLink by [buying me a coffee](https://www.buymeacoffee.com/
 [![Buy Me A Coffee](https://cdn.cottle.cloud/littlelink/button-buy-me-a-coffee-individual.svg)](https://www.buymeacoffee.com/seth/e/50573)
 
 #### 🐙 Active GitHub Sponsors
-• **[@nghialele](https://github.com/nghialele)**
-
 • **[Your Name Here](https://github.com/sponsors/sethcottle)**
 
 [![GitHub Sponsors](https://cdn.cottle.cloud/littlelink/button-github-sponsors.svg)](https://github.com/sponsors/sethcottle)
