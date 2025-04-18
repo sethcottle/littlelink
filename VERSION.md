@@ -1,6 +1,9 @@
 # LittleLink Version History
 
-## Current Version: v3.6.0
+## Current Version: v3.7.0
+
+### v3.7.0 - 4/18/2025
+- Added [Meetup](https://www.meetup.com/).
 
 ### v3.6.0 - 3/25/2025
 - Finally adds Docker support to LittleLink. See [PR #151](https://github.com/sethcottle/littlelink/pull/151), thank you [@lllahaye](https://github.com/lllahaye).
