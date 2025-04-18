@@ -352,6 +352,19 @@
 	--button-border:1px solid #000000;
 }
 
+/* Meetup */
+.button-meetup {
+	--button-text:#000000;
+	--button-background:#ffffff;
+	--button-border:1px solid #000000;
+}
+
+/* Meetup Alt */
+.button-meetup-alt {
+	--button-text:#ffffff;
+	--button-background:#ED1C40;
+}
+
 /* Medium */
 .button-medium {
 	--button-text:#ffffff;
