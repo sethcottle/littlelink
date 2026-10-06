@@ -40,6 +40,8 @@ No need for gulp, npm, or anything else to make LittleLink work—it uses the ba
 
 [![Deploy to Amplify](https://cdn.cottle.cloud/littlelink/button-deploy-amplify.svg)](https://console.aws.amazon.com/amplify/home#/deploy?repo=https://github.com/sethcottle/littlelink)
 
+<a href="https://zop.dev/zopday/app/deploy?repo=https://github.com/sethcottle/littlelink&amp;port=80&amp;name=littlelink"><img src="https://zop.dev/deploytozopday-inkhard.svg" alt="Deploy to ZopDay" width="320"></a>
+
 ---
 
 ### 🤝 Contributions
