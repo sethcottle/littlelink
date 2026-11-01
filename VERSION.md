@@ -1,8 +1,10 @@
 # LittleLink Version History
 
-## Current Version: v3.11.0
+## Current Version: v3.12.0
 
-### v3.11.0 - 07/28/2026
+### v3.12.0 - 11/01/2026
+- Added Postman brand button.
+
 - Google icon refresh (2025/2026 redesigns): new buttons for Google, Google Calendar, Google Chat, Google Docs, Google Forms, Gmail, Google Meet, Google Photos, Google Sheets, and Google Slides; updated the Google Drive icon. Added a dedicated `.button-yt-music` class for YouTube Music.
 - Accessibility & markup: removed `role="button"` from link buttons, converted the button stack to `<nav aria-label="Links">`, wrapped page content in `<main>`, fixed the canonical tag (was an invalid `<meta>`), removed the obsolete keywords meta, made the favicon path relative, and added `theme-color` metas plus a fill-in Open Graph/Twitter block.
 - Performance: preload hints for the three above-the-fold font weights, explicit dimensions and `fetchpriority` on the avatar, and placeholder avatars re-exported at true 128px/256px.
