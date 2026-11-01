@@ -410,6 +410,12 @@
 	--button-background:#ffffff;
 	--button-border:1px solid #212121;
 }
+/* Postman */
+.button-postman {
+    --button-text: #1A1A1A;
+    --button-background: #FFFFFF;
+    --button-border: 1px solid #FF6C37;
+}
 
 /* Product Hunt */
 .button-product-hunt {
