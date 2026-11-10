@@ -1,0 +1,40 @@
+/*
+ * CV QR-code notice. Colors follow the page theme via light-dark().
+ */
+
+.cv-notice {
+  width: min(22.5rem, calc(100vw - 2rem));
+  margin: auto;
+  padding: 1.5rem;
+  border: 1px solid light-dark(#e4e4e4, #333333);
+  border-radius: 0.75rem;
+  background: light-dark(#ffffff, #1e1e1e);
+  color: light-dark(#1a1a1a, #ffffff);
+  color-scheme: inherit;
+  text-align: left;
+  box-shadow: 0 1.25rem 3rem light-dark(rgba(0, 0, 0, 0.18), rgba(0, 0, 0, 0.5));
+}
+
+.cv-notice::backdrop {
+  background: rgba(0, 0, 0, 0.55);
+}
+
+.cv-notice__title {
+  margin: 0 0 0.75rem;
+  font-size: 1.25rem;
+  font-weight: 800;
+  line-height: 1.3;
+  letter-spacing: -0.02em;
+  text-align: left;
+}
+
+.cv-notice p {
+  margin: 0 0 1.25rem;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.cv-notice__close {
+  width: 100%;
+  margin-bottom: 0;
+}
