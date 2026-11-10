@@ -5,6 +5,10 @@
   - theme-auto: Automatically switches based on user's system preferences
   - theme-light: Forces light theme
   - theme-dark: Forces dark theme
+
+  Buttons are rendered from js/profile.js. Edit that file to change a link
+  or an icon. The same file feeds the French page at /fr/.
+  The avatar file is images/avatar.png on both pages.
 -->
 
 <html class="theme-auto" lang="en"> <!-- Update `class="theme-auto"` with your preference -->
@@ -15,13 +19,16 @@
 
     <!-- Page Title - Change this to your name/brand (50-60 characters recommended) -->
     <title>Links - Tanguy Frageul</title>
-    <link rel="icon" type="image/png" href="images/avatar.png"> <!-- Update this with your own favicon -->
+    <link rel="icon" type="image/png" href="/images/avatar.png">
 
     <!-- Meta Description - Write a description (150-160 characters recommended) -->
     <meta name="description" content="Links page for Tanguy Frageul, a French Networks & Telecoms student focused on cybersecurity. Find links to GitHub, LinkedIn, and more.">
 
     <!-- Canonical URL - Helps prevent duplicate content issues -->
     <link rel="canonical" href="https://links.tanguy-fgl.me">
+    <link rel="alternate" hreflang="en" href="https://links.tanguy-fgl.me">
+    <link rel="alternate" hreflang="fr" href="https://links.tanguy-fgl.me/fr/">
+    <link rel="alternate" hreflang="x-default" href="https://links.tanguy-fgl.me">
 
     <!-- Author Information -->
     <meta name="author" content="Tanguy Frageul">
@@ -43,14 +50,14 @@
     -->
 
     <!-- Font Preloads - Lets the browser fetch fonts in parallel with the stylesheets -->
-    <link rel="preload" href="fonts/open-sans-v34-vietnamese_latin-ext_latin_hebrew_greek-ext_greek_cyrillic-ext_cyrillic-regular.woff2" as="font" type="font/woff2" crossorigin>
-    <link rel="preload" href="fonts/open-sans-v34-vietnamese_latin-ext_latin_hebrew_greek-ext_greek_cyrillic-ext_cyrillic-700.woff2" as="font" type="font/woff2" crossorigin>
-    <link rel="preload" href="fonts/open-sans-v34-vietnamese_latin-ext_latin_hebrew_greek-ext_greek_cyrillic-ext_cyrillic-800.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/fonts/open-sans-v34-vietnamese_latin-ext_latin_hebrew_greek-ext_greek_cyrillic-ext_cyrillic-regular.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/fonts/open-sans-v34-vietnamese_latin-ext_latin_hebrew_greek-ext_greek_cyrillic-ext_cyrillic-700.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/fonts/open-sans-v34-vietnamese_latin-ext_latin_hebrew_greek-ext_greek_cyrillic-ext_cyrillic-800.woff2" as="font" type="font/woff2" crossorigin>
 
     <!-- Stylesheets -->
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/brands.css">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/brands.css">
 
     <!-- LittleLink Extended Stylesheet (Optional) -->
     <!-- <link rel="stylesheet" href="css/brands-extended.css"> -->
@@ -70,10 +77,8 @@
               - avatar--rounded: Automatically rounds the image
               - avatar--soft: Slightly rounds the image
               - avatar--none: Removes any rounding
-
-              Be sure to replace the src with your own image path and update the alt text
             -->
-            <img class="avatar avatar--rounded" src="images/avatar.png" srcset="images/avatar@2x.png 2x" alt="LittleLink" width="128" height="128" fetchpriority="high">
+            <img class="avatar avatar--rounded" src="/images/avatar.png" srcset="/images/avatar@2x.png 2x" alt="Tanguy Frageul" width="128" height="128" fetchpriority="high">
 
             <!-- Replace with your name or brand -->
             <h1>Tanguy Frageul</h1>
@@ -81,31 +86,22 @@
             <!-- Add a short description about yourself or your brand -->
             <p>French Networks & Telecoms student, focused on cybersecurity</p>
 
-            <!-- All your buttons go here -->
-            <nav class="button-stack" aria-label="Links">
-
-
-              <!-- GitHub -->
-              <a class="button button-github" href="https://github.com/tanguy-fgl" target="_blank" rel="noopener"><img class="icon" aria-hidden="true" src="images/icons/github.svg" alt="GitHub Logo">GitHub</a>
-
-              <!-- LinkedIn -->
-              <a class="button button-linked" href="https://www.linkedin.com/in/tanguy-fgl/" target="_blank" rel="noopener"><img class="icon" aria-hidden="true" src="images/icons/linkedin.svg" alt="LinkedIn Logo">LinkedIn</a>
-              <!-- Generic Email -->
-              <a class="button button-default" href="mailto:tanguyfrageul@gmail.com" target="_blank" rel="noopener"><img class="icon" aria-hidden="true" src="images/icons/generic-email.svg" alt="Email Icon">Email Us</a>
-
-              <!-- Generic Website -->
-              <a class="button button-default" href="https://tanguy-fgl.me" target="_blank" rel="noopener"><img class="icon" aria-hidden="true" src="images/icons/generic-website.svg" alt="Website Icon">Visit Website</a>
-      </nav>
+            <!-- Filled from js/profile.js so /fr/ stays in sync -->
+            <nav class="button-stack" aria-label="Links" data-links>
+              <noscript>Enable JavaScript to show the links.</noscript>
+            </nav>
       </main>
 
       <!-- Feel free to add your own footer information, including updating `privacy.html` to reflect how your LittleLink fork is set up -->
       <footer>
+        <a href="/fr/" data-keep-query lang="fr" hreflang="fr">Français</a><br>
         Powered by <a href="https://littlelink.io" target="_blank" rel="noopener">LittleLink</a>
       </footer>
 
     </div>
   </div>
 
+  <script src="/js/profile.js"></script>
 </body>
 
 </html>
