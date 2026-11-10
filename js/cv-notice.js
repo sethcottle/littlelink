@@ -4,7 +4,7 @@
  * that link before trusting the next QR code they scan.
  */
 (function () {
-  var DELAY_MS = 3000;
+  var DELAY_MS = 2000;
 
   var params = new URLSearchParams(window.location.search);
   if (params.get("utm_source") !== "cv") return;

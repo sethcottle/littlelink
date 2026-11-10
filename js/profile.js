@@ -25,14 +25,14 @@
       href: "mailto:tanguyfrageul@gmail.com",
       icon: "/images/icons/generic-email.svg",
       buttonClass: "button-default",
-      label: { en: "Email Us", fr: "E-mail" },
+      label: { en: "Email me", fr: "E-mail" },
       iconAlt: { en: "Email Icon", fr: "Icône e-mail" },
     },
     {
       href: "https://tanguy-fgl.me",
       icon: "/images/icons/generic-website.svg",
       buttonClass: "button-default",
-      label: { en: "Visit Website", fr: "Visiter le site" },
+      label: { en: "Visit Website", fr: "Visiter mon site" },
       iconAlt: { en: "Website Icon", fr: "Icône du site" },
     },
   ];
