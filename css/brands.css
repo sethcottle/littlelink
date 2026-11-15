@@ -266,6 +266,13 @@
 	--button-border:1px solid #212121;
 }
 
+/* Hugging Face */
+.button-hugging-face {
+	--button-text:#000000;
+	--button-background:#FFFFFF;
+	--button-border:1px solid #000000;
+}
+
 /* Instagram */
 .button-instagram {
 	--button-text:#ffffff;
