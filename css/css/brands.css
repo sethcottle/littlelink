@@ -1,0 +1,58 @@
+/*
+* LittleLink Button Styles
+* https://littlelink.io
+* Free to use under the MIT license
+* http://www.opensource.org/licenses/mit-license.php
+*/
+
+/* Brand Button Base Styles
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* Only include brand-specific button styling here */
+.button,button {
+  color:var(--button-text,#000000);
+  background-color:var(--button-background,transparent);
+	border:var(--button-border,none);
+	transition:filter 0.2s ease,transform 0.2s ease;
+}
+
+/* Global Button Hover Effect
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.button:hover,button:hover {
+	filter:brightness(90%);
+	transform:translateY(-1px);
+}
+
+/* Button Icons
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.icon {
+	filter:var(--icon-filter,none);
+}
+
+/* Brand-Specific Styles
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+/* Facebook */
+.button-faceb {
+	--button-text:#ffffff;
+	--button-background:#0866FF;
+}
+
+/* Instagram */
+.button-instagram {
+	--button-text:#ffffff;
+	background-image:linear-gradient(-135deg,#1400c8,#b900b4,#f50000);
+}
+
+/* TikTok */
+.button-tiktok {
+	--button-text:#ffffff;
+	--button-background:#000000;
+	--button-border:1px solid #FFFFFF;
+}
+
+/* YouTube */
+.button-yt {
+	--button-text:#ffffff;
+	--button-background:#282828;
+	--button-border:1px solid #FFFFFF;
+}
